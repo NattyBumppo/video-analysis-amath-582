@@ -3,6 +3,8 @@ import csv
 import sys
 import os
 import time
+import re
+import unicodedata
 
 def download_video(url, movie_title, i):
     print "%s: Downloading trailer at %s (%s)" % (i, url, movie_title)
@@ -11,6 +13,13 @@ def download_video(url, movie_title, i):
 
     # Get filename
     filename = url.split('/')[-1]
+
+    # Before we make a directory with this name, let's massage it into something that
+    # can definitely be a valid directory name
+    movie_title = unicodedata.normalize('NFKD', unicode(movie_title)).encode('ascii', 'ignore')
+    movie_title = unicode(re.sub('[^\w\s-]', '', movie_title).strip())
+    movie_title = unicode(re.sub('[-\s]+', '-', movie_title).strip())
+    movie_title = str(movie_title)
 
     if not os.path.exists(video_directory + '/' + movie_title):
         os.makedirs(video_directory + '/' + movie_title)
