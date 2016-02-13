@@ -17,7 +17,7 @@ def download_video(url, movie_title):
 
     # Open the url and download into the movie directory
     try:
-        urllib.urlretrieve(url, video_directory + '/' movie_title + '/' + filename)
+        urllib.urlretrieve(url, video_directory + '/' + movie_title + '/' + filename)
 
     # Handle errors
     except Exception as e:

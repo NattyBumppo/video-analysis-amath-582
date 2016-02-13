@@ -12,6 +12,7 @@ mp4_file_search_pattern = 'file: "(http://cdn.movie-list.com/hd/\S+.mp4)"'
 genre_search_pattern = 'itemprop="genre">([A-Za-z0-9 ,]+)</span>'
 release_date_search_pattern = 'Release Date: <span style="color:#181818; font-size:12px;">(.+)</span></span>'
 imdb_search_pattern = 'href=[\'"](http:\/\/[w]*\.*imdb\.com\/title\/[A-Za-z0-9]+\/)[\'"]'
+trailer_specific_file_search_pattern = 'Trailer</span>.*file: "(.*hd/.*?mp4)"'
 
 # Grab URLs from file
 urls_filename = 'urls.txt'
@@ -33,6 +34,8 @@ with open(urls_filename, 'r') as url_file:
         
         # Grab the webpage data
         webpage_data = urllib2.urlopen(url).read()
+
+        movie_dict['webpage_url'] = url
 
         # Use regexes to parse out lots of fun data
         movie_title_matches = re.findall(movie_title_search_pattern, webpage_data)
@@ -67,6 +70,10 @@ with open(urls_filename, 'r') as url_file:
         if len(imdb_url_matches) > 0:
             movie_dict['imdb_url'] = imdb_url_matches[0]
 
+        trailer_specific_file_match = re.findall(trailer_specific_file_search_pattern, webpage_data, re.DOTALL)
+        if len(trailer_specific_file_match) > 0:
+            movie_dict['trailer_specific_file'] = trailer_specific_file_match[0]
+
         if (len(mp4_file_matches) + len(mov_file_matches2) + len(mov_file_matches1) + len(flv_file_matches) == 0):
             # No videos found, so we'll skip adding this one to the dictionary
             pass
@@ -75,10 +82,10 @@ with open(urls_filename, 'r') as url_file:
             movie_list.append(movie_dict)     
 
         # A sleep command just so the website doesn't think I'm DOSing it...
-        time.sleep(0.1)
+        time.sleep(0.3)
 
 # Write movie list into a csv
-possible_keys = ['movie_title', 'genre', 'release_date', 'imdb_url', 'flv_files', 'mov1_files', 'mov2_files', 'mp4_files']
+possible_keys = ['movie_title', 'webpage_url', 'genre', 'release_date', 'imdb_url', 'flv_files', 'mov1_files', 'mov2_files', 'mp4_files', 'trailer_specific_file']
 csv_filename = 'movies.csv'
 with open(csv_filename, 'wb') as csv_file:
     writer = csv.writer(csv_file)
