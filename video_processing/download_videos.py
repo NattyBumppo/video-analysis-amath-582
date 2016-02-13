@@ -4,8 +4,8 @@ import sys
 import os
 import time
 
-def download_video(url, movie_title):
-    print "Downloading trailer at %s (%s)" % (url, movie_title)
+def download_video(url, movie_title, i):
+    print "%s: Downloading trailer at %s (%s)" % (i, url, movie_title)
 
     video_directory = 'video_files'
 
@@ -27,7 +27,7 @@ def download_video(url, movie_title):
 csv_filename = 'movies.csv'
 with open(csv_filename, 'rb') as csvfile:
     reader = csv.DictReader(csvfile)
-    for row in reader:
+    for i, row in enumerate(reader):
         # Only download if there's an .mp4 file available
         if row['trailer_specific_file']:
             # Take the first available URL
@@ -37,7 +37,7 @@ with open(csv_filename, 'rb') as csvfile:
             title = row['movie_title']
 
             # Download!
-            download_video(video_url, title)
+            download_video(video_url, title, i)
 
     # Introduce just a little bit of delay, so we're not spamming
     # the server *quite* so much
