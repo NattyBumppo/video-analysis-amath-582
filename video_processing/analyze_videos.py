@@ -2,6 +2,7 @@ import cv2
 import os
 import sys
 import numpy as np
+import csv
 
 # Get a frame from the current video source
 def getFrame(cap):
@@ -117,19 +118,32 @@ def main():
         # print filenames
         # print '---'
 
-        # Only look at non-empty directories
-        if len(filenames) > 0:
-            for filename in filenames:
-                # Parse out the movie name from the directory name
-                movie_title = dirname.split('\\')[-1]
-                num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots = analyze_video(os.path.join(dirname, filename))
+            # Only look at non-empty directories
+            if len(filenames) > 0:
+                for filename in filenames:
+                    # Parse out the movie name from the directory name
+                    movie_title = dirname.split('\\')[-1]
+                    num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots = analyze_video(os.path.join(dirname, filename))
 
-                print 'Number of frames:', num_frames
-                print 'Total time (s):', total_time
-                print 'Average Pixel Intensity', avg_intensity
-                print 'Average Pixel Color:', avg_color
-                print 'Average Shot Length (s):', avg_shot_length
-                print 'Number of Shots:', num_shots
+                    print 'Movie title:', movie_title
+                    print 'Number of frames:', num_frames
+                    print 'Total time (s):', total_time
+                    print 'Average Pixel Intensity', avg_intensity
+                    print 'Average Pixel Color:', avg_color
+                    print 'Average Shot Length (s):', avg_shot_length
+                    print 'Number of Shots:', num_shots
+
+                    # Open file in which to log all of this data
+                    with open('video_analysis.txt', 'a') as outfile:
+
+                        # Output this data
+                        outfile.write('movie_title: ' + movie_title + '\n')
+                        outfile.write('num_frames: ' + str(num_frames) + '\n')
+                        outfile.write('total_time: ' + str(total_time) + '\n')
+                        outfile.write('avg_intensity: ' + str(avg_intensity) + '\n')
+                        outfile.write('avg_color: ' + str(avg_color) + '\n')
+                        outfile.write('avg_shot_length: ' + str(avg_shot_length) + '\n')
+                        outfile.write('num_shots: ' + str(num_shots) + '\n\n')
 
 if __name__ == '__main__':
     main()
