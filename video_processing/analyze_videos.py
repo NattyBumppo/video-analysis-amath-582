@@ -9,6 +9,18 @@ def getFrame(cap):
     _, frame = cap.read()
     return frame
 
+def is_video_already_analyzed(movie_title):
+    # print movie_title
+    # Check in the file and make sure we don't already have an entry for this
+    with open('video_analysis.txt', 'r') as infile:
+        lines = infile.readlines()
+        for line in lines:
+            if 'movie_title: ' + str(movie_title) in line:
+                return True
+            else:
+                pass
+        return False
+
 def analyze_video(filename):
     print 'Analyzing', filename
 
@@ -123,7 +135,12 @@ def main():
                 for filename in filenames:
                     # Parse out the movie name from the directory name
                     movie_title = dirname.split('\\')[-1]
-                    num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots = analyze_video(os.path.join(dirname, filename))
+
+                    if is_video_already_analyzed(movie_title):
+                        print "%s already analyzed; skipping" % movie_title
+                        continue
+                    else:
+                        num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots = analyze_video(os.path.join(dirname, filename))
 
                     print 'Movie title:', movie_title
                     print 'Number of frames:', num_frames
