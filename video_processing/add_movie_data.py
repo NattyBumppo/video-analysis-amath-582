@@ -19,7 +19,8 @@ def format_title_for_file_system(movie_title):
 # Movie metadata csv file
 csv_filename = 'movies.csv'
 # File containing various metrics from video analysis
-analysis_filename = 'video_analysis.txt'
+video_analysis_filename = 'video_analysis.txt'
+audio_analysis_filename = 'audio_analysis.txt'
 
 # File to hold all of the new, coalesced data
 final_csv_filename = 'trailer_data.csv'
@@ -27,7 +28,7 @@ final_csv_filename = 'trailer_data.csv'
 # First, let's ingest the video analysis file into a dictionary
 analysis_dict = {}
 
-with open(analysis_filename, 'r') as analysis_file:
+with open(video_analysis_filename, 'r') as analysis_file:
     lines = analysis_file.readlines()
 
 while (len(lines) > 7):
@@ -63,6 +64,44 @@ while (len(lines) > 7):
     # Remove this movie (and the trailing blank line) from our list
     lines = lines[8:]
     
+with open(audio_analysis_filename, 'r') as analysis_file:
+    lines = analysis_file.readlines()
+
+while (len(lines) > 5):
+    # Get the lines for a single movie
+    movie_lines = lines[:5]
+
+    # Parse data
+    title = movie_lines[0].split(':')[-1].strip()
+    mean_volume = float(movie_lines[1].split(':')[-1].strip())
+    std_dev_volume = float(movie_lines[2].split(':')[-1].strip())
+    min_volume = float(movie_lines[3].split(':')[-1].strip())
+    max_volume = float(movie_lines[4].split(':')[-1].strip())
+
+    # Make a dictionary for just this movie
+    movie_dict = {}
+    movie_dict['title'] = title
+    movie_dict['mean_volume'] = mean_volume
+    movie_dict['std_dev_volume'] = std_dev_volume
+    movie_dict['min_volume'] = min_volume
+    movie_dict['max_volume'] = max_volume
+
+    # Add this dictionary to the dictionary of all movies
+    if title in analysis_dict:
+        for key in movie_dict.keys():
+            # Add everything to the analysis_dict entry for this movie...
+            # except for the title, which has already been added!
+            if key != 'title':
+                analysis_dict[title]['mean_volume'] = mean_volume
+                analysis_dict[title]['std_dev_volume'] = std_dev_volume
+                analysis_dict[title]['min_volume'] = min_volume
+                analysis_dict[title]['max_volume'] = max_volume
+    else:
+        analysis_dict[title] = movie_dict
+
+    # Remove this movie (and the trailing blank line) from our list
+    lines = lines[6:]
+
 # Now, we've accumulated a dictionary of all of the movies!
 # Next, let's read in the old metadata csv file
 with open(csv_filename, 'r') as csv_file:
@@ -96,7 +135,7 @@ with open(csv_filename, 'r') as csv_file:
 
 # Now, dump everything into a new .csv file!
 with open(final_csv_filename, 'wb') as csv_file:
-    fieldnames = ['title', 'num_frames', 'total_time', 'avg_intensity', 'avg_color_r', 'avg_color_g', 'avg_color_b', 'avg_shot_length', 'num_shots', 'original_format_title', 'movie_list_webpage_url', 'genre', 'release_date', 'imdb_url']
+    fieldnames = ['title', 'num_frames', 'total_time', 'avg_intensity', 'avg_color_r', 'avg_color_g', 'avg_color_b', 'avg_shot_length', 'num_shots', 'original_format_title', 'movie_list_webpage_url', 'genre', 'release_date', 'imdb_url', 'mean_volume', 'std_dev_volume', 'min_volume', 'max_volume']
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
     writer.writeheader()

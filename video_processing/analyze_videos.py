@@ -3,6 +3,10 @@ import os
 import sys
 import numpy as np
 import csv
+from moviepy.editor import VideoFileClip, AudioClip
+
+# analysis_results_file = 'video_analysis.txt'
+analysis_results_file = 'audio_analysis.txt'
 
 # Get a frame from the current video source
 def getFrame(cap):
@@ -12,7 +16,8 @@ def getFrame(cap):
 def is_video_already_analyzed(movie_title):
     # print movie_title
     # Check in the file and make sure we don't already have an entry for this
-    with open('video_analysis.txt', 'r') as infile:
+    # with open('video_analysis.txt', 'r') as infile:
+    with open(analysis_results_file, 'r') as infile:
         lines = infile.readlines()
         for line in lines:
             if 'movie_title: ' + str(movie_title) in line:
@@ -21,8 +26,40 @@ def is_video_already_analyzed(movie_title):
                 pass
         return False
 
+# Get the sound amplitude statistics for the video
+# (mean, standard deviation, max, and minimum)
+def analyze_sound(filename):
+    print 'Analyzing audio for', filename
+
+    # Load video file
+    clip = VideoFileClip(filename)
+
+    # Make a lambda function for breaking a video clip into sound arrays
+    cut = lambda i: clip.audio.subclip(i, i+1).to_soundarray(fps=44100, nbytes=4)
+
+    # Make a lambda function for grabbing the volume of a sound array
+    volume = lambda array: np.sqrt(((1.0*array)**2).mean())
+    # Grab the volumes for this video file
+    volumes = [volume(cut(i)) for i in range(0, int(clip.duration-1))]
+
+    volumes_std_floats = [float(vol) for vol in volumes]
+    volumes_strings = ["%.2f" % vol for vol in volumes_std_floats]
+
+    volume_mean = np.mean(volumes)
+    volume_std_dev = np.std(volumes)
+    volume_min = np.min(volumes)
+    volume_max = np.max(volumes)
+
+    # Get rid of super-small mins
+    epsilon = 0.001
+    if volume_min < epsilon:
+        volume_min = 0.0
+
+    return float(volume_mean), float(volume_std_dev), float(volume_min), float(volume_max), volumes_strings
+
+# Get video-related characteristics for the video
 def analyze_video(filename):
-    print 'Analyzing', filename
+    print 'Analyzing video for', filename
 
     # Get a camera input source
     cap = cv2.VideoCapture(filename)
@@ -121,7 +158,7 @@ def analyze_video(filename):
     return frameNo, current_time, avg_intensity, avg_color, avg_shot_length, num_shots
 
 def main():
-    video_dir = 'video_files'
+    video_dir = 'F:\\582 videos\\video_files'
 
     # Go through all directories
     for dirname, dirnames, filenames in os.walk(video_dir):
@@ -140,27 +177,38 @@ def main():
                         print "%s already analyzed; skipping" % movie_title
                         continue
                     else:
-                        num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots = analyze_video(os.path.join(dirname, filename))
+                        # num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots = analyze_video(os.path.join(dirname, filename))
+                        mean_volume, std_dev_volume, min_volume, max_volume, volumes_strings = analyze_sound(os.path.join(dirname, filename))
 
                     print 'Movie title:', movie_title
-                    print 'Number of frames:', num_frames
-                    print 'Total time (s):', total_time
-                    print 'Average Pixel Intensity', avg_intensity
-                    print 'Average Pixel Color:', avg_color
-                    print 'Average Shot Length (s):', avg_shot_length
-                    print 'Number of Shots:', num_shots
+                    # print 'Number of frames:', num_frames
+                    # print 'Total time (s):', total_time
+                    # print 'Average Pixel Intensity', avg_intensity
+                    # print 'Average Pixel Color:', avg_color
+                    # print 'Average Shot Length (s):', avg_shot_length
+                    # print 'Number of Shots:', num_shots
+                    print 'Mean Volume:', mean_volume
+                    print 'Volume Standard Deviation:', std_dev_volume
+                    print 'Minimum Volume', min_volume
+                    print 'Maximum Volume', max_volume
+                    print 'Volumes Strings', volumes_strings
 
                     # Open file in which to log all of this data
-                    with open('video_analysis.txt', 'a') as outfile:
-
+                    with open(analysis_results_file, 'ab') as outfile:
                         # Output this data
                         outfile.write('movie_title: ' + movie_title + '\n')
-                        outfile.write('num_frames: ' + str(num_frames) + '\n')
-                        outfile.write('total_time: ' + str(total_time) + '\n')
-                        outfile.write('avg_intensity: ' + str(avg_intensity) + '\n')
-                        outfile.write('avg_color: ' + str(avg_color) + '\n')
-                        outfile.write('avg_shot_length: ' + str(avg_shot_length) + '\n')
-                        outfile.write('num_shots: ' + str(num_shots) + '\n\n')
+                        # outfile.write('num_frames: ' + str(num_frames) + '\n')
+                        # outfile.write('total_time: ' + str(total_time) + '\n')
+                        # outfile.write('avg_intensity: ' + str(avg_intensity) + '\n')
+                        # outfile.write('avg_color: ' + str(avg_color) + '\n')
+                        # outfile.write('avg_shot_length: ' + str(avg_shot_length) + '\n')
+                        # outfile.write('num_shots: ' + str(num_shots) + '\n\n')
+                        outfile.write('mean_volume: ' + str(mean_volume) + '\n')
+                        outfile.write('std_dev_volume: ' + str(std_dev_volume) + '\n')
+                        outfile.write('min_volume: ' + str(min_volume) + '\n')
+                        outfile.write('max_volume: ' + str(max_volume) + '\n\n')
+
+
 
 if __name__ == '__main__':
     main()
