@@ -175,6 +175,7 @@ def analyze_video(filename):
         previous_frame_histogram = current_frame_histogram
 
         frameNo += 1
+        # print frameNo
 
     # If this was the end of a "dark scene" (i.e., a dark transition),
     # then let's dump the current dark frame count into the dark scene list
@@ -241,10 +242,16 @@ def analyze_video(filename):
 
     # Calculate data related to consecutive dark frames (pitch black transitions, a.k.a. dark scenes)
     # print "dark scene data:", dark_scene_list
-    dark_scene_mean_length = float(np.mean(dark_scene_list))
-    dark_scene_length_std_dev = float(np.std(dark_scene_list))
-    dark_scene_length_max = float(np.max(dark_scene_list))
-    dark_scene_length_min = float(np.min(dark_scene_list))
+    if len(dark_scene_list) > 0:
+        dark_scene_mean_length = float(np.mean(dark_scene_list))
+        dark_scene_length_std_dev = float(np.std(dark_scene_list))
+        dark_scene_length_max = float(np.max(dark_scene_list))
+        dark_scene_length_min = float(np.min(dark_scene_list))
+    else:
+        dark_scene_mean_length = 0.0
+        dark_scene_length_std_dev = 0.0
+        dark_scene_length_max = 0.0
+        dark_scene_length_min = 0.0
     dark_scene_count = len(dark_scene_list)
     dark_scene_percentage = float(dark_scene_count) / float(frameNo)
 
