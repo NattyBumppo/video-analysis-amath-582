@@ -6,7 +6,7 @@ import csv
 from moviepy.editor import VideoFileClip, AudioClip
 import time
 
-video_analysis_mode = True
+video_analysis_mode = False
 video_dir = 'F:\\582 videos\\test_vids'
 
 if video_analysis_mode:
@@ -48,20 +48,34 @@ def analyze_sound(filename):
     # Grab the volumes for this video file
     volumes = [volume(cut(i)) for i in range(0, int(clip.duration-1))]
 
-    volumes_std_floats = [float(vol) for vol in volumes]
-    volumes_strings = ["%.2f" % vol for vol in volumes_std_floats]
+    volumes_floats = [float(vol) for vol in volumes]
+    volumes_strings = ["%.2f" % vol for vol in volumes_floats]
 
     volume_mean = np.mean(volumes)
     volume_std_dev = np.std(volumes)
     volume_min = np.min(volumes)
     volume_max = np.max(volumes)
 
+    # Get a list of all of the differences between volumes (i.e., the derivative vector fo the volumes)
+    volume_diffs = [cur_volume - volumes_floats[i - 1] for i, cur_volume in enumerate(volumes_floats)][1:]
+    # Isolate sudden rises and falls
+    print 'volume_diffs:', volume_diffs
+    sudden_rise_count = sum([diff > volume_std_dev for diff in volume_diffs])
+    sudden_fall_count = sum([diff < -volume_std_dev for diff in volume_diffs])
+
+    print 'sudden_rise_count:', sudden_rise_count
+    print 'sudden_fall_count:', sudden_fall_count
+
+    # Normalize to audio length
+    sudden_rise_count_per_cut = float(sudden_rise_count) / float(len(volumes))
+    sudden_fall_count_per_cut = float(sudden_fall_count) / float(len(volumes))
+
     # Get rid of super-small mins
     epsilon = 0.001
     if volume_min < epsilon:
         volume_min = 0.0
 
-    return float(volume_mean), float(volume_std_dev), float(volume_min), float(volume_max), volumes_strings
+    return float(volume_mean), float(volume_std_dev), float(volume_min), float(volume_max), sudden_rise_count_per_cut, sudden_fall_count_per_cut, volumes_strings
 
 # Get video-related characteristics for the video
 def analyze_video(filename):
@@ -264,7 +278,7 @@ def main():
                         if video_analysis_mode:
                             num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots, stddev_color_with_letterbox, detail_score_mean, detail_score_std_dev, detail_score_max, detail_score_min, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage = analyze_video(os.path.join(dirname, filename))
                         else:
-                            mean_volume, std_dev_volume, min_volume, max_volume, volumes_strings = analyze_sound(os.path.join(dirname, filename))
+                            mean_volume, std_dev_volume, min_volume, max_volume, sudden_rise_count_per_cut, sudden_fall_count_per_cut, volumes_strings = analyze_sound(os.path.join(dirname, filename))
 
                     print 'Movie title:', movie_title
 
@@ -291,6 +305,8 @@ def main():
                         print 'Volume Standard Deviation:', std_dev_volume
                         print 'Minimum Volume', min_volume
                         print 'Maximum Volume', max_volume
+                        print 'Number of Sudden Volume Rises Per Second of Audio', sudden_rise_count_per_cut
+                        print 'Number of Sudden Volume Falls Per Second of Audio', sudden_fall_count_per_cut
                         print 'Volumes Strings', volumes_strings
 
                     # Open file in which to log all of this data
@@ -322,7 +338,9 @@ def main():
                             outfile.write('mean_volume: ' + str(mean_volume) + '\n')
                             outfile.write('std_dev_volume: ' + str(std_dev_volume) + '\n')
                             outfile.write('min_volume: ' + str(min_volume) + '\n')
-                            outfile.write('max_volume: ' + str(max_volume) + '\n\n')
+                            outfile.write('max_volume: ' + str(max_volume) + '\n')
+                            outfile.write('sudden_rise_count_per_cut: ' + str(sudden_rise_count_per_cut) + '\n')
+                            outfile.write('sudden_fall_count_per_cut: ' + str(sudden_fall_count_per_cut) + '\n\n')
 
 
 
