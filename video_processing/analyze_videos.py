@@ -183,7 +183,7 @@ def analyze_video(filename):
     # than the dark_threshold and false otherwise.)
     num_pixels = np.sum(np.all(np.greater(frame_accumulator, dark_threshold), 2))
 
-    # print 'num_pixels:', num_pixels
+    print 'num_pixels:', num_pixels
     
     avg_color = np.true_divide(avg_pixel_sum, num_pixels).tolist()
 
@@ -202,10 +202,10 @@ def analyze_video(filename):
     # print "Max of color without removing letterbox", max_color_with_letterbox.tolist()
 
     # Output data related to "detail scores"
-    detail_score_mean = float(np.mean(detail_scores))
-    detail_score_std_dev = float(np.std(detail_scores))
-    detail_score_max = float(np.max(detail_scores))
-    detail_score_min = float(np.min(detail_scores))
+    detail_score_mean = float(np.mean(detail_scores)) / num_pixels
+    detail_score_std_dev = float(np.std(detail_scores)) / num_pixels
+    detail_score_max = float(np.max(detail_scores)) / num_pixels
+    detail_score_min = float(np.min(detail_scores)) / num_pixels
 
     # print 'detail_score_mean:', detail_score_mean
     # print 'detail_score_std_dev:', detail_score_std_dev
