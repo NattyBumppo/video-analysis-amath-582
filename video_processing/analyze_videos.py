@@ -4,6 +4,7 @@ import sys
 import numpy as np
 import csv
 from moviepy.editor import VideoFileClip, AudioClip
+import time
 
 video_analysis_mode = True
 video_dir = 'F:\\582 videos\\test_vids'
@@ -83,6 +84,9 @@ def analyze_video(filename):
     # This will be a list of all of the "dark scenes," by frame count
     dark_scene_list = []
 
+    # List for "detail scores" calculated from Canny edge detection
+    detail_scores = []
+
     # List for average colors
     avg_color_list = []
 
@@ -125,6 +129,18 @@ def analyze_video(filename):
             # if avg_intensity_this_frame < 5.0:
             #     print frame
 
+            # Find edges for detail score calculation
+            edges = cv2.Canny(frame, 60, 200)
+            detail_score = float(np.sum(edges)) / 255.0
+            detail_scores.append(detail_score)
+
+            # Edge detection debug code (comment out when not debugging edges)
+            # cv2.imshow('Original Image', frame)
+            # cv2.imshow('Edge-Detected Image', edges)
+            # k = cv2.waitKey(1) & 0xFF
+            # if k == 27:
+            #     break
+            # print 'Detail Score:', detail_score
 
         else:
             # Dark frame; skip on our averaging
@@ -146,7 +162,6 @@ def analyze_video(filename):
 
         frameNo += 1
 
-
     # If this was the end of a "dark scene" (i.e., a dark transition),
     # then let's dump the current dark frame count into the dark scene list
     if consecutive_dark_frame_count > 0:
@@ -155,12 +170,12 @@ def analyze_video(filename):
     # Now that we have an accumulated image, let's add together ALL of the pixels
     accumulated_color_sum = np.sum(np.sum(frame_accumulator, 1), 0)
 
-    print 'accumulated_color_sum:', accumulated_color_sum
+    # print 'accumulated_color_sum:', accumulated_color_sum
 
     # Divide by the number of non-dark frames to get the average pixel sum for a frame
     avg_pixel_sum = np.true_divide(accumulated_color_sum, frameNo - sum(dark_scene_list))
 
-    print 'avg_pixel_sum:', avg_pixel_sum
+    # print 'avg_pixel_sum:', avg_pixel_sum
 
     # Now, we just need to divide by the number of non-zero pixels (the pixels that are zero
     # are probably letterbox pixels, and we should ignore them. (The np.all() below reduces
@@ -168,11 +183,11 @@ def analyze_video(filename):
     # than the dark_threshold and false otherwise.)
     num_pixels = np.sum(np.all(np.greater(frame_accumulator, dark_threshold), 2))
 
-    print 'num_pixels:', num_pixels
+    # print 'num_pixels:', num_pixels
     
     avg_color = np.true_divide(avg_pixel_sum, num_pixels).tolist()
 
-    print 'avg_color:', avg_color
+    # print 'avg_color:', avg_color
 
     # Do a few calculations that tell us about color distribution, although they don't
     # take into account the presence of a letterbox (too much of a pain in the butt this way)
@@ -181,15 +196,26 @@ def analyze_video(filename):
     min_color_with_letterbox = np.min(avg_color_list, 0)
     max_color_with_letterbox = np.max(avg_color_list, 0)
 
-    print "Mean of color without removing letterbox", avg_color_with_letterbox.tolist()
-    print "Standard deviation of color without removing letterbox", stddev_color_with_letterbox.tolist()
-    print "Min of color without removing letterbox", min_color_with_letterbox.tolist()
-    print "Max of color without removing letterbox", max_color_with_letterbox.tolist()
+    # print "Mean of color without removing letterbox", avg_color_with_letterbox.tolist()
+    # print "Standard deviation of color without removing letterbox", stddev_color_with_letterbox.tolist()
+    # print "Min of color without removing letterbox", min_color_with_letterbox.tolist()
+    # print "Max of color without removing letterbox", max_color_with_letterbox.tolist()
+
+    # Output data related to "detail scores"
+    detail_score_mean = float(np.mean(detail_scores))
+    detail_score_std_dev = float(np.std(detail_scores))
+    detail_score_max = float(np.max(detail_scores))
+    detail_score_min = float(np.min(detail_scores))
+
+    # print 'detail_score_mean:', detail_score_mean
+    # print 'detail_score_std_dev:', detail_score_std_dev
+    # print 'detail_score_max:', detail_score_max
+    # print 'detail_score_min:', detail_score_min
 
     # Convert to grayscale intensity using standard weights
     avg_intensity = avg_color[0] * 0.2989 + avg_color[1] * 0.5870 + avg_color[2] * 0.1140
 
-    print 'avg_intensity:', avg_intensity
+    # print 'avg_intensity:', avg_intensity
 
     # Get various transition time-related data items
     shot_lengths = [j-i for i, j in zip(shot_transitions[:-1], shot_transitions[1:])]
@@ -197,7 +223,7 @@ def analyze_video(filename):
     num_shots = len(shot_lengths)
 
     # Calculate data related to consecutive dark frames (pitch black transitions, a.k.a. dark scenes)
-    print "dark scene data:", dark_scene_list
+    # print "dark scene data:", dark_scene_list
     dark_scene_mean_length = float(np.mean(dark_scene_list))
     dark_scene_length_std_dev = float(np.std(dark_scene_list))
     dark_scene_length_max = float(np.max(dark_scene_list))
@@ -205,14 +231,14 @@ def analyze_video(filename):
     dark_scene_count = len(dark_scene_list)
     dark_scene_percentage = float(dark_scene_count) / float(frameNo)
 
-    print 'dark_scene_mean_length:', dark_scene_mean_length
-    print 'dark_scene_length_std_dev:', dark_scene_length_std_dev
-    print 'dark_scene_length_max:', dark_scene_length_max
-    print 'dark_scene_length_min:', dark_scene_length_min
-    print 'dark_scene_count:', dark_scene_count
-    print 'dark_scene_percentage:', dark_scene_percentage
+    # print 'dark_scene_mean_length:', dark_scene_mean_length
+    # print 'dark_scene_length_std_dev:', dark_scene_length_std_dev
+    # print 'dark_scene_length_max:', dark_scene_length_max
+    # print 'dark_scene_length_min:', dark_scene_length_min
+    # print 'dark_scene_count:', dark_scene_count
+    # print 'dark_scene_percentage:', dark_scene_percentage
 
-    return frameNo, current_time, avg_intensity, avg_color, avg_shot_length, num_shots, stddev_color_with_letterbox, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage
+    return frameNo, current_time, avg_intensity, avg_color, avg_shot_length, num_shots, stddev_color_with_letterbox, detail_score_mean, detail_score_std_dev, detail_score_max, detail_score_min, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage
 
 def main():
     # Create video analysis (or audio analysis) results file, in case it doesn't already exist
@@ -236,7 +262,7 @@ def main():
                         continue
                     else:
                         if video_analysis_mode:
-                            num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots, stddev_color_with_letterbox, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage = analyze_video(os.path.join(dirname, filename))
+                            num_frames, total_time, avg_intensity, avg_color, avg_shot_length, num_shots, stddev_color_with_letterbox, detail_score_mean, detail_score_std_dev, detail_score_max, detail_score_min, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage = analyze_video(os.path.join(dirname, filename))
                         else:
                             mean_volume, std_dev_volume, min_volume, max_volume, volumes_strings = analyze_sound(os.path.join(dirname, filename))
 
@@ -250,6 +276,10 @@ def main():
                         print 'Average Shot Length (s):', avg_shot_length
                         print 'Number of Shots:', num_shots
                         print 'Standard deviation of color (with letterbox):', stddev_color_with_letterbox
+                        print 'Mean detail score:', detail_score_mean
+                        print 'Detail score standard deviation:', detail_score_std_dev
+                        print 'Maximum detail score:', detail_score_max
+                        print 'Minimum detail score:', detail_score_min
                         print 'Mean length of transitional black scenes:', dark_scene_mean_length
                         print 'Standard deviation of length of transitional black scenes:', dark_scene_length_std_dev
                         print 'Max length of transitional black scenes:', dark_scene_length_max
@@ -275,13 +305,17 @@ def main():
                             outfile.write('avg_intensity: ' + str(avg_intensity) + '\n')
                             outfile.write('avg_color: ' + str(avg_color) + '\n')
                             outfile.write('avg_shot_length: ' + str(avg_shot_length) + '\n')
-                            outfile.write('num_shots: ' + str(num_shots) + '\n\n')
-                            outfile.write('stddev_color_with_letterbox: ' + str(stddev_color_with_letterbox) + '\n\n')
-                            outfile.write('dark_scene_mean_length: ' + str(dark_scene_mean_length) + '\n\n')
-                            outfile.write('dark_scene_length_std_dev: ' + str(dark_scene_length_std_dev) + '\n\n')
-                            outfile.write('dark_scene_length_max: ' + str(dark_scene_length_max) + '\n\n')
-                            outfile.write('dark_scene_length_min: ' + str(dark_scene_length_min) + '\n\n')
-                            outfile.write('dark_scene_count: ' + str(dark_scene_count) + '\n\n')
+                            outfile.write('num_shots: ' + str(num_shots) + '\n')
+                            outfile.write('stddev_color_with_letterbox: ' + str(stddev_color_with_letterbox) + '\n')
+                            outfile.write('detail_score_mean: ' + str(detail_score_mean) + '\n')
+                            outfile.write('detail_score_std_dev: ' + str(detail_score_std_dev) + '\n')
+                            outfile.write('detail_score_max: ' + str(detail_score_max) + '\n')
+                            outfile.write('detail_score_min: ' + str(detail_score_min) + '\n')
+                            outfile.write('dark_scene_mean_length: ' + str(dark_scene_mean_length) + '\n')
+                            outfile.write('dark_scene_length_std_dev: ' + str(dark_scene_length_std_dev) + '\n')
+                            outfile.write('dark_scene_length_max: ' + str(dark_scene_length_max) + '\n')
+                            outfile.write('dark_scene_length_min: ' + str(dark_scene_length_min) + '\n')
+                            outfile.write('dark_scene_count: ' + str(dark_scene_count) + '\n')
                             outfile.write('dark_scene_percentage: ' + str(dark_scene_percentage) + '\n\n')
                         else:
                             # Output audio analysis metrics
