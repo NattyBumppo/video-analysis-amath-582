@@ -6,7 +6,7 @@ import csv
 from moviepy.editor import VideoFileClip, AudioClip
 import time
 
-video_analysis_mode = False
+video_analysis_mode = True
 video_dir = 'F:\\582 videos\\video_files'
 
 if video_analysis_mode:

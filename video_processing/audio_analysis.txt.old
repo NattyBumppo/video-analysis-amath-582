@@ -1,0 +1,5765 @@
+movie_title: 1
+mean_volume: 0.0815629103902
+std_dev_volume: 0.047348181544
+min_volume: 0.0
+max_volume: 0.248045770938
+
+movie_title: 10-Cloverfield-Lane
+mean_volume: 0.25008619593
+std_dev_volume: 0.14168504761
+min_volume: 0.0
+max_volume: 0.476867709245
+
+movie_title: 1000-Times-Good-Night
+mean_volume: 0.08125816838
+std_dev_volume: 0.0569676904742
+min_volume: 0.0
+max_volume: 0.275220351752
+
+movie_title: 12-Years-a-Slave
+mean_volume: 0.117316405151
+std_dev_volume: 0.0759952441915
+min_volume: 0.0
+max_volume: 0.373724923707
+
+movie_title: 13-Hours-The-Secret-Soldiers-of-Benghazi
+mean_volume: 0.111985648388
+std_dev_volume: 0.0431623299233
+min_volume: 0.0
+max_volume: 0.256956538994
+
+movie_title: 13-Minutes
+mean_volume: 0.103916970483
+std_dev_volume: 0.0477275130031
+min_volume: 0.0134712267691
+max_volume: 0.247354480538
+
+movie_title: 13-Sins
+mean_volume: 0.0779334754874
+std_dev_volume: 0.0576630764969
+min_volume: 0.0
+max_volume: 0.342276349421
+
+movie_title: 2-Guns
+mean_volume: 0.103928345398
+std_dev_volume: 0.0680349053452
+min_volume: 0.0
+max_volume: 0.315423632618
+
+movie_title: 22-Jump-Street
+mean_volume: 0.116775876387
+std_dev_volume: 0.07684836967
+min_volume: 0.0
+max_volume: 0.34641600077
+
+movie_title: 3-Days-to-Kill
+mean_volume: 0.162241930152
+std_dev_volume: 0.0948918751021
+min_volume: 0.0
+max_volume: 0.640793764665
+
+movie_title: 47-Ronin
+mean_volume: 0.141741474703
+std_dev_volume: 0.0737272673201
+min_volume: 0.0
+max_volume: 0.2909006471
+
+movie_title: 5-Flights-Up-aka-Ruth-Alex
+mean_volume: 0.156340410327
+std_dev_volume: 0.0566116159959
+min_volume: 0.0
+max_volume: 0.306436160515
+
+movie_title: 5-to-7
+mean_volume: 0.0734682404565
+std_dev_volume: 0.0342128914891
+min_volume: 0.0
+max_volume: 0.185054496669
+
+movie_title: 6-Souls
+mean_volume: 0.0931771586795
+std_dev_volume: 0.0669410413736
+min_volume: 0.0
+max_volume: 0.346826071796
+
+movie_title: 6-Years
+mean_volume: 0.102926012008
+std_dev_volume: 0.0519495230817
+min_volume: 0.0
+max_volume: 0.252405911106
+
+movie_title: 7-Minutes
+mean_volume: 0.0930061113155
+std_dev_volume: 0.042056581491
+min_volume: 0.0
+max_volume: 0.220853394256
+
+movie_title: 71
+mean_volume: 0.11361387249
+std_dev_volume: 0.0619664266438
+min_volume: 0.0
+max_volume: 0.304829490667
+
+movie_title: A-Birders-Guide-to-Everything
+mean_volume: 0.0816039271973
+std_dev_volume: 0.0474340497284
+min_volume: 0.0
+max_volume: 0.330033257063
+
+movie_title: A-Brilliant-Young-Mind
+mean_volume: 0.0828898888333
+std_dev_volume: 0.0503182468432
+min_volume: 0.0
+max_volume: 0.287619695959
+
+movie_title: A-Case-of-You
+mean_volume: 0.0939945657826
+std_dev_volume: 0.0345813118206
+min_volume: 0.0
+max_volume: 0.18799239976
+
+movie_title: A-Field-in-England
+mean_volume: 0.186700099908
+std_dev_volume: 0.0976837528765
+min_volume: 0.0
+max_volume: 0.414157009856
+
+movie_title: A-Haunted-House-2
+mean_volume: 0.0943270896859
+std_dev_volume: 0.0594512185645
+min_volume: 0.0
+max_volume: 0.287752671484
+
+movie_title: A-LEGO-Brickumentary
+mean_volume: 0.187031636021
+std_dev_volume: 0.0809223516688
+min_volume: 0.0
+max_volume: 0.581322776188
+
+movie_title: A-Little-Chaos
+mean_volume: 0.112122564048
+std_dev_volume: 0.0739779741913
+min_volume: 0.0
+max_volume: 0.38628852029
+
+movie_title: A-Long-Way-Down
+mean_volume: 0.0795988446365
+std_dev_volume: 0.0320974869458
+min_volume: 0.0
+max_volume: 0.149348517091
+
+movie_title: A-Merry-Friggin-Christmas
+mean_volume: 0.0452328485442
+std_dev_volume: 0.026929445951
+min_volume: 0.0
+max_volume: 0.138078179422
+
+movie_title: A-Million-Ways-to-Die-in-the-West
+mean_volume: 0.0971671072652
+std_dev_volume: 0.0581873324876
+min_volume: 0.0
+max_volume: 0.315009873873
+
+movie_title: A-Most-Violent-Year
+mean_volume: 0.102462005855
+std_dev_volume: 0.0572180293676
+min_volume: 0.0
+max_volume: 0.238196654238
+
+movie_title: A-Most-Wanted-Man
+mean_volume: 0.166823058523
+std_dev_volume: 0.09280796907
+min_volume: 0.0
+max_volume: 0.412293255856
+
+movie_title: A-Night-in-Old-Mexico
+mean_volume: 0.135828681025
+std_dev_volume: 0.0787163377016
+min_volume: 0.00254544062658
+max_volume: 0.379433276071
+
+movie_title: A-Pigeon-Sat-on-a-Branch-Reflecting-on-Existence
+mean_volume: 0.0656351403564
+std_dev_volume: 0.038107176471
+min_volume: 0.0
+max_volume: 0.17355599441
+
+movie_title: A-Resurrection
+mean_volume: 0.114529587538
+std_dev_volume: 0.02927964132
+min_volume: 0.0583367953953
+max_volume: 0.17902678476
+
+movie_title: A-Single-Shot
+mean_volume: 0.0426467724843
+std_dev_volume: 0.0297975348204
+min_volume: 0.0
+max_volume: 0.134203960931
+
+movie_title: A-Walk-Among-the-Tombstones
+mean_volume: 0.149459101582
+std_dev_volume: 0.071976668772
+min_volume: 0.0
+max_volume: 0.31076242543
+
+movie_title: A-Walk-in-the-Woods
+mean_volume: 0.0824206938864
+std_dev_volume: 0.0382151132273
+min_volume: 0.0
+max_volume: 0.288535452047
+
+movie_title: About-Alex
+mean_volume: 0.0885206910059
+std_dev_volume: 0.0520650914798
+min_volume: 0.0
+max_volume: 0.31837972187
+
+movie_title: About-Last-Night
+mean_volume: 0.132405815179
+std_dev_volume: 0.0640170243182
+min_volume: 0.0
+max_volume: 0.320106797614
+
+movie_title: About-Time
+mean_volume: 0.0998263544598
+std_dev_volume: 0.057668047064
+min_volume: 0.0
+max_volume: 0.252565673573
+
+movie_title: Accidental-Love
+mean_volume: 0.0883340081714
+std_dev_volume: 0.0356490675986
+min_volume: 0.0
+max_volume: 0.186322704736
+
+movie_title: ACOD
+mean_volume: 0.0578501589756
+std_dev_volume: 0.0172310438681
+min_volume: 0.0
+max_volume: 0.109426931745
+
+movie_title: Addicted
+mean_volume: 0.105211086606
+std_dev_volume: 0.0521675355802
+min_volume: 0.0
+max_volume: 0.246776971781
+
+movie_title: Adore
+mean_volume: 0.0784721230585
+std_dev_volume: 0.0338065545712
+min_volume: 0.0
+max_volume: 0.181392276971
+
+movie_title: Adult-Beginners
+mean_volume: 0.0780271736778
+std_dev_volume: 0.0309205069499
+min_volume: 0.0
+max_volume: 0.189408971555
+
+movie_title: Adult-World
+mean_volume: 0.0210518337184
+std_dev_volume: 0.0114671317177
+min_volume: 0.0
+max_volume: 0.0634815265999
+
+movie_title: Afflicted
+mean_volume: 0.0939232265434
+std_dev_volume: 0.0529520840262
+min_volume: 0.0
+max_volume: 0.252638964415
+
+movie_title: Afternoon-Delight
+mean_volume: 0.0963022337041
+std_dev_volume: 0.04129674651
+min_volume: 0.0
+max_volume: 0.207255288775
+
+movie_title: Aftershock
+mean_volume: 0.119274087664
+std_dev_volume: 0.0806945937145
+min_volume: 0.0
+max_volume: 0.346949824171
+
+movie_title: Air
+mean_volume: 0.0955581254817
+std_dev_volume: 0.0446393975115
+min_volume: 0.0
+max_volume: 0.223702979683
+
+movie_title: Alan-Partridge
+mean_volume: 0.0759807365662
+std_dev_volume: 0.0391932457587
+min_volume: 0.0
+max_volume: 0.236730015807
+
+movie_title: Alex-of-Venice
+mean_volume: 0.0705159307225
+std_dev_volume: 0.0257835940599
+min_volume: 0.00235147593583
+max_volume: 0.154079835024
+
+movie_title: Alexander-and-the-Terrible-Horrible-No-Good-Very-Bad-Day
+mean_volume: 0.146897657358
+std_dev_volume: 0.0725379490121
+min_volume: 0.0
+max_volume: 0.353320630353
+
+movie_title: Alien-Abduction
+mean_volume: 0.105953810428
+std_dev_volume: 0.0626067065696
+min_volume: 0.0
+max_volume: 0.329485026036
+
+movie_title: All-About-the-Feathers
+mean_volume: 0.0825665738614
+std_dev_volume: 0.0534280635141
+min_volume: 0.0
+max_volume: 0.224562563215
+
+movie_title: All-Cheerleaders-Die
+mean_volume: 0.0925482524419
+std_dev_volume: 0.0407375529585
+min_volume: 0.0
+max_volume: 0.240439899516
+
+movie_title: All-the-Boys-Love-Mandy-Lane
+mean_volume: 0.0978916274434
+std_dev_volume: 0.0718933505945
+min_volume: 0.0
+max_volume: 0.339035181692
+
+movie_title: All-the-Wilderness
+mean_volume: 0.123114669548
+std_dev_volume: 0.0687408415662
+min_volume: 0.0152698420023
+max_volume: 0.503213966463
+
+movie_title: Almost-Human
+mean_volume: 0.186400163161
+std_dev_volume: 0.105679897592
+min_volume: 0.0
+max_volume: 0.400987974677
+
+movie_title: Aloha
+mean_volume: 0.072976412305
+std_dev_volume: 0.0378693751966
+min_volume: 0.0
+max_volume: 0.170744989517
+
+movie_title: Altered
+mean_volume: 0.143190843833
+std_dev_volume: 0.104483459422
+min_volume: 0.0
+max_volume: 0.403451855229
+
+movie_title: Alvin-and-the-Chipmunks-The-Road-Chip
+mean_volume: 0.0820701931906
+std_dev_volume: 0.0308336687034
+min_volume: 0.0
+max_volume: 0.246776149829
+
+movie_title: American-Dreams-in-China
+mean_volume: 0.19076834341
+std_dev_volume: 0.0805037228565
+min_volume: 0.0
+max_volume: 0.400869613294
+
+movie_title: American-Heist
+mean_volume: 0.11188309761
+std_dev_volume: 0.0582915178527
+min_volume: 0.0
+max_volume: 0.310496613382
+
+movie_title: American-Hero
+mean_volume: 0.118292620256
+std_dev_volume: 0.0456033678876
+min_volume: 0.00461131244314
+max_volume: 0.232381449688
+
+movie_title: American-Hustle
+mean_volume: 0.0816871577087
+std_dev_volume: 0.0534356832413
+min_volume: 0.0
+max_volume: 0.181159108295
+
+movie_title: American-Sniper
+mean_volume: 0.0463491116146
+std_dev_volume: 0.0424074930694
+min_volume: 0.0
+max_volume: 0.152655494811
+
+movie_title: American-Ultra
+mean_volume: 0.0913227453642
+std_dev_volume: 0.0684637022594
+min_volume: 0.0
+max_volume: 0.290808893824
+
+movie_title: Amityville-The-Awakening
+mean_volume: 0.0861637722538
+std_dev_volume: 0.0771064038549
+min_volume: 0.0
+max_volume: 0.286887769771
+
+movie_title: Amour
+mean_volume: 0.0314355451781
+std_dev_volume: 0.0257609147449
+min_volume: 0.0
+max_volume: 0.0902849681283
+
+movie_title: Amy
+mean_volume: 0.0646198696333
+std_dev_volume: 0.0320135681533
+min_volume: 0.0
+max_volume: 0.167141367394
+
+movie_title: An-Episode-in-the-Life-of-an-Iron-Picker
+mean_volume: 0.0319415476609
+std_dev_volume: 0.0398180757016
+min_volume: 0.0
+max_volume: 0.23075280591
+
+movie_title: An-Open-Secret
+mean_volume: 0.0664275096128
+std_dev_volume: 0.0382593649254
+min_volume: 0.0
+max_volume: 0.258389249318
+
+movie_title: Ana-Maria-in-Novela-Land
+mean_volume: 0.092348828605
+std_dev_volume: 0.036660506826
+min_volume: 0.0
+max_volume: 0.257134517894
+
+movie_title: Anarchy-aka-Cymbeline
+mean_volume: 0.16343195818
+std_dev_volume: 0.0900907768731
+min_volume: 0.0
+max_volume: 0.475530266422
+
+movie_title: Anchorman-The-Legend-Continues
+mean_volume: 0.0804762584771
+std_dev_volume: 0.0530952237506
+min_volume: 0.0
+max_volume: 0.212617330419
+
+movie_title: And-So-It-Goes
+mean_volume: 0.112218124531
+std_dev_volume: 0.0446550258948
+min_volume: 0.0
+max_volume: 0.238011363284
+
+movie_title: Angry-Birds
+mean_volume: 0.0809893279369
+std_dev_volume: 0.0607061382007
+min_volume: 0.0
+max_volume: 0.372460787142
+
+movie_title: Anita
+mean_volume: 0.0688920379699
+std_dev_volume: 0.0514553037881
+min_volume: 0.0
+max_volume: 0.27440970559
+
+movie_title: Annabelle
+mean_volume: 0.0439821402652
+std_dev_volume: 0.0419658142848
+min_volume: 0.0
+max_volume: 0.188225885214
+
+movie_title: Annie
+mean_volume: 0.07779316422
+std_dev_volume: 0.0506660507184
+min_volume: 0.0
+max_volume: 0.222781403067
+
+movie_title: Anomalisa
+mean_volume: 0.069958964723
+std_dev_volume: 0.0344834195599
+min_volume: 0.0
+max_volume: 0.175018492012
+
+movie_title: Another-Me
+mean_volume: 0.0688291151169
+std_dev_volume: 0.0320106038998
+min_volume: 0.0
+max_volume: 0.118477059206
+
+movie_title: Ant-Man
+mean_volume: 0.0545195402373
+std_dev_volume: 0.0430891222945
+min_volume: 0.0
+max_volume: 0.188656097423
+
+movie_title: Antboy
+mean_volume: 0.156331630699
+std_dev_volume: 0.0647367619416
+min_volume: 0.0
+max_volume: 0.304262790331
+
+movie_title: Apartment-1303-3D
+mean_volume: 0.0605045145679
+std_dev_volume: 0.0538740310337
+min_volume: 0.0
+max_volume: 0.325953299912
+
+movie_title: Appropriate-Behavior
+mean_volume: 0.0466586062782
+std_dev_volume: 0.0194283543069
+min_volume: 0.00405482673218
+max_volume: 0.145466555147
+
+movie_title: Are-You-Here
+mean_volume: 0.070705271905
+std_dev_volume: 0.0356024201497
+min_volume: 0.0
+max_volume: 0.160582509347
+
+movie_title: Argentos-Dracula-3D
+mean_volume: 0.105523314013
+std_dev_volume: 0.0526468671872
+min_volume: 0.0115325485991
+max_volume: 0.258545077376
+
+movie_title: Around-the-Block
+mean_volume: 0.107123211225
+std_dev_volume: 0.0436976897841
+min_volume: 0.0
+max_volume: 0.213244159019
+
+movie_title: Arthur-Newman
+mean_volume: 0.157364623915
+std_dev_volume: 0.0904562832087
+min_volume: 0.0
+max_volume: 0.448117139727
+
+movie_title: As-Above-So-Below
+mean_volume: 0.150559946511
+std_dev_volume: 0.0822910944731
+min_volume: 0.0
+max_volume: 0.353380266371
+
+movie_title: As-Luck-Would-Have-It
+mean_volume: 0.0560219472556
+std_dev_volume: 0.0271587168655
+min_volume: 0.0
+max_volume: 0.143508403639
+
+movie_title: Ass-Backwards
+mean_volume: 0.0815979664531
+std_dev_volume: 0.0399239480593
+min_volume: 0.0
+max_volume: 0.217267914605
+
+movie_title: At-Middleton
+mean_volume: 0.103424507073
+std_dev_volume: 0.0513844182009
+min_volume: 0.0
+max_volume: 0.227107431361
+
+movie_title: At-the-Devils-Door
+mean_volume: 0.101972191614
+std_dev_volume: 0.0724995609582
+min_volume: 0.0
+max_volume: 0.499121855169
+
+movie_title: August-Osage-County
+mean_volume: 0.0736199798357
+std_dev_volume: 0.0362236402573
+min_volume: 0.0
+max_volume: 0.216917947711
+
+movie_title: Austenland
+mean_volume: 0.101745767302
+std_dev_volume: 0.0447203966487
+min_volume: 0.0
+max_volume: 0.208608896668
+
+movie_title: Authors-Anonymous
+mean_volume: 0.0494711525891
+std_dev_volume: 0.0202074447385
+min_volume: 0.0
+max_volume: 0.0923694359702
+
+movie_title: Automata
+mean_volume: 0.120075630854
+std_dev_volume: 0.0829330424825
+min_volume: 0.0
+max_volume: 0.429192254483
+
+movie_title: Avengers-Age-of-Ultron
+mean_volume: 0.229988791555
+std_dev_volume: 0.0514234489872
+min_volume: 0.0262718535111
+max_volume: 0.337417616885
+
+movie_title: Bad-Country
+mean_volume: 0.0471240869125
+std_dev_volume: 0.0208608736724
+min_volume: 0.0
+max_volume: 0.0921277019293
+
+movie_title: Bad-Hair
+mean_volume: 0.122263513815
+std_dev_volume: 0.0629444128289
+min_volume: 0.0
+max_volume: 0.272973158019
+
+movie_title: Bad-Hurt
+mean_volume: 0.117110088019
+std_dev_volume: 0.0534408389921
+min_volume: 0.0
+max_volume: 0.263966603074
+
+movie_title: Bad-Johnson
+mean_volume: 0.0614319121203
+std_dev_volume: 0.0316212572152
+min_volume: 0.0
+max_volume: 0.190595091363
+
+movie_title: Bad-Words
+mean_volume: 0.119622211691
+std_dev_volume: 0.0615012671649
+min_volume: 0.0
+max_volume: 0.287586582091
+
+movie_title: Baggage-Claim
+mean_volume: 0.0880732398098
+std_dev_volume: 0.0326895211619
+min_volume: 0.0
+max_volume: 0.239155431863
+
+movie_title: Ballet-422
+mean_volume: 0.0570513829056
+std_dev_volume: 0.0369406672541
+min_volume: 0.0
+max_volume: 0.164305464911
+
+movie_title: Band-of-Robbers
+mean_volume: 0.0874849482544
+std_dev_volume: 0.0503606270712
+min_volume: 0.0
+max_volume: 0.176161576966
+
+movie_title: Barbershop-The-Next-Cut
+mean_volume: 0.0814969825766
+std_dev_volume: 0.030486998194
+min_volume: 0.0
+max_volume: 0.130985915215
+
+movie_title: Barefoot
+mean_volume: 0.0912316578269
+std_dev_volume: 0.0358652064838
+min_volume: 0.0
+max_volume: 0.205045762163
+
+movie_title: Barely-Lethal
+mean_volume: 0.139623988124
+std_dev_volume: 0.0718922903562
+min_volume: 0.0146937593382
+max_volume: 0.336510531136
+
+movie_title: Bastardo
+mean_volume: 0.15427089786
+std_dev_volume: 0.0770459055598
+min_volume: 0.0
+max_volume: 0.306100868781
+
+movie_title: Batkid-Begins-The-Wish-Heard-Around-the-World
+mean_volume: 0.0987874461168
+std_dev_volume: 0.0376610773953
+min_volume: 0.0
+max_volume: 0.191629770508
+
+movie_title: Batman-1989
+mean_volume: 0.0359589740031
+std_dev_volume: 0.0208941228848
+min_volume: 0.0
+max_volume: 0.07922829022
+
+movie_title: Batman-Returns
+mean_volume: 0.0168164124827
+std_dev_volume: 0.00814439888422
+min_volume: 0.0
+max_volume: 0.0394536194003
+
+movie_title: Batman-v-Superman-Dawn-of-Justice
+mean_volume: 0.087550353362
+std_dev_volume: 0.0548263320754
+min_volume: 0.0
+max_volume: 0.232164674658
+
+movie_title: Bears
+mean_volume: 0.0673367816134
+std_dev_volume: 0.0360461735661
+min_volume: 0.0
+max_volume: 0.268303968001
+
+movie_title: Before-I-Wake
+mean_volume: 0.11421335726
+std_dev_volume: 0.08575509928
+min_volume: 0.0
+max_volume: 0.350452422753
+
+movie_title: Before-Midnight
+mean_volume: 0.0807304929417
+std_dev_volume: 0.0405913383576
+min_volume: 0.0
+max_volume: 0.180530430784
+
+movie_title: Begin-Again
+mean_volume: 0.0779539665254
+std_dev_volume: 0.0401990492705
+min_volume: 0.0
+max_volume: 0.222031189222
+
+movie_title: Behaving-Badly
+mean_volume: 0.0220552957094
+std_dev_volume: 0.00931010814411
+min_volume: 0.0
+max_volume: 0.0804310612063
+
+movie_title: Belle
+mean_volume: 0.0809936807835
+std_dev_volume: 0.0349522986818
+min_volume: 0.0
+max_volume: 0.220797043841
+
+movie_title: Beloved-Sisters
+mean_volume: 0.122218626094
+std_dev_volume: 0.0498854988669
+min_volume: 0.00507758950948
+max_volume: 0.242285772848
+
+movie_title: Bends
+mean_volume: 0.0284529730636
+std_dev_volume: 0.0232394615293
+min_volume: 0.0
+max_volume: 0.12294915747
+
+movie_title: Beneath-the-Harvest-Sky
+mean_volume: 0.131088812852
+std_dev_volume: 0.0851225614511
+min_volume: 0.0
+max_volume: 0.487605697995
+
+movie_title: Best-Man-Down
+mean_volume: 0.0517649863515
+std_dev_volume: 0.0212838437667
+min_volume: 0.0
+max_volume: 0.115900808597
+
+movie_title: Best-Night-Ever
+mean_volume: 0.0568604664978
+std_dev_volume: 0.0256284263873
+min_volume: 0.0
+max_volume: 0.101398054266
+
+movie_title: Better-Living-Through-Chemistry
+mean_volume: 0.0626422782255
+std_dev_volume: 0.0330918090485
+min_volume: 0.0
+max_volume: 0.185047198947
+
+movie_title: Beyond-the-Lights
+mean_volume: 0.0829560797714
+std_dev_volume: 0.0575776036818
+min_volume: 0.0
+max_volume: 0.288364497518
+
+movie_title: Beyond-the-Reach
+mean_volume: 0.0809996641224
+std_dev_volume: 0.0343469403953
+min_volume: 0.0
+max_volume: 0.201239884062
+
+movie_title: Big-Ass-Spider
+mean_volume: 0.139374692021
+std_dev_volume: 0.0702587211678
+min_volume: 0.0
+max_volume: 0.426729045257
+
+movie_title: Big-Eyes
+mean_volume: 0.132999781676
+std_dev_volume: 0.0745428035197
+min_volume: 0.0
+max_volume: 0.3215011297
+
+movie_title: Big-Game
+mean_volume: 0.119883831218
+std_dev_volume: 0.0646111624563
+min_volume: 0.00325003679777
+max_volume: 0.390211689533
+
+movie_title: Big-Hero-6
+mean_volume: 0.0866220672009
+std_dev_volume: 0.0776287438865
+min_volume: 0.0
+max_volume: 0.345163338763
+
+movie_title: Big-Sur
+mean_volume: 0.0939883146457
+std_dev_volume: 0.0497280426154
+min_volume: 0.0
+max_volume: 0.256216525271
+
+movie_title: Birdman
+mean_volume: 0.0914393434457
+std_dev_volume: 0.0520623079707
+min_volume: 0.0
+max_volume: 0.290213199705
+
+movie_title: Black-Mass
+mean_volume: 0.0519199714158
+std_dev_volume: 0.0330036829841
+min_volume: 0.0
+max_volume: 0.188332028296
+
+movie_title: Black-Nativity
+mean_volume: 0.102857446419
+std_dev_volume: 0.0580947677248
+min_volume: 0.0
+max_volume: 0.24877505929
+
+movie_title: Black-or-White
+mean_volume: 0.0716879840785
+std_dev_volume: 0.0324161775517
+min_volume: 0.0
+max_volume: 0.151133395054
+
+movie_title: Black-Sea
+mean_volume: 0.0981446932435
+std_dev_volume: 0.0613947537491
+min_volume: 0.0
+max_volume: 0.371874182584
+
+movie_title: blackhat
+mean_volume: 0.145260063013
+std_dev_volume: 0.0652406547439
+min_volume: 0.0
+max_volume: 0.317326442423
+
+movie_title: Blended
+mean_volume: 0.0551209206368
+std_dev_volume: 0.0231921447056
+min_volume: 0.0
+max_volume: 0.117924292364
+
+movie_title: Blind-Detective
+mean_volume: 0.118297660075
+std_dev_volume: 0.0581176728768
+min_volume: 0.0
+max_volume: 0.24276932418
+
+movie_title: Blood
+mean_volume: 0.0364070405223
+std_dev_volume: 0.0163288327795
+min_volume: 0.00183769469405
+max_volume: 0.110893049609
+
+movie_title: Blood-Glacier
+mean_volume: 0.133428956334
+std_dev_volume: 0.074641947739
+min_volume: 0.0
+max_volume: 0.439097727375
+
+movie_title: Blood-Ties
+mean_volume: 0.120905546675
+std_dev_volume: 0.0578759681668
+min_volume: 0.0
+max_volume: 0.277225008396
+
+movie_title: Bloodsucking-Bastards
+mean_volume: 0.0975544041715
+std_dev_volume: 0.0495069457281
+min_volume: 0.00252400249341
+max_volume: 0.331208903612
+
+movie_title: Blue-Caprice
+mean_volume: 0.0590760123682
+std_dev_volume: 0.0452628923844
+min_volume: 0.0
+max_volume: 0.202173054115
+
+movie_title: Blue-is-the-Warmest-Color
+mean_volume: 0.0596525131224
+std_dev_volume: 0.0305826808592
+min_volume: 0.0
+max_volume: 0.151624400284
+
+movie_title: Blue-Jasmine
+mean_volume: 0.105562583293
+std_dev_volume: 0.0480361759494
+min_volume: 0.0
+max_volume: 0.412318618058
+
+movie_title: Bobo
+mean_volume: 0.0330571163929
+std_dev_volume: 0.0365990337962
+min_volume: 0.0
+max_volume: 0.223373823344
+
+movie_title: Body
+mean_volume: 0.116775710035
+std_dev_volume: 0.0610905098167
+min_volume: 0.0
+max_volume: 0.278867040522
+
+movie_title: Bone-Tomahawk
+mean_volume: 0.115801189873
+std_dev_volume: 0.0683657508269
+min_volume: 0.0
+max_volume: 0.334669487784
+
+movie_title: Border
+mean_volume: 0.0506936663448
+std_dev_volume: 0.0333714581843
+min_volume: 0.0
+max_volume: 0.201806140021
+
+movie_title: Boychoir
+mean_volume: 0.0701112433706
+std_dev_volume: 0.0376835578993
+min_volume: 0.0
+max_volume: 0.201215707475
+
+movie_title: Boyhood
+mean_volume: 0.185194368427
+std_dev_volume: 0.0840824318535
+min_volume: 0.0
+max_volume: 0.35820181619
+
+movie_title: Brazilian-Western
+mean_volume: 0.127447920591
+std_dev_volume: 0.0801541325785
+min_volume: 0.0
+max_volume: 0.400350093428
+
+movie_title: Breaking-the-Girls
+mean_volume: 0.10115451621
+std_dev_volume: 0.0585812223128
+min_volume: 0.0
+max_volume: 0.289093385007
+
+movie_title: Brick-Mansions
+mean_volume: 0.14062015915
+std_dev_volume: 0.0787092765844
+min_volume: 0.0
+max_volume: 0.323989164779
+
+movie_title: Bridge-of-Spies
+mean_volume: 0.0532705729879
+std_dev_volume: 0.0265911613256
+min_volume: 0.0
+max_volume: 0.124371863341
+
+movie_title: Bright-Days-Ahead
+mean_volume: 0.135067850927
+std_dev_volume: 0.0620174001806
+min_volume: 0.0
+max_volume: 0.283708216884
+
+movie_title: Brooklyn
+mean_volume: 0.0538030495411
+std_dev_volume: 0.0313421377097
+min_volume: 0.0
+max_volume: 0.24558968668
+
+movie_title: Burning-Bush
+mean_volume: 0.0894999045241
+std_dev_volume: 0.0754147486792
+min_volume: 0.0
+max_volume: 0.340521853795
+
+movie_title: Burnt
+mean_volume: 0.105854813626
+std_dev_volume: 0.0679313254122
+min_volume: 0.0
+max_volume: 0.433816120304
+
+movie_title: Burying-the-Ex
+mean_volume: 0.0872961872492
+std_dev_volume: 0.0420316548795
+min_volume: 0.0
+max_volume: 0.264130963124
+
+movie_title: Bus-657
+mean_volume: 0.0884038441266
+std_dev_volume: 0.0501252340983
+min_volume: 0.00481336154623
+max_volume: 0.299498334261
+
+movie_title: By-the-Gun
+mean_volume: 0.107711165685
+std_dev_volume: 0.0612972119202
+min_volume: 0.0
+max_volume: 0.283283636849
+
+movie_title: By-the-Sea
+mean_volume: 0.092784648632
+std_dev_volume: 0.0679492928997
+min_volume: 0.0
+max_volume: 0.348042952678
+
+movie_title: Byzantium
+mean_volume: 0.108662407185
+std_dev_volume: 0.0497905371018
+min_volume: 0.0
+max_volume: 0.236418275286
+
+movie_title: Cabin-Fever-Patient-Zero
+mean_volume: 0.0845136644982
+std_dev_volume: 0.037131255315
+min_volume: 0.0
+max_volume: 0.187094820093
+
+movie_title: Cake
+mean_volume: 0.0455143052013
+std_dev_volume: 0.0216493677945
+min_volume: 0.0
+max_volume: 0.116809224785
+
+movie_title: California-Scheming
+mean_volume: 0.0560506704299
+std_dev_volume: 0.0326921688312
+min_volume: 0.0
+max_volume: 0.131282668847
+
+movie_title: Calvary
+mean_volume: 0.0897238842651
+std_dev_volume: 0.0438298796706
+min_volume: 0.0
+max_volume: 0.276807707018
+
+movie_title: Cam2Cam
+mean_volume: 0.131931282039
+std_dev_volume: 0.0680081301703
+min_volume: 0.0237519721842
+max_volume: 0.36643999574
+
+movie_title: Camp-X-Ray
+mean_volume: 0.0984113701121
+std_dev_volume: 0.065194375613
+min_volume: 0.0
+max_volume: 0.318462674924
+
+movie_title: Captain-America-Civil-War
+mean_volume: 0.100487738966
+std_dev_volume: 0.0515587958266
+min_volume: 0.0
+max_volume: 0.242055110482
+
+movie_title: Captain-America-The-Winter-Soldier
+mean_volume: 0.106478778068
+std_dev_volume: 0.049258221531
+min_volume: 0.0
+max_volume: 0.276402332618
+
+movie_title: Captain-Phillips
+mean_volume: 0.0913348986548
+std_dev_volume: 0.048672988518
+min_volume: 0.0
+max_volume: 0.199816411454
+
+movie_title: Captive
+mean_volume: 0.0864501994351
+std_dev_volume: 0.0407379405325
+min_volume: 0.0
+max_volume: 0.24468044698
+
+movie_title: Carol
+mean_volume: 0.122623321225
+std_dev_volume: 0.0486733196729
+min_volume: 0.00189947259701
+max_volume: 0.218634263717
+
+movie_title: Carrie-2013
+mean_volume: 0.0811763514596
+std_dev_volume: 0.0614792909006
+min_volume: 0.0
+max_volume: 0.350203789545
+
+movie_title: CBGB
+mean_volume: 0.0651506884883
+std_dev_volume: 0.0332293529804
+min_volume: 0.0
+max_volume: 0.28287953707
+
+movie_title: Charlie-Countryman
+mean_volume: 0.131101191699
+std_dev_volume: 0.0717805323648
+min_volume: 0.0
+max_volume: 0.423259319935
+
+movie_title: Chasing-Mavericks
+mean_volume: 0.0633184393156
+std_dev_volume: 0.0287649467242
+min_volume: 0.00255010261248
+max_volume: 0.13606763463
+
+movie_title: Cheap-Thrills
+mean_volume: 0.0842014956776
+std_dev_volume: 0.0435033520704
+min_volume: 0.0
+max_volume: 0.239299201585
+
+movie_title: Chef
+mean_volume: 0.0827190033837
+std_dev_volume: 0.0362828392195
+min_volume: 0.00179736853407
+max_volume: 0.233175481924
+
+movie_title: Chi-Raq
+mean_volume: 0.0642548484629
+std_dev_volume: 0.0296455754158
+min_volume: 0.0
+max_volume: 0.210175684936
+
+movie_title: Chicken-Little
+mean_volume: 0.0196576583029
+std_dev_volume: 0.0105659719519
+min_volume: 0.0
+max_volume: 0.0603840067505
+
+movie_title: Child-44
+mean_volume: 0.108167965904
+std_dev_volume: 0.0546662643616
+min_volume: 0.0
+max_volume: 0.239598006026
+
+movie_title: Child-of-God
+mean_volume: 0.164017984237
+std_dev_volume: 0.0707357497334
+min_volume: 0.0013623129424
+max_volume: 0.288251113228
+
+movie_title: Childs-Pose
+mean_volume: 0.0556238789166
+std_dev_volume: 0.0349177151836
+min_volume: 0.0
+max_volume: 0.210093595762
+
+movie_title: Christmas-Eve
+mean_volume: 0.0933762996489
+std_dev_volume: 0.0444290453322
+min_volume: 0.0
+max_volume: 0.292861834093
+
+movie_title: Cinderella
+mean_volume: 0.0444694998608
+std_dev_volume: 0.0409148902111
+min_volume: 0.0
+max_volume: 0.215560448338
+
+movie_title: Cinemanovels
+mean_volume: 0.0909714633392
+std_dev_volume: 0.0622925000589
+min_volume: 0.0
+max_volume: 0.196993587649
+
+movie_title: Cloned-The-Recreator-Chronicles
+mean_volume: 0.0860000899204
+std_dev_volume: 0.04278611312
+min_volume: 0.0
+max_volume: 0.22279118604
+
+movie_title: Closed-Curtain
+mean_volume: 0.0343212350047
+std_dev_volume: 0.0352867201233
+min_volume: 0.0
+max_volume: 0.190236591804
+
+movie_title: Clouds-of-Sils-Maria
+mean_volume: 0.154068124427
+std_dev_volume: 0.0393892977596
+min_volume: 0.0141363812382
+max_volume: 0.267240873381
+
+movie_title: Cloudy-With-a-Chance-of-Meatballs-2
+mean_volume: 0.120177453756
+std_dev_volume: 0.0597213104722
+min_volume: 0.0
+max_volume: 0.333483031914
+
+movie_title: Club-Sandwich
+mean_volume: 0.0433959656089
+std_dev_volume: 0.0302204573177
+min_volume: 0.0
+max_volume: 0.167701501294
+
+movie_title: Cold-Eyes
+mean_volume: 0.317325845011
+std_dev_volume: 0.119777854835
+min_volume: 0.0
+max_volume: 0.512226168068
+
+movie_title: Colonia
+mean_volume: 0.15426608639
+std_dev_volume: 0.0582324167092
+min_volume: 0.0
+max_volume: 0.295468191547
+
+movie_title: Concrete-Night
+mean_volume: 0.0713184009095
+std_dev_volume: 0.0552221746409
+min_volume: 0.0
+max_volume: 0.252167633809
+
+movie_title: Concussion
+mean_volume: 0.0913210760506
+std_dev_volume: 0.0567504119008
+min_volume: 0.0
+max_volume: 0.236300522754
+
+movie_title: Contracted
+mean_volume: 0.074696628229
+std_dev_volume: 0.0448627283342
+min_volume: 0.0
+max_volume: 0.213912965073
+
+movie_title: Cooties
+mean_volume: 0.0821564923969
+std_dev_volume: 0.0463700921979
+min_volume: 0.0
+max_volume: 0.233407915438
+
+movie_title: Cop-Car
+mean_volume: 0.129252786614
+std_dev_volume: 0.0852153933807
+min_volume: 0.0
+max_volume: 0.348896303955
+
+movie_title: Creative-Control
+mean_volume: 0.088820406789
+std_dev_volume: 0.0413145917834
+min_volume: 0.0
+max_volume: 0.260177911621
+
+movie_title: Creed
+mean_volume: 0.0888831617624
+std_dev_volume: 0.0477096351314
+min_volume: 0.0
+max_volume: 0.218529319851
+
+movie_title: Criminal-Activities
+mean_volume: 0.0809438668305
+std_dev_volume: 0.0402457418956
+min_volume: 0.0
+max_volume: 0.214728560346
+
+movie_title: Crimson-Peak
+mean_volume: 0.182028433969
+std_dev_volume: 0.102397950041
+min_volume: 0.0
+max_volume: 0.391358711666
+
+movie_title: Cristo-Rey
+mean_volume: 0.177599842667
+std_dev_volume: 0.0778064710632
+min_volume: 0.0
+max_volume: 0.36037881037
+
+movie_title: Crystal-Fairy
+mean_volume: 0.0544572839066
+std_dev_volume: 0.0235779076525
+min_volume: 0.0
+max_volume: 0.11396178859
+
+movie_title: Cuban-Fury
+mean_volume: 0.10323822611
+std_dev_volume: 0.053736503118
+min_volume: 0.0
+max_volume: 0.353920565641
+
+movie_title: Curse-of-Chucky
+mean_volume: 0.0663766537904
+std_dev_volume: 0.0450684886314
+min_volume: 0.0
+max_volume: 0.170329497668
+
+movie_title: Cut-Bank
+mean_volume: 0.0993737376092
+std_dev_volume: 0.059793818725
+min_volume: 0.0
+max_volume: 0.238561755506
+
+movie_title: Da-Sweet-Blood-of-Jesus
+mean_volume: 0.0216260934516
+std_dev_volume: 0.0117327047351
+min_volume: 0.0
+max_volume: 0.06843963749
+
+movie_title: Daddys-Home
+mean_volume: 0.0938355761225
+std_dev_volume: 0.0276233473865
+min_volume: 0.0
+max_volume: 0.175308697201
+
+movie_title: Dallas-Buyers-Club
+mean_volume: 0.0735976270935
+std_dev_volume: 0.0328142067924
+min_volume: 0.0
+max_volume: 0.14975158734
+
+movie_title: Danny-Collins
+mean_volume: 0.103917035773
+std_dev_volume: 0.0311528701205
+min_volume: 0.0
+max_volume: 0.180904339048
+
+movie_title: Dark-Was-the-Night
+mean_volume: 0.0927505908484
+std_dev_volume: 0.0441897527281
+min_volume: 0.021230685584
+max_volume: 0.244325143911
+
+movie_title: Dawn-of-the-Planet-of-the-Apes
+mean_volume: 0.121972698592
+std_dev_volume: 0.08478525959
+min_volume: 0.0
+max_volume: 0.363347421784
+
+movie_title: Days-and-Nights
+mean_volume: 0.0584657964772
+std_dev_volume: 0.0278956114418
+min_volume: 0.0
+max_volume: 0.212614102693
+
+movie_title: Deadpool
+mean_volume: 0.132071444204
+std_dev_volume: 0.0765286100141
+min_volume: 0.0
+max_volume: 0.309421776444
+
+movie_title: Dear-Mr-Watterson
+mean_volume: 0.0602332715955
+std_dev_volume: 0.0241248000526
+min_volume: 0.0
+max_volume: 0.134791460605
+
+movie_title: Dear-White-People
+mean_volume: 0.0779713718271
+std_dev_volume: 0.030517140695
+min_volume: 0.0
+max_volume: 0.182076764872
+
+movie_title: Decoding-Annie-Parker
+mean_volume: 0.088100297109
+std_dev_volume: 0.0426520250627
+min_volume: 0.0
+max_volume: 0.194451063726
+
+movie_title: Deliver-Us-from-Evil-2014
+mean_volume: 0.0553281003785
+std_dev_volume: 0.0547695930767
+min_volume: 0.0
+max_volume: 0.355861952295
+
+movie_title: Demolition
+mean_volume: 0.102973439005
+std_dev_volume: 0.0534145039278
+min_volume: 0.0
+max_volume: 0.290207230791
+
+movie_title: Demonic
+mean_volume: 0.035677703153
+std_dev_volume: 0.0254559743666
+min_volume: 0.0
+max_volume: 0.133909211788
+
+movie_title: Desierto
+mean_volume: 0.136817611187
+std_dev_volume: 0.103959906814
+min_volume: 0.0
+max_volume: 0.37502165576
+
+movie_title: Despicable-Me-2
+mean_volume: 0.0854717954549
+std_dev_volume: 0.0520958389904
+min_volume: 0.0
+max_volume: 0.318782964761
+
+movie_title: Devils-Due
+mean_volume: 0.0547628971846
+std_dev_volume: 0.0378926258267
+min_volume: 0.0
+max_volume: 0.157334052637
+
+movie_title: Devils-Knot
+mean_volume: 0.0889675764674
+std_dev_volume: 0.0374421736763
+min_volume: 0.0
+max_volume: 0.236041122023
+
+movie_title: Devils-Pass
+mean_volume: 0.0612677838457
+std_dev_volume: 0.0297279770944
+min_volume: 0.0
+max_volume: 0.143312699163
+
+movie_title: Diana
+mean_volume: 0.0807769360607
+std_dev_volume: 0.0352462122872
+min_volume: 0.0
+max_volume: 0.19061585976
+
+movie_title: Dinosaur-13
+mean_volume: 0.0527233638326
+std_dev_volume: 0.0243329604401
+min_volume: 0.0
+max_volume: 0.15196361974
+
+movie_title: Dirty-Grandpa
+mean_volume: 0.0787547497154
+std_dev_volume: 0.0388623621842
+min_volume: 0.0
+max_volume: 0.204438030261
+
+movie_title: Dirty-Weekend
+mean_volume: 0.0665040869885
+std_dev_volume: 0.0161643400896
+min_volume: 0.00288319364928
+max_volume: 0.109866080987
+
+movie_title: Disconnect
+mean_volume: 0.120722471321
+std_dev_volume: 0.0728123259194
+min_volume: 0.0
+max_volume: 0.399522629574
+
+movie_title: Divergent
+mean_volume: 0.0607814198339
+std_dev_volume: 0.0340969102709
+min_volume: 0.0
+max_volume: 0.134814139877
+
+movie_title: Do-You-Believe
+mean_volume: 0.119080855049
+std_dev_volume: 0.0477965644389
+min_volume: 0.0
+max_volume: 0.275519105038
+
+movie_title: Dolphin-Tale-2
+mean_volume: 0.0615759452178
+std_dev_volume: 0.0221254974005
+min_volume: 0.0
+max_volume: 0.116759351604
+
+movie_title: Dom-Hemingway
+mean_volume: 0.0771418169722
+std_dev_volume: 0.0262860036615
+min_volume: 0.00311767245659
+max_volume: 0.127217497925
+
+movie_title: Don-Jon
+mean_volume: 0.0896883512053
+std_dev_volume: 0.0481772506257
+min_volume: 0.0
+max_volume: 0.363209522668
+
+movie_title: Don-Peyote
+mean_volume: 0.148405142693
+std_dev_volume: 0.0661338660902
+min_volume: 0.0
+max_volume: 0.360762310241
+
+movie_title: Don-Verdean
+mean_volume: 0.113019817107
+std_dev_volume: 0.0399779326813
+min_volume: 0.0187528069169
+max_volume: 0.284829505489
+
+movie_title: Dope
+mean_volume: 0.12864287605
+std_dev_volume: 0.0490294494729
+min_volume: 0.0
+max_volume: 0.250372746482
+
+movie_title: Dorfman-In-Love
+mean_volume: 0.0299941228142
+std_dev_volume: 0.0193027705695
+min_volume: 0.0
+max_volume: 0.0928020076257
+
+movie_title: Dracula-Untold
+mean_volume: 0.123597286194
+std_dev_volume: 0.0602598458246
+min_volume: 0.0
+max_volume: 0.256025592445
+
+movie_title: Draft-Day
+mean_volume: 0.131857974996
+std_dev_volume: 0.0617986711048
+min_volume: 0.0
+max_volume: 0.348560003095
+
+movie_title: Drinking-Buddies
+mean_volume: 0.0841007513077
+std_dev_volume: 0.0355342324896
+min_volume: 0.0
+max_volume: 0.244564005302
+
+movie_title: Drug-War
+mean_volume: 0.139845066174
+std_dev_volume: 0.048604607789
+min_volume: 0.0291476803717
+max_volume: 0.246253223573
+
+movie_title: Drunk-Stoned-Brilliant-Dead-The-Story-of-the-National-Lampoon
+mean_volume: 0.0859453160428
+std_dev_volume: 0.0431127353183
+min_volume: 0.0
+max_volume: 0.283887336064
+
+movie_title: Dumb-and-Dumber-To
+mean_volume: 0.0859052973713
+std_dev_volume: 0.0622269774491
+min_volume: 0.0
+max_volume: 0.289904376461
+
+movie_title: Dying-of-the-Light
+mean_volume: 0.0865898614964
+std_dev_volume: 0.0406616759172
+min_volume: 0.0
+max_volume: 0.221442344956
+
+movie_title: Earth-to-Echo
+mean_volume: 0.110330646144
+std_dev_volume: 0.128135369662
+min_volume: 0.0
+max_volume: 0.486720264301
+
+movie_title: Eden
+mean_volume: 0.0579441723233
+std_dev_volume: 0.035210255679
+min_volume: 0.0
+max_volume: 0.160287017661
+
+movie_title: Edge-of-Tomorrow
+mean_volume: 0.0629796365212
+std_dev_volume: 0.0302708943342
+min_volume: 0.0
+max_volume: 0.131179598096
+
+movie_title: Effie-Gray
+mean_volume: 0.0669978758867
+std_dev_volume: 0.0350014205515
+min_volume: 0.0
+max_volume: 0.190212395527
+
+movie_title: Elvis-Nixon
+mean_volume: 0.0843690352008
+std_dev_volume: 0.042905165713
+min_volume: 0.0
+max_volume: 0.257523457856
+
+movie_title: Elysium
+mean_volume: 0.102781481474
+std_dev_volume: 0.0614650478486
+min_volume: 0.0
+max_volume: 0.308067795735
+
+movie_title: Enders-Game
+mean_volume: 0.10419348086
+std_dev_volume: 0.0726942507601
+min_volume: 0.0
+max_volume: 0.339111247679
+
+movie_title: Endless-Love
+mean_volume: 0.0619192627061
+std_dev_volume: 0.0320854841414
+min_volume: 0.0
+max_volume: 0.136575597411
+
+movie_title: Enemies-Closer
+mean_volume: 0.111296413916
+std_dev_volume: 0.0636710930189
+min_volume: 0.0
+max_volume: 0.27184574362
+
+movie_title: Enemy
+mean_volume: 0.0999137553461
+std_dev_volume: 0.0521366698751
+min_volume: 0.0
+max_volume: 0.231552428011
+
+movie_title: Enough-Said
+mean_volume: 0.0407127316577
+std_dev_volume: 0.0147561071953
+min_volume: 0.0
+max_volume: 0.0906071051381
+
+movie_title: Entertainment
+mean_volume: 0.0479430546214
+std_dev_volume: 0.035461956602
+min_volume: 0.0
+max_volume: 0.129881035067
+
+movie_title: Entourage
+mean_volume: 0.114594615298
+std_dev_volume: 0.0610553244357
+min_volume: 0.0
+max_volume: 0.309168323341
+
+movie_title: Epic
+mean_volume: 0.0881217784404
+std_dev_volume: 0.054918113859
+min_volume: 0.0
+max_volume: 0.290761998742
+
+movie_title: Erased
+mean_volume: 0.12136758009
+std_dev_volume: 0.0711376297736
+min_volume: 0.0
+max_volume: 0.36749518947
+
+movie_title: Escape-Plan
+mean_volume: 0.105891544327
+std_dev_volume: 0.0608520701266
+min_volume: 0.0
+max_volume: 0.311031232235
+
+movie_title: Escobar-Paradise-Lost
+mean_volume: 0.0660675787299
+std_dev_volume: 0.0417476667839
+min_volume: 0.0
+max_volume: 0.246759923085
+
+movie_title: Everest
+mean_volume: 0.110926406309
+std_dev_volume: 0.0827591334253
+min_volume: 0.0
+max_volume: 0.393494578435
+
+movie_title: Everly
+mean_volume: 0.0660719870675
+std_dev_volume: 0.0375041516788
+min_volume: 0.00292857317612
+max_volume: 0.184895420332
+
+movie_title: Everybody-Wants-Some
+mean_volume: 0.116670621632
+std_dev_volume: 0.0469998899089
+min_volume: 0.0
+max_volume: 0.213346481245
+
+movie_title: Ex-Machina
+mean_volume: 0.122162934217
+std_dev_volume: 0.0881469545548
+min_volume: 0.0
+max_volume: 0.437124762579
+
+movie_title: Exists
+mean_volume: 0.092738560445
+std_dev_volume: 0.0769242175539
+min_volume: 0.0
+max_volume: 0.388271217839
+
+movie_title: Exodus-Gods-and-Kings
+mean_volume: 0.145041242975
+std_dev_volume: 0.103244819873
+min_volume: 0.0
+max_volume: 0.407479341525
+
+movie_title: Exposed-aka-Daughter-of-God
+mean_volume: 0.151129937394
+std_dev_volume: 0.101025828183
+min_volume: 0.00775247255054
+max_volume: 0.525190562769
+
+movie_title: Extraction
+mean_volume: 0.125526639102
+std_dev_volume: 0.0782763473234
+min_volume: 0.00442580181878
+max_volume: 0.371111164375
+
+movie_title: Eye-in-the-Sky
+mean_volume: 0.112389105788
+std_dev_volume: 0.0386093345316
+min_volume: 0.0
+max_volume: 0.244140688972
+
+movie_title: Fading-Gigolo
+mean_volume: 0.138050788479
+std_dev_volume: 0.0710318205293
+min_volume: 0.0
+max_volume: 0.439011068059
+
+movie_title: Faith-Connections
+mean_volume: 0.0756959605292
+std_dev_volume: 0.0418400685189
+min_volume: 0.0
+max_volume: 0.203876651001
+
+movie_title: Family-Weekend
+mean_volume: 0.0366245664441
+std_dev_volume: 0.0124026947557
+min_volume: 0.0
+max_volume: 0.0645493979998
+
+movie_title: Far-from-the-Madding-Crowd
+mean_volume: 0.104148876168
+std_dev_volume: 0.0632996451489
+min_volume: 0.0
+max_volume: 0.289965001692
+
+movie_title: Fast-Furious-6
+mean_volume: 0.140818563727
+std_dev_volume: 0.0606391419633
+min_volume: 0.0
+max_volume: 0.362359896135
+
+movie_title: Fat
+mean_volume: 0.131149616596
+std_dev_volume: 0.076743273235
+min_volume: 0.0
+max_volume: 0.313792278234
+
+movie_title: Fathers-and-Daughters
+mean_volume: 0.10440695638
+std_dev_volume: 0.0448727760218
+min_volume: 0.00819482459392
+max_volume: 0.243142960668
+
+movie_title: Faults
+mean_volume: 0.127422604956
+std_dev_volume: 0.0552377653374
+min_volume: 0.00325776722713
+max_volume: 0.362335067348
+
+movie_title: Fear-Clinic
+mean_volume: 0.0811632992673
+std_dev_volume: 0.0448235383064
+min_volume: 0.0
+max_volume: 0.202222450629
+
+movie_title: Fed-Up
+mean_volume: 0.0768660627589
+std_dev_volume: 0.0411372108142
+min_volume: 0.0
+max_volume: 0.29691341449
+
+movie_title: Felony
+mean_volume: 0.0958446531785
+std_dev_volume: 0.0463775789348
+min_volume: 0.0
+max_volume: 0.254234960158
+
+movie_title: Fifty-Shades-of-Black
+mean_volume: 0.120507664606
+std_dev_volume: 0.0608952556261
+min_volume: 0.0
+max_volume: 0.324937608261
+
+movie_title: Fifty-Shades-of-Grey
+mean_volume: 0.052864411469
+std_dev_volume: 0.0500317457163
+min_volume: 0.0
+max_volume: 0.269915814149
+
+movie_title: Filth
+mean_volume: 0.127220594993
+std_dev_volume: 0.0552732018468
+min_volume: 0.0
+max_volume: 0.217400395072
+
+movie_title: Finding-Vivian-Maier
+mean_volume: 0.0899330768769
+std_dev_volume: 0.0365905182779
+min_volume: 0.0
+max_volume: 0.194822869965
+
+movie_title: Focus
+mean_volume: 0.0741715990124
+std_dev_volume: 0.031268402582
+min_volume: 0.0
+max_volume: 0.183315041743
+
+movie_title: For-No-Good-Reason
+mean_volume: 0.0456878074751
+std_dev_volume: 0.0228585034762
+min_volume: 0.0
+max_volume: 0.114489068209
+
+movie_title: For-Those-Who-Can-Tell-No-Tales
+mean_volume: 0.141174446655
+std_dev_volume: 0.0535628333984
+min_volume: 0.0
+max_volume: 0.26435696207
+
+movie_title: Force-Majeure
+mean_volume: 0.0850926760866
+std_dev_volume: 0.0768182848566
+min_volume: 0.0
+max_volume: 0.303890296216
+
+movie_title: Forsaken
+mean_volume: 0.0874495398902
+std_dev_volume: 0.044598463593
+min_volume: 0.0
+max_volume: 0.198003839123
+
+movie_title: Fort-Bliss
+mean_volume: 0.100422621337
+std_dev_volume: 0.0615089671537
+min_volume: 0.0
+max_volume: 0.316572356532
+
+movie_title: Foxcatcher
+mean_volume: 0.09641562053
+std_dev_volume: 0.0507796196467
+min_volume: 0.0
+max_volume: 0.189646062929
+
+movie_title: Frank
+mean_volume: 0.0700432662139
+std_dev_volume: 0.038012465877
+min_volume: 0.0
+max_volume: 0.176695287466
+
+movie_title: Frankentsteins-Army
+mean_volume: 0.0756951476598
+std_dev_volume: 0.0521212822621
+min_volume: 0.0
+max_volume: 0.301943295978
+
+movie_title: Freaks-of-Nature
+mean_volume: 0.14654725518
+std_dev_volume: 0.0878492104843
+min_volume: 0.0
+max_volume: 0.430286173251
+
+movie_title: Free-Birds
+mean_volume: 0.0630687591456
+std_dev_volume: 0.035475300144
+min_volume: 0.0
+max_volume: 0.20807050755
+
+movie_title: Free-State-of-Jones
+mean_volume: 0.0949197409307
+std_dev_volume: 0.0475711183793
+min_volume: 0.0
+max_volume: 0.230603416838
+
+movie_title: Free-the-Nipple
+mean_volume: 0.0768988661603
+std_dev_volume: 0.0303511896197
+min_volume: 0.0
+max_volume: 0.179122657104
+
+movie_title: Frontera
+mean_volume: 0.0617356121887
+std_dev_volume: 0.0266888829533
+min_volume: 0.0
+max_volume: 0.124673668476
+
+movie_title: Frozen-Fever
+mean_volume: 0.103746822931
+std_dev_volume: 0.0420049751383
+min_volume: 0.00617503865497
+max_volume: 0.193174098423
+
+movie_title: Furious-7
+mean_volume: 0.12127774065
+std_dev_volume: 0.0714682899177
+min_volume: 0.0
+max_volume: 0.277570701171
+
+movie_title: Fury
+mean_volume: 0.0898263928618
+std_dev_volume: 0.0484163549922
+min_volume: 0.0
+max_volume: 0.292065665848
+
+movie_title: Gallowwalkers
+mean_volume: 0.0871420541259
+std_dev_volume: 0.0346452157663
+min_volume: 0.0
+max_volume: 0.18813857342
+
+movie_title: Generation-Um
+mean_volume: 0.10537969211
+std_dev_volume: 0.0591374968734
+min_volume: 0.0
+max_volume: 0.27928031201
+
+movie_title: Get-Hard
+mean_volume: 0.0681879100158
+std_dev_volume: 0.0231071901059
+min_volume: 0.0
+max_volume: 0.159961317682
+
+movie_title: Get-on-Up
+mean_volume: 0.116780414918
+std_dev_volume: 0.0566673496353
+min_volume: 0.0
+max_volume: 0.266138297738
+
+movie_title: Get-Santa
+mean_volume: 0.0927915121946
+std_dev_volume: 0.0406935825679
+min_volume: 0.00178757464875
+max_volume: 0.220356466605
+
+movie_title: Getaway
+mean_volume: 0.127748833807
+std_dev_volume: 0.0716874006735
+min_volume: 0.0
+max_volume: 0.295618264676
+
+movie_title: Girl-Most-Likely
+mean_volume: 0.126794453619
+std_dev_volume: 0.0628564032437
+min_volume: 0.0
+max_volume: 0.315082329574
+
+movie_title: Girlhood
+mean_volume: 0.124476810792
+std_dev_volume: 0.054256373231
+min_volume: 0.00171848817774
+max_volume: 0.376348015667
+
+movie_title: Go-for-Sisters
+mean_volume: 0.0805967052088
+std_dev_volume: 0.047403275003
+min_volume: 0.0
+max_volume: 0.275014827887
+
+movie_title: God-Help-the-Girl
+mean_volume: 0.176239463049
+std_dev_volume: 0.0637959459432
+min_volume: 0.00592686840739
+max_volume: 0.301414405635
+
+movie_title: Gods-of-Egypt
+mean_volume: 0.153105905899
+std_dev_volume: 0.0844544996771
+min_volume: 0.00472514012498
+max_volume: 0.471226536499
+
+movie_title: Gods-Pocket
+mean_volume: 0.093158633681
+std_dev_volume: 0.050470268404
+min_volume: 0.0
+max_volume: 0.25027272088
+
+movie_title: Godzilla
+mean_volume: 0.0840076453877
+std_dev_volume: 0.0381514602319
+min_volume: 0.0
+max_volume: 0.185027298007
+
+movie_title: Going-Clear-Scientology-and-the-Prison-of-Belief
+mean_volume: 0.0482751514466
+std_dev_volume: 0.0150010661521
+min_volume: 0.00561228769434
+max_volume: 0.0977961242918
+
+movie_title: Gone-Girl
+mean_volume: 0.0839740283768
+std_dev_volume: 0.0449130393559
+min_volume: 0.0
+max_volume: 0.171194230235
+
+movie_title: Good-Kill
+mean_volume: 0.105548035087
+std_dev_volume: 0.0400619099978
+min_volume: 0.0
+max_volume: 0.252755054364
+
+movie_title: Good-People
+mean_volume: 0.108088607846
+std_dev_volume: 0.0535352750665
+min_volume: 0.0
+max_volume: 0.33976546184
+
+movie_title: Goodbye-World
+mean_volume: 0.100612429153
+std_dev_volume: 0.0471289129297
+min_volume: 0.0213652099819
+max_volume: 0.295252806011
+
+movie_title: Goodnight-Mommy
+mean_volume: 0.100090966317
+std_dev_volume: 0.0914500034172
+min_volume: 0.0
+max_volume: 0.39177201723
+
+movie_title: Goosebumps
+mean_volume: 0.0708108774883
+std_dev_volume: 0.04787368553
+min_volume: 0.0
+max_volume: 0.191111320516
+
+movie_title: Grace-of-Monaco
+mean_volume: 0.0855938659226
+std_dev_volume: 0.0477487541273
+min_volume: 0.0
+max_volume: 0.224117427878
+
+movie_title: Grand-Piano
+mean_volume: 0.0811211441683
+std_dev_volume: 0.0629688417504
+min_volume: 0.0
+max_volume: 0.246965459705
+
+movie_title: Gravity
+mean_volume: 0.196425767867
+std_dev_volume: 0.192680131109
+min_volume: 0.0
+max_volume: 0.683476268904
+
+movie_title: Grown-Ups-2
+mean_volume: 0.0921060949206
+std_dev_volume: 0.043631479138
+min_volume: 0.0
+max_volume: 0.21093436452
+
+movie_title: Grudge-Match
+mean_volume: 0.0545944633222
+std_dev_volume: 0.0218818320548
+min_volume: 0.0
+max_volume: 0.123406453456
+
+movie_title: Guardians-of-the-Galaxy
+mean_volume: 0.0862047337938
+std_dev_volume: 0.0473975269447
+min_volume: 0.0
+max_volume: 0.319183821817
+
+movie_title: Hail-Caesar
+mean_volume: 0.128088801986
+std_dev_volume: 0.0992418026221
+min_volume: 0.0
+max_volume: 0.516789060686
+
+movie_title: Half-of-a-Yellow-Sun
+mean_volume: 0.03786578023
+std_dev_volume: 0.0212901929755
+min_volume: 0.0
+max_volume: 0.116723412382
+
+movie_title: Happy-Christmas
+mean_volume: 0.0937111559787
+std_dev_volume: 0.0417357823998
+min_volume: 0.0
+max_volume: 0.244603420292
+
+movie_title: Hateship-Loveship
+mean_volume: 0.0666865784353
+std_dev_volume: 0.036218407766
+min_volume: 0.0
+max_volume: 0.149385917025
+
+movie_title: Heat
+mean_volume: 0.0756051440686
+std_dev_volume: 0.0491969049184
+min_volume: 0.0
+max_volume: 0.279271159239
+
+movie_title: Heaven-Knows-What
+mean_volume: 0.080252063032
+std_dev_volume: 0.0501922389507
+min_volume: 0.0
+max_volume: 0.276650664316
+
+movie_title: Hector-and-the-Search-for-Happiness
+mean_volume: 0.0816696649648
+std_dev_volume: 0.0458139875789
+min_volume: 0.0
+max_volume: 0.297476835842
+
+movie_title: Hellion
+mean_volume: 0.0873299722427
+std_dev_volume: 0.0437664381046
+min_volume: 0.0
+max_volume: 0.27919533432
+
+movie_title: Hello-My-Name-Is-Doris
+mean_volume: 0.0680837314036
+std_dev_volume: 0.0262616515269
+min_volume: 0.0
+max_volume: 0.132095285209
+
+movie_title: Her
+mean_volume: 0.0435586316504
+std_dev_volume: 0.0214731681315
+min_volume: 0.0
+max_volume: 0.0992546972343
+
+movie_title: Hercules
+mean_volume: 0.0917940400251
+std_dev_volume: 0.0455445263841
+min_volume: 0.0
+max_volume: 0.2220511176
+
+movie_title: Hitman-Agent-47
+mean_volume: 0.122945886056
+std_dev_volume: 0.0753427162971
+min_volume: 0.0
+max_volume: 0.330398113612
+
+movie_title: Hits
+mean_volume: 0.0774195830733
+std_dev_volume: 0.035070171769
+min_volume: 0.00880294883228
+max_volume: 0.183730172493
+
+movie_title: Home-2015
+mean_volume: 0.0792890083631
+std_dev_volume: 0.0379204842021
+min_volume: 0.0
+max_volume: 0.176737052483
+
+movie_title: Home-Sweet-Hell
+mean_volume: 0.0763651681311
+std_dev_volume: 0.0381505929765
+min_volume: 0.0
+max_volume: 0.196631882247
+
+movie_title: Homefront
+mean_volume: 0.124395955603
+std_dev_volume: 0.0776207765745
+min_volume: 0.0
+max_volume: 0.416148849774
+
+movie_title: Honeymoon
+mean_volume: 0.1158380907
+std_dev_volume: 0.0739904422491
+min_volume: 0.0
+max_volume: 0.323274273948
+
+movie_title: Horns
+mean_volume: 0.0840293156618
+std_dev_volume: 0.0481707895433
+min_volume: 0.0
+max_volume: 0.209633335796
+
+movie_title: Horrible-Bosses-2
+mean_volume: 0.0757741798179
+std_dev_volume: 0.0441106713828
+min_volume: 0.0
+max_volume: 0.172824711922
+
+movie_title: Hot-Pursuit
+mean_volume: 0.0578236580326
+std_dev_volume: 0.0244653316679
+min_volume: 0.0
+max_volume: 0.12457339026
+
+movie_title: Hot-Tub-Time-Machine-2
+mean_volume: 0.0894149882406
+std_dev_volume: 0.0326057558067
+min_volume: 0.0
+max_volume: 0.210310604924
+
+movie_title: Hours
+mean_volume: 0.108858660271
+std_dev_volume: 0.0557877118104
+min_volume: 0.0
+max_volume: 0.280563370072
+
+movie_title: Housebound
+mean_volume: 0.226199262034
+std_dev_volume: 0.126382524117
+min_volume: 0.0
+max_volume: 0.598863344054
+
+movie_title: How-I-Live-Now
+mean_volume: 0.120220551072
+std_dev_volume: 0.0639022022712
+min_volume: 0.00169638779574
+max_volume: 0.326635301014
+
+movie_title: How-to-Be-Single
+mean_volume: 0.0719536988289
+std_dev_volume: 0.0332037228446
+min_volume: 0.0
+max_volume: 0.155706278713
+
+movie_title: How-to-Train-Your-Dragon-2
+mean_volume: 0.269581437589
+std_dev_volume: 0.16197114975
+min_volume: 0.0
+max_volume: 0.699533536781
+
+movie_title: Hunky-Dory
+mean_volume: 0.0463919021272
+std_dev_volume: 0.0290206756687
+min_volume: 0.00265583389671
+max_volume: 0.167408788659
+
+movie_title: I-Frankenstein
+mean_volume: 0.195474892205
+std_dev_volume: 0.0947313447913
+min_volume: 0.0
+max_volume: 0.38443973868
+
+movie_title: I-Origins
+mean_volume: 0.119217043821
+std_dev_volume: 0.0671085383727
+min_volume: 0.0
+max_volume: 0.357232523972
+
+movie_title: I-Saw-the-Light
+mean_volume: 0.0737580639149
+std_dev_volume: 0.0371234811839
+min_volume: 0.0
+max_volume: 0.173975472189
+
+movie_title: I-Smile-Back
+mean_volume: 0.0928346677691
+std_dev_volume: 0.0629470877982
+min_volume: 0.0
+max_volume: 0.321652096994
+
+movie_title: Ice-Age-Collision-Course
+mean_volume: 0.0951026352891
+std_dev_volume: 0.0671676450085
+min_volume: 0.0
+max_volume: 0.328787054034
+
+movie_title: Ida
+mean_volume: 0.0510099728458
+std_dev_volume: 0.0485637150572
+min_volume: 0.0
+max_volume: 0.235450438021
+
+movie_title: If-I-Stay
+mean_volume: 0.0510290490849
+std_dev_volume: 0.0255144534394
+min_volume: 0.0
+max_volume: 0.112917629924
+
+movie_title: If-I-Were-You
+mean_volume: 0.0428036614076
+std_dev_volume: 0.0265259969151
+min_volume: 0.0
+max_volume: 0.156056014429
+
+movie_title: Ill-Follow-You-Down
+mean_volume: 0.109473126968
+std_dev_volume: 0.0570166704008
+min_volume: 0.0
+max_volume: 0.281666358428
+
+movie_title: In-a-World
+mean_volume: 0.0885542153548
+std_dev_volume: 0.0451254368588
+min_volume: 0.0
+max_volume: 0.242307135153
+
+movie_title: In-Fear
+mean_volume: 0.121706649299
+std_dev_volume: 0.0994308786598
+min_volume: 0.0
+max_volume: 0.404971005948
+
+movie_title: In-Organic-We-Trust
+mean_volume: 0.0499019994537
+std_dev_volume: 0.0229224646569
+min_volume: 0.0
+max_volume: 0.140675553991
+
+movie_title: In-Secret
+mean_volume: 0.118249357228
+std_dev_volume: 0.087318927947
+min_volume: 0.0
+max_volume: 0.402439259489
+
+movie_title: In-the-Blood
+mean_volume: 0.0690878966486
+std_dev_volume: 0.0344966216875
+min_volume: 0.0
+max_volume: 0.189294811452
+
+movie_title: In-the-Heart-of-the-Sea
+mean_volume: 0.0954608228278
+std_dev_volume: 0.0508694580448
+min_volume: 0.0
+max_volume: 0.274586363009
+
+movie_title: In-the-Name-of-the-Father
+mean_volume: 0.134583384967
+std_dev_volume: 0.0480594622183
+min_volume: 0.0
+max_volume: 0.269131914468
+
+movie_title: InAPPropriate-Comedy
+mean_volume: 0.10677776717
+std_dev_volume: 0.0534426361315
+min_volume: 0.0
+max_volume: 0.241586870548
+
+movie_title: Independence-Day-Resurgence
+mean_volume: 0.126728362313
+std_dev_volume: 0.0682389282613
+min_volume: 0.0
+max_volume: 0.39122541064
+
+movie_title: Infinitely-Polar-Bear
+mean_volume: 0.0289742006822
+std_dev_volume: 0.0102866271302
+min_volume: 0.0
+max_volume: 0.0636023968838
+
+movie_title: Ingrid-Bergman-in-Her-Own-Words
+mean_volume: 0.0985740452575
+std_dev_volume: 0.05704646553
+min_volume: 0.0
+max_volume: 0.209093510034
+
+movie_title: Inherent-Vice
+mean_volume: 0.0991946811807
+std_dev_volume: 0.0502690907617
+min_volume: 0.0
+max_volume: 0.276724065574
+
+movie_title: Innocence
+mean_volume: 0.150522775112
+std_dev_volume: 0.0778284920505
+min_volume: 0.0
+max_volume: 0.472222112854
+
+movie_title: Inside-Llewyn-Davis
+mean_volume: 0.0597380213616
+std_dev_volume: 0.0464130078461
+min_volume: 0.0
+max_volume: 0.233329688778
+
+movie_title: Inside-Out
+mean_volume: 0.0967678575239
+std_dev_volume: 0.0459547095118
+min_volume: 0.0
+max_volume: 0.184899917251
+
+movie_title: Insidious-Chapter-2
+mean_volume: 0.0640041607097
+std_dev_volume: 0.0532023667835
+min_volume: 0.0
+max_volume: 0.198257908961
+
+movie_title: Insidious-Chapter-3
+mean_volume: 0.0516230480536
+std_dev_volume: 0.0512999338878
+min_volume: 0.0
+max_volume: 0.221938247385
+
+movie_title: Interstellar
+mean_volume: 0.0754046385916
+std_dev_volume: 0.0420948773297
+min_volume: 0.0
+max_volume: 0.16941234691
+
+movie_title: Into-the-Storm
+mean_volume: 0.0443923865861
+std_dev_volume: 0.03617817461
+min_volume: 0.0
+max_volume: 0.108548148008
+
+movie_title: Into-the-White
+mean_volume: 0.0952113583097
+std_dev_volume: 0.0489888239936
+min_volume: 0.0
+max_volume: 0.194520720611
+
+movie_title: Into-the-Woods
+mean_volume: 0.045591504055
+std_dev_volume: 0.034309389318
+min_volume: 0.0
+max_volume: 0.136909769896
+
+movie_title: Iron-Man-3
+mean_volume: 0.13340435694
+std_dev_volume: 0.0866400299105
+min_volume: 0.0
+max_volume: 0.308445276939
+
+movie_title: Island-of-Lemurs-Madagascar
+mean_volume: 0.137090704845
+std_dev_volume: 0.056957053847
+min_volume: 0.0
+max_volume: 0.294202973605
+
+movie_title: It-Follows
+mean_volume: 0.090692076219
+std_dev_volume: 0.0627005121687
+min_volume: 0.0
+max_volume: 0.343171493338
+
+movie_title: Jack-Ryan-Shadow-Recruit
+mean_volume: 0.102599190754
+std_dev_volume: 0.0436790559955
+min_volume: 0.0
+max_volume: 0.199679181561
+
+movie_title: Jackass-Presents-Bad-Grandpa
+mean_volume: 0.0690174040755
+std_dev_volume: 0.0362686741714
+min_volume: 0.0
+max_volume: 0.138371447469
+
+movie_title: Jackie-Ryan
+mean_volume: 0.0541878258266
+std_dev_volume: 0.0231449569715
+min_volume: 0.0
+max_volume: 0.138516332126
+
+movie_title: Jane-Got-a-Gun
+mean_volume: 0.14627053674
+std_dev_volume: 0.0406388610427
+min_volume: 0.0189027047062
+max_volume: 0.238896985835
+
+movie_title: Janis-Little-Girl-Blue
+mean_volume: 0.068418038136
+std_dev_volume: 0.0350245503091
+min_volume: 0.0
+max_volume: 0.160575422053
+
+movie_title: Jason-Bourne
+mean_volume: 0.0521392877931
+std_dev_volume: 0.0201819079284
+min_volume: 0.0138212169624
+max_volume: 0.112982932536
+
+movie_title: Jauja
+mean_volume: 0.112961868327
+std_dev_volume: 0.0711316060289
+min_volume: 0.0
+max_volume: 0.365059314092
+
+movie_title: Jersey-Boys
+mean_volume: 0.0728514139807
+std_dev_volume: 0.0355756790146
+min_volume: 0.0
+max_volume: 0.195572970856
+
+movie_title: Jessabelle
+mean_volume: 0.137052278195
+std_dev_volume: 0.0777865163539
+min_volume: 0.0
+max_volume: 0.326335354712
+
+movie_title: Jimi-All-is-By-My-Side
+mean_volume: 0.145910928776
+std_dev_volume: 0.0622267242085
+min_volume: 0.0
+max_volume: 0.37032161966
+
+movie_title: Jingle-Bell-Rocks
+mean_volume: 0.0541571015553
+std_dev_volume: 0.0208056764863
+min_volume: 0.00963132615103
+max_volume: 0.0935667492882
+
+movie_title: Jobs
+mean_volume: 0.127440203204
+std_dev_volume: 0.0674069398853
+min_volume: 0.0
+max_volume: 0.301462087254
+
+movie_title: Joe
+mean_volume: 0.103218490562
+std_dev_volume: 0.0620870077757
+min_volume: 0.0
+max_volume: 0.283246423796
+
+movie_title: John-Wick
+mean_volume: 0.0807308144891
+std_dev_volume: 0.0474680068288
+min_volume: 0.0
+max_volume: 0.185173813694
+
+movie_title: Joy
+mean_volume: 0.0951872213443
+std_dev_volume: 0.071819755929
+min_volume: 0.0
+max_volume: 0.356006292321
+
+movie_title: Jupiter-Ascending
+mean_volume: 0.0664130342159
+std_dev_volume: 0.0315379831636
+min_volume: 0.0
+max_volume: 0.143368802667
+
+movie_title: Jurassic-World
+mean_volume: 0.0869487293746
+std_dev_volume: 0.0761904143277
+min_volume: 0.0
+max_volume: 0.359375076587
+
+movie_title: Keanu
+mean_volume: 0.0609589564082
+std_dev_volume: 0.0312711857406
+min_volume: 0.0
+max_volume: 0.175186610836
+
+movie_title: Kevin-Hart-Let-Me-Explain
+mean_volume: 0.131999719765
+std_dev_volume: 0.0864610837458
+min_volume: 0.0
+max_volume: 0.446557543348
+
+movie_title: Kick-Ass-2
+mean_volume: 0.0604635895789
+std_dev_volume: 0.033822213951
+min_volume: 0.0
+max_volume: 0.14747443401
+
+movie_title: Kidnapping-Mr-Heineken
+mean_volume: 0.100995875974
+std_dev_volume: 0.0540492363426
+min_volume: 0.0
+max_volume: 0.248517200705
+
+movie_title: Kill-Me-Three-Times
+mean_volume: 0.0823120183923
+std_dev_volume: 0.0500801183538
+min_volume: 0.0
+max_volume: 0.244852119385
+
+movie_title: Kill-the-Messenger
+mean_volume: 0.0761071837597
+std_dev_volume: 0.0331049796422
+min_volume: 0.0
+max_volume: 0.14926554982
+
+movie_title: Kill-Your-Darlings
+mean_volume: 0.144752082386
+std_dev_volume: 0.0911697514426
+min_volume: 0.0
+max_volume: 0.377746061891
+
+movie_title: Killing-Season
+mean_volume: 0.0926033142994
+std_dev_volume: 0.0425746874399
+min_volume: 0.00347990715433
+max_volume: 0.197986352413
+
+movie_title: Kingsman-The-Secret-Service
+mean_volume: 0.12781300677
+std_dev_volume: 0.075728098569
+min_volume: 0.0
+max_volume: 0.424603646983
+
+movie_title: Kiss-of-the-Damned
+mean_volume: 0.132099669445
+std_dev_volume: 0.0739592384168
+min_volume: 0.0
+max_volume: 0.361487807657
+
+movie_title: Kite
+mean_volume: 0.0937099578969
+std_dev_volume: 0.0525053984382
+min_volume: 0.0
+max_volume: 0.226867305803
+
+movie_title: Knight-of-Cups
+mean_volume: 0.118115990372
+std_dev_volume: 0.0448730270965
+min_volume: 0.0
+max_volume: 0.229677790217
+
+movie_title: Knock-Knock
+mean_volume: 0.105772231326
+std_dev_volume: 0.0819377234293
+min_volume: 0.0207572956781
+max_volume: 0.349924158865
+
+movie_title: Krampus
+mean_volume: 0.0927119807855
+std_dev_volume: 0.0855185088695
+min_volume: 0.0
+max_volume: 0.450315493106
+
+movie_title: Kumiko-the-Treasure-Hunter
+mean_volume: 0.118329337042
+std_dev_volume: 0.0788634503424
+min_volume: 0.0
+max_volume: 0.267611756363
+
+movie_title: Kung-Fu-Panda-3
+mean_volume: 0.0648605029009
+std_dev_volume: 0.0493677631788
+min_volume: 0.0
+max_volume: 0.177391514416
+
+movie_title: Labor-Day
+mean_volume: 0.0917565292018
+std_dev_volume: 0.0366373148192
+min_volume: 0.0
+max_volume: 0.18536083962
+
+movie_title: Laggies
+mean_volume: 0.0868898899202
+std_dev_volume: 0.0432145816032
+min_volume: 0.0
+max_volume: 0.199032036653
+
+movie_title: Lap-Dance
+mean_volume: 0.0753977780484
+std_dev_volume: 0.0482277848449
+min_volume: 0.0
+max_volume: 0.243618210673
+
+movie_title: Last-Knights
+mean_volume: 0.106796033955
+std_dev_volume: 0.0426684502909
+min_volume: 0.0
+max_volume: 0.21731399911
+
+movie_title: Last-Vegas
+mean_volume: 0.0404610896075
+std_dev_volume: 0.0269622940597
+min_volume: 0.0
+max_volume: 0.115695318541
+
+movie_title: Le-Week-End
+mean_volume: 0.0689134942501
+std_dev_volume: 0.0378484147652
+min_volume: 0.0
+max_volume: 0.201683858526
+
+movie_title: Legend
+mean_volume: 0.112352731697
+std_dev_volume: 0.0486456139081
+min_volume: 0.0034174840664
+max_volume: 0.258728645077
+
+movie_title: Legends-of-Oz-Dorothys-Return
+mean_volume: 0.0866815318516
+std_dev_volume: 0.0289196946209
+min_volume: 0.0
+max_volume: 0.135547168851
+
+movie_title: Leonie
+mean_volume: 0.0455669989035
+std_dev_volume: 0.0263249556316
+min_volume: 0.00178480039067
+max_volume: 0.13711387473
+
+movie_title: Lets-Be-Cops
+mean_volume: 0.202297228388
+std_dev_volume: 0.0687386949226
+min_volume: 0.0
+max_volume: 0.330576582893
+
+movie_title: Leviathan
+mean_volume: 0.104742072282
+std_dev_volume: 0.0759306850566
+min_volume: 0.0
+max_volume: 0.414267271507
+
+movie_title: Life
+mean_volume: 0.0834713720255
+std_dev_volume: 0.0255997064946
+min_volume: 0.0
+max_volume: 0.163358403243
+
+movie_title: Life-Itself
+mean_volume: 0.0946438713922
+std_dev_volume: 0.0346618437816
+min_volume: 0.0
+max_volume: 0.168285406601
+
+movie_title: Life-of-Crime
+mean_volume: 0.102677630575
+std_dev_volume: 0.0418675153325
+min_volume: 0.0
+max_volume: 0.223007978216
+
+movie_title: Lifes-a-Breeze
+mean_volume: 0.0468728923191
+std_dev_volume: 0.0274915477919
+min_volume: 0.0
+max_volume: 0.111459831881
+
+movie_title: Little-Accidents
+mean_volume: 0.0665991527801
+std_dev_volume: 0.0187441766601
+min_volume: 0.0
+max_volume: 0.127619020807
+
+movie_title: Little-Boy
+mean_volume: 0.112282379317
+std_dev_volume: 0.0652975502717
+min_volume: 0.0
+max_volume: 0.378557246449
+
+movie_title: Loitering-with-Intent
+mean_volume: 0.0488930397438
+std_dev_volume: 0.0193645494892
+min_volume: 0.00925939893317
+max_volume: 0.103607678038
+
+movie_title: London-Has-Fallen
+mean_volume: 0.327180562696
+std_dev_volume: 0.160470329346
+min_volume: 0.0
+max_volume: 0.769205742403
+
+movie_title: Lost-River
+mean_volume: 0.15345860951
+std_dev_volume: 0.0909210343567
+min_volume: 0.0
+max_volume: 0.471831871084
+
+movie_title: Love-Is-All-You-Need
+mean_volume: 0.0874967758278
+std_dev_volume: 0.0466432478795
+min_volume: 0.0
+max_volume: 0.339355186807
+
+movie_title: Love-is-Strange
+mean_volume: 0.114043763002
+std_dev_volume: 0.0395200346615
+min_volume: 0.00543321733023
+max_volume: 0.254792113064
+
+movie_title: Love-Mercy
+mean_volume: 0.0908854258621
+std_dev_volume: 0.0418291636653
+min_volume: 0.0
+max_volume: 0.178501279461
+
+movie_title: Love-the-Coopers
+mean_volume: 0.068886166243
+std_dev_volume: 0.0316435114537
+min_volume: 0.0
+max_volume: 0.161469053728
+
+movie_title: Lovelace
+mean_volume: 0.123056138892
+std_dev_volume: 0.0833695495464
+min_volume: 0.0
+max_volume: 0.323802585955
+
+movie_title: Low-Down
+mean_volume: 0.0552754524003
+std_dev_volume: 0.0369952237465
+min_volume: 0.0
+max_volume: 0.15279822563
+
+movie_title: Lucy
+mean_volume: 0.124284863032
+std_dev_volume: 0.069406887497
+min_volume: 0.0
+max_volume: 0.285656139819
+
+movie_title: Lullaby
+mean_volume: 0.156890960865
+std_dev_volume: 0.0621649089502
+min_volume: 0.0
+max_volume: 0.315897415715
+
+movie_title: Macbeth
+mean_volume: 0.113905287088
+std_dev_volume: 0.066522986355
+min_volume: 0.0
+max_volume: 0.300806569899
+
+movie_title: Machete-Kills
+mean_volume: 0.215056238784
+std_dev_volume: 0.112920736718
+min_volume: 0.0
+max_volume: 0.441480786034
+
+movie_title: Mad-Max-Fury-Road
+mean_volume: 0.0848843951136
+std_dev_volume: 0.0468086766963
+min_volume: 0.0
+max_volume: 0.181566138938
+
+movie_title: Madame-Bovary
+mean_volume: 0.0733465133597
+std_dev_volume: 0.0487958185125
+min_volume: 0.0
+max_volume: 0.278198132578
+
+movie_title: Maggie
+mean_volume: 0.150672860041
+std_dev_volume: 0.0755324760414
+min_volume: 0.0
+max_volume: 0.359121120911
+
+movie_title: Magic-in-the-Moonlight
+mean_volume: 0.131653157374
+std_dev_volume: 0.0513250465408
+min_volume: 0.0
+max_volume: 0.337817400549
+
+movie_title: Magic-Mike-XXL
+mean_volume: 0.0565467693829
+std_dev_volume: 0.0398619727623
+min_volume: 0.0
+max_volume: 0.154979853174
+
+movie_title: Maladies
+mean_volume: 0.0775104674083
+std_dev_volume: 0.0379245308428
+min_volume: 0.0
+max_volume: 0.265645754262
+
+movie_title: Maleficent
+mean_volume: 0.141321971828
+std_dev_volume: 0.107954695058
+min_volume: 0.0
+max_volume: 0.464549689714
+
+movie_title: Man-Up
+mean_volume: 0.0887509981954
+std_dev_volume: 0.0414855874607
+min_volume: 0.0
+max_volume: 0.224906591747
+
+movie_title: Mandela-Long-Walk-to-Freedom
+mean_volume: 0.104597906629
+std_dev_volume: 0.0680225318716
+min_volume: 0.0
+max_volume: 0.351396908215
+
+movie_title: Maniac
+mean_volume: 0.107682066963
+std_dev_volume: 0.0519176925749
+min_volume: 0.00868688544705
+max_volume: 0.271359537157
+
+movie_title: Maps-to-the-Stars
+mean_volume: 0.132782297908
+std_dev_volume: 0.0587173716908
+min_volume: 0.0
+max_volume: 0.302553858557
+
+movie_title: Masterminds
+mean_volume: 0.112545325769
+std_dev_volume: 0.0747651300443
+min_volume: 0.0
+max_volume: 0.300702438262
+
+movie_title: Match
+mean_volume: 0.0789618658804
+std_dev_volume: 0.0345373819744
+min_volume: 0.0
+max_volume: 0.215947454676
+
+movie_title: Max
+mean_volume: 0.0735782610687
+std_dev_volume: 0.0324332589941
+min_volume: 0.0
+max_volume: 0.153320066146
+
+movie_title: Maze-Runner-The-Scorch-Trials
+mean_volume: 0.124451867904
+std_dev_volume: 0.0738241089451
+min_volume: 0.0
+max_volume: 0.333786100696
+
+movie_title: McCanick
+mean_volume: 0.0620022386517
+std_dev_volume: 0.0475044592537
+min_volume: 0.0
+max_volume: 0.253679283455
+
+movie_title: McFarland-USA
+mean_volume: 0.0409153701312
+std_dev_volume: 0.0238901636456
+min_volume: 0.0
+max_volume: 0.11765923407
+
+movie_title: Me-and-Earl-and-the-Dying-Girl
+mean_volume: 0.110567911005
+std_dev_volume: 0.0469785420738
+min_volume: 0.00129399711741
+max_volume: 0.309036485455
+
+movie_title: Meadowland
+mean_volume: 0.0687678809072
+std_dev_volume: 0.038488940197
+min_volume: 0.0
+max_volume: 0.198085643486
+
+movie_title: Men-Women-Children
+mean_volume: 0.084766017617
+std_dev_volume: 0.0463781137325
+min_volume: 0.0
+max_volume: 0.148754003095
+
+movie_title: Metallica-Through-the-Never
+mean_volume: 0.0972822226003
+std_dev_volume: 0.0427121934041
+min_volume: 0.0
+max_volume: 0.319838104725
+
+movie_title: Million-Dollar-Arm
+mean_volume: 0.100696974751
+std_dev_volume: 0.061197753446
+min_volume: 0.0
+max_volume: 0.365066067715
+
+movie_title: Minions
+mean_volume: 0.0433611234912
+std_dev_volume: 0.0307364697332
+min_volume: 0.0
+max_volume: 0.143194480231
+
+movie_title: Misconduct
+mean_volume: 0.107343222823
+std_dev_volume: 0.0557290028615
+min_volume: 0.0
+max_volume: 0.304036690116
+
+movie_title: Miss-Julie
+mean_volume: 0.0184740122868
+std_dev_volume: 0.00893631945233
+min_volume: 0.0
+max_volume: 0.0399605828004
+
+movie_title: Miss-Meadows
+mean_volume: 0.08352397867
+std_dev_volume: 0.0374393304906
+min_volume: 0.0
+max_volume: 0.220695970512
+
+movie_title: Miss-You-Already
+mean_volume: 0.109411777093
+std_dev_volume: 0.0481110731609
+min_volume: 0.0
+max_volume: 0.206375334784
+
+movie_title: Mission-Impossible-Rogue-Nation
+mean_volume: 0.0941392447017
+std_dev_volume: 0.0495478352081
+min_volume: 0.0
+max_volume: 0.17972590179
+
+movie_title: Mistress-America
+mean_volume: 0.101652905335
+std_dev_volume: 0.0452859851228
+min_volume: 0.0
+max_volume: 0.27685716751
+
+movie_title: Mommy
+mean_volume: 0.0421540062272
+std_dev_volume: 0.0177095380342
+min_volume: 0.0
+max_volume: 0.0702760175361
+
+movie_title: Money-Monster
+mean_volume: 0.0831407770173
+std_dev_volume: 0.0398037011223
+min_volume: 0.0
+max_volume: 0.229557916833
+
+movie_title: Monkey-Kingdom
+mean_volume: 0.143644237566
+std_dev_volume: 0.0896381470982
+min_volume: 0.0
+max_volume: 0.353575162675
+
+movie_title: Monsters-Dark-Continent
+mean_volume: 0.202307838371
+std_dev_volume: 0.0831286461842
+min_volume: 0.0
+max_volume: 0.371001267643
+
+movie_title: Monsters-University
+mean_volume: 0.0363412825853
+std_dev_volume: 0.0363125835813
+min_volume: 0.0
+max_volume: 0.148284605225
+
+movie_title: Mood-Indigo
+mean_volume: 0.0965025627256
+std_dev_volume: 0.0466799944241
+min_volume: 0.0
+max_volume: 0.211619988859
+
+movie_title: Mr-Holmes
+mean_volume: 0.0637338340679
+std_dev_volume: 0.0375106144081
+min_volume: 0.0
+max_volume: 0.132119784413
+
+movie_title: Mr-Peabody-Sherman
+mean_volume: 0.0789422398053
+std_dev_volume: 0.0353064342458
+min_volume: 0.0
+max_volume: 0.179845920078
+
+movie_title: Mr-Turner
+mean_volume: 0.104961896889
+std_dev_volume: 0.0446581805549
+min_volume: 0.0
+max_volume: 0.198905188992
+
+movie_title: Much-Ado-About-Nothing
+mean_volume: 0.179382637996
+std_dev_volume: 0.0791292717271
+min_volume: 0.0
+max_volume: 0.366509449987
+
+movie_title: Muck
+mean_volume: 0.1059945662
+std_dev_volume: 0.024724100367
+min_volume: 0.0
+max_volume: 0.154356106203
+
+movie_title: Muppets-Most-Wanted
+mean_volume: 0.0681764815142
+std_dev_volume: 0.0346570598015
+min_volume: 0.0
+max_volume: 0.196199161068
+
+movie_title: My-Amityville-Horror
+mean_volume: 0.0671810711904
+std_dev_volume: 0.0247241843353
+min_volume: 0.0
+max_volume: 0.158202956552
+
+movie_title: My-Big-Fat-Greek-Wedding-2
+mean_volume: 0.0613027993519
+std_dev_volume: 0.0324565819921
+min_volume: 0.0
+max_volume: 0.207104530236
+
+movie_title: My-Man-is-a-Loser
+mean_volume: 0.0433364227907
+std_dev_volume: 0.0214075249254
+min_volume: 0.0
+max_volume: 0.118294311816
+
+movie_title: My-Old-Lady
+mean_volume: 0.0528810460678
+std_dev_volume: 0.0260592180577
+min_volume: 0.0
+max_volume: 0.162474987763
+
+movie_title: Mystery-Road
+mean_volume: 0.195091173216
+std_dev_volume: 0.0877204621513
+min_volume: 0.0
+max_volume: 0.38471357531
+
+movie_title: Nasty-Baby
+mean_volume: 0.238403419815
+std_dev_volume: 0.145182867544
+min_volume: 0.0
+max_volume: 0.640901110776
+
+movie_title: Nebraska
+mean_volume: 0.0571687396594
+std_dev_volume: 0.0266201269971
+min_volume: 0.0
+max_volume: 0.107588664729
+
+movie_title: Need-for-Speed
+mean_volume: 0.141743231402
+std_dev_volume: 0.111092573973
+min_volume: 0.0
+max_volume: 0.522540361717
+
+movie_title: Neighbors
+mean_volume: 0.0574109516743
+std_dev_volume: 0.0381863962742
+min_volume: 0.0
+max_volume: 0.177577034976
+
+movie_title: Neighbors-2-Sorority-Rising
+mean_volume: 0.110521843199
+std_dev_volume: 0.082677370911
+min_volume: 0.0
+max_volume: 0.449959844905
+
+movie_title: New-World-2013
+mean_volume: 0.113738234029
+std_dev_volume: 0.0567432271547
+min_volume: 0.0
+max_volume: 0.234243954116
+
+movie_title: Night-at-the-Museum-Secret-of-the-Tomb
+mean_volume: 0.064855471094
+std_dev_volume: 0.0424171390721
+min_volume: 0.0
+max_volume: 0.195873330082
+
+movie_title: Night-Moves
+mean_volume: 0.117081825894
+std_dev_volume: 0.110577087124
+min_volume: 0.0
+max_volume: 0.706246206991
+
+movie_title: Nightcrawler
+mean_volume: 0.127310627095
+std_dev_volume: 0.0672919813696
+min_volume: 0.0
+max_volume: 0.410230266979
+
+movie_title: No-Escape
+mean_volume: 0.144472808691
+std_dev_volume: 0.0836912424071
+min_volume: 0.0
+max_volume: 0.355112769961
+
+movie_title: No-Good-Deed
+mean_volume: 0.062733278672
+std_dev_volume: 0.0417404888017
+min_volume: 0.0
+max_volume: 0.197304129195
+
+movie_title: No-One-Lives
+mean_volume: 0.086642991934
+std_dev_volume: 0.059522622288
+min_volume: 0.0
+max_volume: 0.320274530323
+
+movie_title: No-Place-on-Earth
+mean_volume: 0.0883731630233
+std_dev_volume: 0.0478963912311
+min_volume: 0.0
+max_volume: 0.236859755011
+
+movie_title: Noah
+mean_volume: 0.080856660212
+std_dev_volume: 0.0466526432324
+min_volume: 0.0
+max_volume: 0.166685648847
+
+movie_title: Non-Stop
+mean_volume: 0.138912674494
+std_dev_volume: 0.0731784152303
+min_volume: 0.0
+max_volume: 0.338275875337
+
+movie_title: Now-You-See-Me
+mean_volume: 0.126099908971
+std_dev_volume: 0.0615483527408
+min_volume: 0.0
+max_volume: 0.297446973879
+
+movie_title: Nymphomaniac-Volume-I
+mean_volume: 0.0884655915886
+std_dev_volume: 0.0450060609733
+min_volume: 0.0
+max_volume: 0.240931616877
+
+movie_title: Oblivion
+mean_volume: 0.102915855296
+std_dev_volume: 0.0591098458065
+min_volume: 0.0
+max_volume: 0.252668958625
+
+movie_title: Obvious-Child
+mean_volume: 0.0674631306483
+std_dev_volume: 0.0311003206007
+min_volume: 0.0
+max_volume: 0.182561226251
+
+movie_title: Oculus
+mean_volume: 0.129185189517
+std_dev_volume: 0.103580121379
+min_volume: 0.0
+max_volume: 0.491841035575
+
+movie_title: Old-Fashioned
+mean_volume: 0.0823708236948
+std_dev_volume: 0.0421992076968
+min_volume: 0.0
+max_volume: 0.199084005612
+
+movie_title: Oldboy-2013
+mean_volume: 0.132410212217
+std_dev_volume: 0.0816207297365
+min_volume: 0.0
+max_volume: 0.375603530775
+
+movie_title: One-Chance
+mean_volume: 0.0927709102742
+std_dev_volume: 0.0574273111529
+min_volume: 0.0
+max_volume: 0.273272725427
+
+movie_title: One-Direction-This-is-Us
+mean_volume: 0.0744869900555
+std_dev_volume: 0.0379736654357
+min_volume: 0.0
+max_volume: 0.144255678425
+
+movie_title: Only-God-Forgives
+mean_volume: 0.132296430021
+std_dev_volume: 0.0940596271477
+min_volume: 0.0
+max_volume: 0.35657410876
+
+movie_title: Only-Lovers-Left-Alive
+mean_volume: 0.0997674742281
+std_dev_volume: 0.0464137823735
+min_volume: 0.0
+max_volume: 0.215765782916
+
+movie_title: Open-Windows
+mean_volume: 0.165941538647
+std_dev_volume: 0.0608466814601
+min_volume: 0.0
+max_volume: 0.370463492854
+
+movie_title: Ouija
+mean_volume: 0.113634542471
+std_dev_volume: 0.0624677351247
+min_volume: 0.0
+max_volume: 0.325862924029
+
+movie_title: Our-Brand-Is-Crisis
+mean_volume: 0.0848240719205
+std_dev_volume: 0.0351849650591
+min_volume: 0.0
+max_volume: 0.182820285435
+
+movie_title: Out-of-the-Dark
+mean_volume: 0.120326276613
+std_dev_volume: 0.0609275027459
+min_volume: 0.0
+max_volume: 0.329497338477
+
+movie_title: Out-of-the-Furnace
+mean_volume: 0.0914783646176
+std_dev_volume: 0.0441694392947
+min_volume: 0.0
+max_volume: 0.210129899501
+
+movie_title: Outcast
+mean_volume: 0.0555448478132
+std_dev_volume: 0.0231462618193
+min_volume: 0.0
+max_volume: 0.115760715918
+
+movie_title: Oz-the-Great-and-Powerful
+mean_volume: 0.0900828991052
+std_dev_volume: 0.0604823086028
+min_volume: 0.0
+max_volume: 0.251125547853
+
+movie_title: Pacific-Rim
+mean_volume: 0.10133751623
+std_dev_volume: 0.0450392238956
+min_volume: 0.0
+max_volume: 0.227128527103
+
+movie_title: Paddington
+mean_volume: 0.083068464685
+std_dev_volume: 0.0426150265911
+min_volume: 0.0
+max_volume: 0.149507153298
+
+movie_title: Pain-Gain
+mean_volume: 0.149658407034
+std_dev_volume: 0.0941968927875
+min_volume: 0.0
+max_volume: 0.437643664734
+
+movie_title: Palo-Alto
+mean_volume: 0.101104529649
+std_dev_volume: 0.0421305848248
+min_volume: 0.0
+max_volume: 0.198306414417
+
+movie_title: Pan
+mean_volume: 0.0715535740496
+std_dev_volume: 0.0382290795924
+min_volume: 0.0
+max_volume: 0.177495458515
+
+movie_title: Paranoia
+mean_volume: 0.104648099771
+std_dev_volume: 0.0651185668928
+min_volume: 0.0
+max_volume: 0.303350334505
+
+movie_title: Paranormal-Activity-The-Ghost-Dimension
+mean_volume: 0.0692581994014
+std_dev_volume: 0.0478714925415
+min_volume: 0.0
+max_volume: 0.23929577802
+
+movie_title: Paranormal-Activity-The-Marked-Ones
+mean_volume: 0.0880667341608
+std_dev_volume: 0.0394085794713
+min_volume: 0.0
+max_volume: 0.20146889169
+
+movie_title: Parkland
+mean_volume: 0.106216265512
+std_dev_volume: 0.0470033963943
+min_volume: 0.0
+max_volume: 0.276515474613
+
+movie_title: Partisan
+mean_volume: 0.0629944305373
+std_dev_volume: 0.0326793617309
+min_volume: 0.00365676377025
+max_volume: 0.224888346466
+
+movie_title: Passion
+mean_volume: 0.12675038526
+std_dev_volume: 0.0914456796948
+min_volume: 0.0
+max_volume: 0.415676060318
+
+movie_title: Paul-Blart-Mall-Cop-2
+mean_volume: 0.153849746936
+std_dev_volume: 0.0924732905371
+min_volume: 0.0
+max_volume: 0.424487638015
+
+movie_title: Pawn-Sacrifice
+mean_volume: 0.109067995876
+std_dev_volume: 0.039457771289
+min_volume: 0.0
+max_volume: 0.230031656272
+
+movie_title: Peace-Officer
+mean_volume: 0.0730618528197
+std_dev_volume: 0.04020389248
+min_volume: 0.0145169309183
+max_volume: 0.225118996994
+
+movie_title: Penthouse-North
+mean_volume: 0.135873628415
+std_dev_volume: 0.0802470105106
+min_volume: 0.0
+max_volume: 0.325877145826
+
+movie_title: Percy-Jackson-Sea-of-Monsters
+mean_volume: 0.104770770583
+std_dev_volume: 0.0608064743633
+min_volume: 0.0
+max_volume: 0.378244444111
+
+movie_title: Perfect-Sisters
+mean_volume: 0.0606773365964
+std_dev_volume: 0.0373616942215
+min_volume: 0.0
+max_volume: 0.221802584528
+
+movie_title: Phantom
+mean_volume: 0.0801554509903
+std_dev_volume: 0.0373125133394
+min_volume: 0.0
+max_volume: 0.201124129474
+
+movie_title: Philomena
+mean_volume: 0.0800367721282
+std_dev_volume: 0.043236221511
+min_volume: 0.0
+max_volume: 0.310558493044
+
+movie_title: Pitch-Perfect-2
+mean_volume: 0.130376987799
+std_dev_volume: 0.094667264847
+min_volume: 0.0
+max_volume: 0.387251492275
+
+movie_title: Pixels
+mean_volume: 0.0755085271717
+std_dev_volume: 0.0392248174435
+min_volume: 0.00133740370527
+max_volume: 0.205821167506
+
+movie_title: Planes
+mean_volume: 0.0734892679059
+std_dev_volume: 0.0222825554166
+min_volume: 0.0
+max_volume: 0.119027109176
+
+movie_title: Planes-Fire-Rescue
+mean_volume: 0.0351331834139
+std_dev_volume: 0.0140801104755
+min_volume: 0.00527028000913
+max_volume: 0.0796642893017
+
+movie_title: Plush
+mean_volume: 0.191089004002
+std_dev_volume: 0.0774086078759
+min_volume: 0.0
+max_volume: 0.347402342104
+
+movie_title: Point-Break
+mean_volume: 0.0784934348525
+std_dev_volume: 0.0401856385964
+min_volume: 0.0
+max_volume: 0.158835627601
+
+movie_title: Police-Story-Lockdown
+mean_volume: 0.275368944903
+std_dev_volume: 0.110945809514
+min_volume: 0.0
+max_volume: 0.49140930162
+
+movie_title: Poltergeist
+mean_volume: 0.124768564816
+std_dev_volume: 0.100613592586
+min_volume: 0.0
+max_volume: 0.446607992586
+
+movie_title: Pompeii
+mean_volume: 0.150633425799
+std_dev_volume: 0.111880737244
+min_volume: 0.0
+max_volume: 0.445912812114
+
+movie_title: Predestination
+mean_volume: 0.14168081466
+std_dev_volume: 0.0713436155426
+min_volume: 0.0
+max_volume: 0.332673272438
+
+movie_title: Pride-and-Prejudice-and-Zombies
+mean_volume: 0.088578167502
+std_dev_volume: 0.045251215063
+min_volume: 0.00651043480831
+max_volume: 0.197915795442
+
+movie_title: Prince-Avalanche
+mean_volume: 0.0655472410532
+std_dev_volume: 0.0393038344638
+min_volume: 0.0
+max_volume: 0.20302471595
+
+movie_title: Prisoners
+mean_volume: 0.0533054043054
+std_dev_volume: 0.027357444576
+min_volume: 0.0
+max_volume: 0.121150484917
+
+movie_title: Project-Almanac
+mean_volume: 0.0744460753248
+std_dev_volume: 0.0452167458493
+min_volume: 0.0
+max_volume: 0.222069027596
+
+movie_title: R100
+mean_volume: 0.054300296835
+std_dev_volume: 0.0499227956453
+min_volume: 0.0
+max_volume: 0.163518230142
+
+movie_title: Race
+mean_volume: 0.134025281506
+std_dev_volume: 0.0995839340403
+min_volume: 0.0
+max_volume: 0.464149863188
+
+movie_title: Rage
+mean_volume: 0.11581977763
+std_dev_volume: 0.0782291150985
+min_volume: 0.0
+max_volume: 0.332721163212
+
+movie_title: Raiders-The-Story-of-the-Greatest-Fan-Film-Ever-Made
+mean_volume: 0.0949540862085
+std_dev_volume: 0.0598254068015
+min_volume: 0.0
+max_volume: 0.307356677164
+
+movie_title: Rapturepalooza
+mean_volume: 0.0882436765293
+std_dev_volume: 0.0508288775755
+min_volume: 0.0
+max_volume: 0.312846402339
+
+movie_title: Ratchet-and-Clank
+mean_volume: 0.0708004821989
+std_dev_volume: 0.0496373613384
+min_volume: 0.0
+max_volume: 0.299375441381
+
+movie_title: Raze
+mean_volume: 0.0908758947798
+std_dev_volume: 0.0521616387152
+min_volume: 0.0
+max_volume: 0.230166695024
+
+movie_title: Reach-Me
+mean_volume: 0.0911219792793
+std_dev_volume: 0.0501892222996
+min_volume: 0.0
+max_volume: 0.298690824455
+
+movie_title: Reality
+mean_volume: 0.148849373345
+std_dev_volume: 0.0723569962978
+min_volume: 0.0
+max_volume: 0.518634108074
+
+movie_title: Reasonable-Doubt
+mean_volume: 0.0738658075567
+std_dev_volume: 0.0323876810807
+min_volume: 0.0
+max_volume: 0.173767343914
+
+movie_title: Reclaim
+mean_volume: 0.067583428076
+std_dev_volume: 0.0290375139877
+min_volume: 0.0
+max_volume: 0.157774319811
+
+movie_title: RED-2
+mean_volume: 0.0756706918834
+std_dev_volume: 0.0564716405825
+min_volume: 0.0
+max_volume: 0.216234450251
+
+movie_title: Red-Army
+mean_volume: 0.086030352168
+std_dev_volume: 0.0303680801001
+min_volume: 0.0
+max_volume: 0.185512342737
+
+movie_title: Red-Flag
+mean_volume: 0.0659541315476
+std_dev_volume: 0.0201833813191
+min_volume: 0.00844188374914
+max_volume: 0.108199457664
+
+movie_title: Refuge
+mean_volume: 0.0401043578202
+std_dev_volume: 0.0151845418753
+min_volume: 0.00923393153321
+max_volume: 0.0892449069534
+
+movie_title: Regression
+mean_volume: 0.193792622467
+std_dev_volume: 0.0951494668159
+min_volume: 0.0
+max_volume: 0.432409688585
+
+movie_title: Remember
+mean_volume: 0.0419034563059
+std_dev_volume: 0.0250149110208
+min_volume: 0.00128849316305
+max_volume: 0.165107042092
+
+movie_title: Repentance
+mean_volume: 0.126894995518
+std_dev_volume: 0.0794634274405
+min_volume: 0.0
+max_volume: 0.447854502303
+
+movie_title: Return-to-Sender
+mean_volume: 0.289126142048
+std_dev_volume: 0.179063957115
+min_volume: 0.00416946110729
+max_volume: 0.767499211982
+
+movie_title: Revenge-of-the-Green-Dragons
+mean_volume: 0.0703603413625
+std_dev_volume: 0.0321200591995
+min_volume: 0.0
+max_volume: 0.165480093326
+
+movie_title: Ricki-and-the-Flash
+mean_volume: 0.0953408196684
+std_dev_volume: 0.0356659789101
+min_volume: 0.0
+max_volume: 0.240863255501
+
+movie_title: Riddick
+mean_volume: 0.339484775935
+std_dev_volume: 0.0875988452543
+min_volume: 0.144656604986
+max_volume: 0.519678031052
+
+movie_title: Ride
+mean_volume: 0.0673225378525
+std_dev_volume: 0.0390639597315
+min_volume: 0.0
+max_volume: 0.244363190934
+
+movie_title: Ride-Along
+mean_volume: 0.0926394388774
+std_dev_volume: 0.0551627704682
+min_volume: 0.0
+max_volume: 0.290818884491
+
+movie_title: Ride-Along-2
+mean_volume: 0.111519920933
+std_dev_volume: 0.075933865145
+min_volume: 0.0
+max_volume: 0.413510684493
+
+movie_title: RIPD
+mean_volume: 0.223807728179
+std_dev_volume: 0.14900012648
+min_volume: 0.0
+max_volume: 0.74120718249
+
+movie_title: Road-to-Paloma
+mean_volume: 0.0845576786858
+std_dev_volume: 0.0457118997463
+min_volume: 0.0
+max_volume: 0.237916238516
+
+movie_title: Rob-the-Mob
+mean_volume: 0.138379624521
+std_dev_volume: 0.0577289562069
+min_volume: 0.0
+max_volume: 0.294182223194
+
+movie_title: RoboCop-2014
+mean_volume: 0.0836733547948
+std_dev_volume: 0.0366837275445
+min_volume: 0.0
+max_volume: 0.179364656057
+
+movie_title: Rock-the-Kasbah
+mean_volume: 0.10228661065
+std_dev_volume: 0.0469432638
+min_volume: 0.0
+max_volume: 0.280230311113
+
+movie_title: Room
+mean_volume: 0.0796713471543
+std_dev_volume: 0.0386813724969
+min_volume: 0.0
+max_volume: 0.201809423879
+
+movie_title: Room-237
+mean_volume: 0.0640664231055
+std_dev_volume: 0.0482083830293
+min_volume: 0.0
+max_volume: 0.194840061876
+
+movie_title: Rosewater
+mean_volume: 0.122450929027
+std_dev_volume: 0.0597925447055
+min_volume: 0.0
+max_volume: 0.369296305225
+
+movie_title: Rudderless
+mean_volume: 0.0823610983995
+std_dev_volume: 0.0401771425484
+min_volume: 0.0
+max_volume: 0.219873049586
+
+movie_title: Run-All-Night
+mean_volume: 0.0739390788477
+std_dev_volume: 0.0352433372443
+min_volume: 0.0
+max_volume: 0.172574055083
+
+movie_title: Run-Jump
+mean_volume: 0.0575572848112
+std_dev_volume: 0.0290301522007
+min_volume: 0.0
+max_volume: 0.136578362828
+
+movie_title: Runner-Runner
+mean_volume: 0.136669088209
+std_dev_volume: 0.0722290849139
+min_volume: 0.0
+max_volume: 0.377991748327
+
+movie_title: Rush-2013
+mean_volume: 0.127874073326
+std_dev_volume: 0.0619692917178
+min_volume: 0.0229085894758
+max_volume: 0.329148884576
+
+movie_title: Sabotage
+mean_volume: 0.134680736409
+std_dev_volume: 0.0830124835479
+min_volume: 0.0
+max_volume: 0.370035036677
+
+movie_title: San-Andreas
+mean_volume: 0.0748744278081
+std_dev_volume: 0.0395398559435
+min_volume: 0.0
+max_volume: 0.211575994598
+
+movie_title: Savannah
+mean_volume: 0.120003406963
+std_dev_volume: 0.0438265749035
+min_volume: 0.0
+max_volume: 0.229702055895
+
+movie_title: Scavengers
+mean_volume: 0.129550709454
+std_dev_volume: 0.0943533073708
+min_volume: 0.00119551994852
+max_volume: 0.398566205407
+
+movie_title: School-Dance
+mean_volume: 0.0680353946642
+std_dev_volume: 0.0294650402274
+min_volume: 0.0
+max_volume: 0.155125056434
+
+movie_title: Scouts-Guide-to-the-Zombie-Apocalypse
+mean_volume: 0.116585746317
+std_dev_volume: 0.0673724097928
+min_volume: 0.0
+max_volume: 0.305872612653
+
+movie_title: Selfless
+mean_volume: 0.176736704489
+std_dev_volume: 0.110698270522
+min_volume: 0.0
+max_volume: 0.491999719801
+
+movie_title: Selma
+mean_volume: 0.092268808621
+std_dev_volume: 0.0395975853921
+min_volume: 0.0
+max_volume: 0.206353918825
+
+movie_title: Serena
+mean_volume: 0.0799105396445
+std_dev_volume: 0.0395167006915
+min_volume: 0.0040363943429
+max_volume: 0.215637245969
+
+movie_title: Seventh-Son
+mean_volume: 0.162674360713
+std_dev_volume: 0.0720032355148
+min_volume: 0.0
+max_volume: 0.323835576733
+
+movie_title: Sex-Tape
+mean_volume: 0.107408234104
+std_dev_volume: 0.069260712672
+min_volume: 0.0
+max_volume: 0.328878281311
+
+movie_title: Shadow-Dancer
+mean_volume: 0.0570308611523
+std_dev_volume: 0.0205861506565
+min_volume: 0.0
+max_volume: 0.088021969029
+
+movie_title: Shanghai
+mean_volume: 0.124232760194
+std_dev_volume: 0.0729848055723
+min_volume: 0.0
+max_volume: 0.359536269761
+
+movie_title: Shaun-the-Sheep
+mean_volume: 0.087216352617
+std_dev_volume: 0.0675685591299
+min_volume: 0.0
+max_volume: 0.244679770294
+
+movie_title: Shelter
+mean_volume: 0.0465086666027
+std_dev_volume: 0.0166913995595
+min_volume: 0.0
+max_volume: 0.120071223196
+
+movie_title: Shes-Funny-That-Way
+mean_volume: 0.0950405117284
+std_dev_volume: 0.0386753818757
+min_volume: 0.0
+max_volume: 0.195273319667
+
+movie_title: Shrek-2
+mean_volume: 0.0632256138617
+std_dev_volume: 0.0272509464893
+min_volume: 0.0
+max_volume: 0.126498693658
+
+movie_title: Sicario
+mean_volume: 0.159461769935
+std_dev_volume: 0.0727761359007
+min_volume: 0.0118276812366
+max_volume: 0.416903038591
+
+movie_title: Sin-City-A-Dame-to-Kill-For
+mean_volume: 0.140329918799
+std_dev_volume: 0.0798046496605
+min_volume: 0.0
+max_volume: 0.331914314032
+
+movie_title: Sinister-2
+mean_volume: 0.0934152944255
+std_dev_volume: 0.0769216818971
+min_volume: 0.0
+max_volume: 0.380585664061
+
+movie_title: Sisters
+mean_volume: 0.0420898027238
+std_dev_volume: 0.0247209846444
+min_volume: 0.0
+max_volume: 0.0891840395125
+
+movie_title: Sleeping-With-Other-People
+mean_volume: 0.14733455652
+std_dev_volume: 0.0490667142855
+min_volume: 0.0
+max_volume: 0.28572578385
+
+movie_title: Slow-West
+mean_volume: 0.0860201429126
+std_dev_volume: 0.0510119967675
+min_volume: 0.0
+max_volume: 0.276059313744
+
+movie_title: Snitch
+mean_volume: 0.0829872831878
+std_dev_volume: 0.0474296676483
+min_volume: 0.0
+max_volume: 0.279139529109
+
+movie_title: Soaked-in-Bleach
+mean_volume: 0.0567371053366
+std_dev_volume: 0.0208313413877
+min_volume: 0.0
+max_volume: 0.120095824565
+
+movie_title: Solace
+mean_volume: 0.108519697418
+std_dev_volume: 0.0514186687026
+min_volume: 0.0
+max_volume: 0.255363435293
+
+movie_title: Some-Velvet-Morning
+mean_volume: 0.0949566667316
+std_dev_volume: 0.0480638721498
+min_volume: 0.0
+max_volume: 0.295274509894
+
+movie_title: Somebody-Up-There-Likes-Me
+mean_volume: 0.0381184096375
+std_dev_volume: 0.0163028493903
+min_volume: 0.0
+max_volume: 0.0819264800039
+
+movie_title: Son-of-God
+mean_volume: 0.1040312362
+std_dev_volume: 0.0612173968929
+min_volume: 0.0
+max_volume: 0.291234430067
+
+movie_title: Southpaw
+mean_volume: 0.139722432254
+std_dev_volume: 0.0789280302173
+min_volume: 0.0
+max_volume: 0.404913811579
+
+movie_title: Spare-Parts
+mean_volume: 0.0719454330469
+std_dev_volume: 0.0396424477859
+min_volume: 0.0
+max_volume: 0.225937901449
+
+movie_title: Spectre
+mean_volume: 0.0838419108252
+std_dev_volume: 0.0432768288765
+min_volume: 0.00182948231087
+max_volume: 0.186459804919
+
+movie_title: Spotlight
+mean_volume: 0.141139389163
+std_dev_volume: 0.0668582003152
+min_volume: 0.0
+max_volume: 0.3559585245
+
+movie_title: Spring-Breakers
+mean_volume: 0.0366552016648
+std_dev_volume: 0.0176101086802
+min_volume: 0.0
+max_volume: 0.105057089206
+
+movie_title: Spy
+mean_volume: 0.0719226172825
+std_dev_volume: 0.0496075112591
+min_volume: 0.0
+max_volume: 0.226942396128
+
+movie_title: Squirrels
+mean_volume: 0.051240482184
+std_dev_volume: 0.0636748474064
+min_volume: 0.0
+max_volume: 0.312278909835
+
+movie_title: St-Vincent
+mean_volume: 0.093631397314
+std_dev_volume: 0.0453712272898
+min_volume: 0.0
+max_volume: 0.262308091041
+
+movie_title: Stage-Fright
+mean_volume: 0.0466243039848
+std_dev_volume: 0.0234438330384
+min_volume: 0.0
+max_volume: 0.0990359244548
+
+movie_title: Star-Trek-Into-Darkness
+mean_volume: 0.211404586723
+std_dev_volume: 0.114338301127
+min_volume: 0.0
+max_volume: 0.475867336148
+
+movie_title: Starry-Eyes
+mean_volume: 0.113393662916
+std_dev_volume: 0.0746734133065
+min_volume: 0.0
+max_volume: 0.373804757703
+
+movie_title: Step-Up-All-In
+mean_volume: 0.0953009681503
+std_dev_volume: 0.0529728221657
+min_volume: 0.0
+max_volume: 0.221176279499
+
+movie_title: Steve-Jobs
+mean_volume: 0.0415516806892
+std_dev_volume: 0.0315360883131
+min_volume: 0.0
+max_volume: 0.118627232962
+
+movie_title: Still-Alice
+mean_volume: 0.0487103298198
+std_dev_volume: 0.036768157307
+min_volume: 0.0
+max_volume: 0.318613164125
+
+movie_title: Stonehearst-Asylum-aka-Eliza-Graves
+mean_volume: 0.106198838339
+std_dev_volume: 0.0750068974546
+min_volume: 0.0
+max_volume: 0.446472210247
+
+movie_title: Stonewall
+mean_volume: 0.123029685545
+std_dev_volume: 0.0765766156294
+min_volume: 0.0
+max_volume: 0.308415972681
+
+movie_title: Straight-Outta-Compton
+mean_volume: 0.123098477148
+std_dev_volume: 0.0821790375619
+min_volume: 0.0
+max_volume: 0.443246658393
+
+movie_title: Strange-Magic
+mean_volume: 0.121801207759
+std_dev_volume: 0.0694042222014
+min_volume: 0.0
+max_volume: 0.317336877376
+
+movie_title: Stretch
+mean_volume: 0.108446860548
+std_dev_volume: 0.0414703957686
+min_volume: 0.0
+max_volume: 0.264409751047
+
+movie_title: Stuck-In-Love
+mean_volume: 0.206476023806
+std_dev_volume: 0.0833183445184
+min_volume: 0.0
+max_volume: 0.463960803339
+
+movie_title: Suicide-Squad
+mean_volume: 0.0772688803757
+std_dev_volume: 0.0502293336864
+min_volume: 0.0
+max_volume: 0.215205186542
+
+movie_title: Sunlight-Jr
+mean_volume: 0.0934730224812
+std_dev_volume: 0.038544982884
+min_volume: 0.0
+max_volume: 0.178919481856
+
+movie_title: Survivor
+mean_volume: 0.12969858678
+std_dev_volume: 0.0972680669596
+min_volume: 0.0
+max_volume: 0.674033499307
+
+movie_title: Sx_Tape
+mean_volume: 0.131293521909
+std_dev_volume: 0.0718010861599
+min_volume: 0.0
+max_volume: 0.318563805167
+
+movie_title: Tak3n
+mean_volume: 0.114466045434
+std_dev_volume: 0.0842490036665
+min_volume: 0.0
+max_volume: 0.377230148402
+
+movie_title: Tammy
+mean_volume: 0.0510274810202
+std_dev_volume: 0.0250179224341
+min_volume: 0.0
+max_volume: 0.106813302899
+
+movie_title: Ted-2
+mean_volume: 0.144347241903
+std_dev_volume: 0.0638532557836
+min_volume: 0.0
+max_volume: 0.326732895132
+
+movie_title: Teenage-Mutant-Ninja-Turtles-1990
+mean_volume: 0.0903158234623
+std_dev_volume: 0.022203085079
+min_volume: 0.0
+max_volume: 0.131315607836
+
+movie_title: Teenage-Mutant-Ninja-Turtles-2014
+mean_volume: 0.0879547291365
+std_dev_volume: 0.0493060966754
+min_volume: 0.0
+max_volume: 0.232949199415
+
+movie_title: Teenage-Mutant-Ninja-Turtles-Out-of-the-Shadows
+mean_volume: 0.0913306019507
+std_dev_volume: 0.045690095892
+min_volume: 0.0
+max_volume: 0.194677758002
+
+movie_title: Term-Life
+mean_volume: 0.115906640882
+std_dev_volume: 0.0661681861319
+min_volume: 0.0
+max_volume: 0.402682921375
+
+movie_title: Terminator-Genisys
+mean_volume: 0.0945697274475
+std_dev_volume: 0.0487317824974
+min_volume: 0.0
+max_volume: 0.199842585214
+
+movie_title: Thanks-for-Sharing
+mean_volume: 0.0865006263399
+std_dev_volume: 0.0367781678593
+min_volume: 0.0
+max_volume: 0.271272416536
+
+movie_title: That-Awkward-Moment
+mean_volume: 0.0859051374737
+std_dev_volume: 0.0371480060221
+min_volume: 0.0
+max_volume: 0.190030077145
+
+movie_title: The-33
+mean_volume: 0.089108810986
+std_dev_volume: 0.0445086211745
+min_volume: 0.0
+max_volume: 0.223560006409
+
+movie_title: The-5th-Wave
+mean_volume: 0.110870605506
+std_dev_volume: 0.0455405142282
+min_volume: 0.0
+max_volume: 0.207673234228
+
+movie_title: The-Age-of-Adaline
+mean_volume: 0.134860905943
+std_dev_volume: 0.0809345361179
+min_volume: 0.0
+max_volume: 0.393641415693
+
+movie_title: The-Amazing-Spider-Man-2
+mean_volume: 0.0761505966293
+std_dev_volume: 0.0392084157699
+min_volume: 0.0
+max_volume: 0.212577449871
+
+movie_title: The-Angriest-Man-in-Brooklyn
+mean_volume: 0.0981535374093
+std_dev_volume: 0.0323867009141
+min_volume: 0.0
+max_volume: 0.182027616945
+
+movie_title: The-Animal-Project
+mean_volume: 0.0812378812839
+std_dev_volume: 0.0516526629165
+min_volume: 0.0
+max_volume: 0.173126960694
+
+movie_title: The-Art-of-the-Steal
+mean_volume: 0.0485078969742
+std_dev_volume: 0.0193740513706
+min_volume: 0.0
+max_volume: 0.117394684514
+
+movie_title: The-Atticus-Institute
+mean_volume: 0.122445320185
+std_dev_volume: 0.0694549074646
+min_volume: 0.0
+max_volume: 0.380027608845
+
+movie_title: The-Babadook
+mean_volume: 0.0870290351931
+std_dev_volume: 0.0592372744178
+min_volume: 0.0
+max_volume: 0.404380085159
+
+movie_title: The-Bachelor-Weekend
+mean_volume: 0.0672467461686
+std_dev_volume: 0.0216961926695
+min_volume: 0.0
+max_volume: 0.118241160469
+
+movie_title: The-Bag-Man
+mean_volume: 0.0487903769412
+std_dev_volume: 0.0254972875342
+min_volume: 0.0
+max_volume: 0.142317281473
+
+movie_title: The-Battle-of-Tabato
+mean_volume: 0.0545500769802
+std_dev_volume: 0.0295171913011
+min_volume: 0.0
+max_volume: 0.190033557647
+
+movie_title: The-Benefactor
+mean_volume: 0.0646121102037
+std_dev_volume: 0.036643026921
+min_volume: 0.0
+max_volume: 0.210926159131
+
+movie_title: The-Best-of-Me
+mean_volume: 0.118398598536
+std_dev_volume: 0.0729492136098
+min_volume: 0.0
+max_volume: 0.270147045915
+
+movie_title: The-Big-Ask
+mean_volume: 0.12650553699
+std_dev_volume: 0.0650514888491
+min_volume: 0.0
+max_volume: 0.392993477116
+
+movie_title: The-Big-Short
+mean_volume: 0.0793549724938
+std_dev_volume: 0.0352466108801
+min_volume: 0.0
+max_volume: 0.171651166083
+
+movie_title: The-Big-Wedding
+mean_volume: 0.0689430621219
+std_dev_volume: 0.0291424096957
+min_volume: 0.0
+max_volume: 0.168874104185
+
+movie_title: The-Book-of-Life
+mean_volume: 0.135863017189
+std_dev_volume: 0.0795648719118
+min_volume: 0.0
+max_volume: 0.378177422176
+
+movie_title: The-Book-Thief
+mean_volume: 0.0863216349805
+std_dev_volume: 0.0480353529772
+min_volume: 0.0
+max_volume: 0.26135936681
+
+movie_title: The-Boss
+mean_volume: 0.104186491676
+std_dev_volume: 0.0721278931877
+min_volume: 0.0
+max_volume: 0.420138601879
+
+movie_title: The-Boxtrolls
+mean_volume: 0.055573610817
+std_dev_volume: 0.036425707654
+min_volume: 0.0
+max_volume: 0.155850887649
+
+movie_title: The-Boy-Next-Door
+mean_volume: 0.103873634041
+std_dev_volume: 0.0712760005724
+min_volume: 0.0
+max_volume: 0.327002386429
+
+movie_title: The-Bronze
+mean_volume: 0.127063334651
+std_dev_volume: 0.0807424042972
+min_volume: 0.0
+max_volume: 0.413163021894
+
+movie_title: The-Brothers-Grimsby
+mean_volume: 0.095203497606
+std_dev_volume: 0.0422735863187
+min_volume: 0.0
+max_volume: 0.159473198578
+
+movie_title: The-Butler
+mean_volume: 0.124959514626
+std_dev_volume: 0.0729494648137
+min_volume: 0.0
+max_volume: 0.332554338909
+
+movie_title: The-Call
+mean_volume: 0.170810473632
+std_dev_volume: 0.0740051804561
+min_volume: 0.0
+max_volume: 0.372321779041
+
+movie_title: The-Canal
+mean_volume: 0.109135694557
+std_dev_volume: 0.0687984476439
+min_volume: 0.00426365280302
+max_volume: 0.322411034819
+
+movie_title: The-Choice
+mean_volume: 0.0610542579438
+std_dev_volume: 0.0243647476465
+min_volume: 0.00535321025661
+max_volume: 0.153843939887
+
+movie_title: The-Cobbler
+mean_volume: 0.0841033238336
+std_dev_volume: 0.0442927230462
+min_volume: 0.0
+max_volume: 0.237180467319
+
+movie_title: The-Colony
+mean_volume: 0.145481667755
+std_dev_volume: 0.0770668171858
+min_volume: 0.0
+max_volume: 0.351579298735
+
+movie_title: The-Color-of-Time
+mean_volume: 0.0943134028884
+std_dev_volume: 0.0474206258209
+min_volume: 0.0
+max_volume: 0.272354479957
+
+movie_title: The-Company-You-Keep
+mean_volume: 0.133086726651
+std_dev_volume: 0.0969187517507
+min_volume: 0.0
+max_volume: 0.431327280259
+
+movie_title: The-Confirmation
+mean_volume: 0.0796667208766
+std_dev_volume: 0.0316101917834
+min_volume: 0.0
+max_volume: 0.178075963497
+
+movie_title: The-Conjuring
+mean_volume: 0.0407060973978
+std_dev_volume: 0.0312084402589
+min_volume: 0.0
+max_volume: 0.157415524605
+
+movie_title: The-Connection
+mean_volume: 0.171015623975
+std_dev_volume: 0.0972952727783
+min_volume: 0.0
+max_volume: 0.545488474325
+
+movie_title: The-Counselor
+mean_volume: 0.0613452207853
+std_dev_volume: 0.032718754869
+min_volume: 0.00137171471035
+max_volume: 0.132316882479
+
+movie_title: The-Croods
+mean_volume: 0.0805162137865
+std_dev_volume: 0.0487716131692
+min_volume: 0.0
+max_volume: 0.246602749024
+
+movie_title: The-D-Train
+mean_volume: 0.0338083406177
+std_dev_volume: 0.0167331895565
+min_volume: 0.0
+max_volume: 0.104034003309
+
+movie_title: The-Danish-Girl
+mean_volume: 0.0286500563487
+std_dev_volume: 0.0189478665704
+min_volume: 0.0
+max_volume: 0.0979288901643
+
+movie_title: The-Dark-Horse
+mean_volume: 0.10445206213
+std_dev_volume: 0.0505055687674
+min_volume: 0.0
+max_volume: 0.227048058027
+
+movie_title: The-Dark-Matter-of-Love
+mean_volume: 0.141206949515
+std_dev_volume: 0.0465931235034
+min_volume: 0.0
+max_volume: 0.236948885783
+
+movie_title: The-Daughter
+mean_volume: 0.0588633984666
+std_dev_volume: 0.0403253247664
+min_volume: 0.00126726480059
+max_volume: 0.226288581912
+
+movie_title: The-Den
+mean_volume: 0.12201219174
+std_dev_volume: 0.0955407336713
+min_volume: 0.0
+max_volume: 0.353985131104
+
+movie_title: The-Descent
+mean_volume: 0.169329708726
+std_dev_volume: 0.128029695547
+min_volume: 0.0
+max_volume: 0.779180935163
+
+movie_title: The-Devils-Hand
+mean_volume: 0.050850044872
+std_dev_volume: 0.0339637269541
+min_volume: 0.0
+max_volume: 0.155396941041
+
+movie_title: The-Diary-of-a-Teenage-Girl
+mean_volume: 0.0623317386646
+std_dev_volume: 0.0292149292985
+min_volume: 0.0
+max_volume: 0.142420170448
+
+movie_title: The-Dick-Knost-Show
+mean_volume: 0.0720614763288
+std_dev_volume: 0.0419300268773
+min_volume: 0.0
+max_volume: 0.213104684743
+
+movie_title: The-Disappearance-of-Eleanor-Rigby
+mean_volume: 0.12164688373
+std_dev_volume: 0.0576248126082
+min_volume: 0.0
+max_volume: 0.315224147432
+
+movie_title: The-Divergent-Series-Allegiant
+mean_volume: 0.131736730667
+std_dev_volume: 0.0734213157674
+min_volume: 0.0100271472797
+max_volume: 0.268724587425
+
+movie_title: The-Divergent-Series-Insurgent
+mean_volume: 0.110116202587
+std_dev_volume: 0.0935692671739
+min_volume: 0.0
+max_volume: 0.282396561246
+
+movie_title: The-Dog
+mean_volume: 0.0763117534952
+std_dev_volume: 0.0590090380996
+min_volume: 0.0
+max_volume: 0.21391736323
+
+movie_title: The-Dressmaker
+mean_volume: 0.0941045041151
+std_dev_volume: 0.0367665079799
+min_volume: 0.0
+max_volume: 0.223051818534
+
+movie_title: The-Driftless-Area
+mean_volume: 0.0754898388906
+std_dev_volume: 0.053217378297
+min_volume: 0.0
+max_volume: 0.310579647001
+
+movie_title: The-Drop
+mean_volume: 0.0733588290657
+std_dev_volume: 0.048942041806
+min_volume: 0.0
+max_volume: 0.270310599213
+
+movie_title: The-DUFF
+mean_volume: 0.0805605448812
+std_dev_volume: 0.0478991942811
+min_volume: 0.0
+max_volume: 0.19673276583
+
+movie_title: The-Duke-of-Burgundy
+mean_volume: 0.147523631008
+std_dev_volume: 0.125341459684
+min_volume: 0.0
+max_volume: 0.53514747699
+
+movie_title: The-End-of-the-Tour
+mean_volume: 0.111446407188
+std_dev_volume: 0.0382910032158
+min_volume: 0.0
+max_volume: 0.205325956291
+
+movie_title: The-English-Teacher
+mean_volume: 0.0795488727502
+std_dev_volume: 0.0285899713965
+min_volume: 0.00191463703683
+max_volume: 0.215485093013
+
+movie_title: The-Equalizer
+mean_volume: 0.100470120641
+std_dev_volume: 0.0408498933699
+min_volume: 0.0
+max_volume: 0.212240422188
+
+movie_title: The-Eternal-Return-of-Antonis-Paraskevas
+mean_volume: 0.0661476295521
+std_dev_volume: 0.0554072202512
+min_volume: 0.0
+max_volume: 0.205962774215
+
+movie_title: The-Expendables-3
+mean_volume: 0.0905636055488
+std_dev_volume: 0.0603551525736
+min_volume: 0.0
+max_volume: 0.22129770114
+
+movie_title: The-Face-of-Love
+mean_volume: 0.100913717128
+std_dev_volume: 0.0599681700407
+min_volume: 0.0
+max_volume: 0.251482556759
+
+movie_title: The-Fake
+mean_volume: 0.0996228196691
+std_dev_volume: 0.0528876612533
+min_volume: 0.0
+max_volume: 0.225890812298
+
+movie_title: The-Family
+mean_volume: 0.0846717363257
+std_dev_volume: 0.0377158359258
+min_volume: 0.0
+max_volume: 0.207572877735
+
+movie_title: The-Fantastic-Four
+mean_volume: 0.134914334738
+std_dev_volume: 0.0927494749105
+min_volume: 0.0
+max_volume: 0.44497779263
+
+movie_title: The-Fault-in-Our-Stars
+mean_volume: 0.0859243254727
+std_dev_volume: 0.0534970978627
+min_volume: 0.0
+max_volume: 0.288408877485
+
+movie_title: The-Fifth-Estate
+mean_volume: 0.0842815670666
+std_dev_volume: 0.0452324628919
+min_volume: 0.0
+max_volume: 0.255991445276
+
+movie_title: The-Finest-Hours
+mean_volume: 0.119934692615
+std_dev_volume: 0.0852762659562
+min_volume: 0.0
+max_volume: 0.359090601662
+
+movie_title: The-Forest
+mean_volume: 0.0655900835234
+std_dev_volume: 0.0403666086303
+min_volume: 0.0
+max_volume: 0.212531773678
+
+movie_title: The-Gambler
+mean_volume: 0.061120634706
+std_dev_volume: 0.0343582932078
+min_volume: 0.0
+max_volume: 0.167327728118
+
+movie_title: The-Gift
+mean_volume: 0.0806934320286
+std_dev_volume: 0.0374132532035
+min_volume: 0.00106248605832
+max_volume: 0.208978186567
+
+movie_title: The-Giver
+mean_volume: 0.111253109009
+std_dev_volume: 0.0785976545991
+min_volume: 0.0
+max_volume: 0.358475055926
+
+movie_title: The-Good-Dinosaur
+mean_volume: 0.112822823693
+std_dev_volume: 0.0963636941061
+min_volume: 0.0
+max_volume: 0.385969981256
+
+movie_title: The-Good-Lie
+mean_volume: 0.0777396576384
+std_dev_volume: 0.0299346371245
+min_volume: 0.0
+max_volume: 0.172268984649
+
+movie_title: The-Grand-Budapest-Hotel
+mean_volume: 0.139087729452
+std_dev_volume: 0.0686070401141
+min_volume: 0.0
+max_volume: 0.388840527078
+
+movie_title: The-Grand-Seduction
+mean_volume: 0.0648995011584
+std_dev_volume: 0.0240279355803
+min_volume: 0.0
+max_volume: 0.123209755145
+
+movie_title: The-Grandmaster
+mean_volume: 0.119873716668
+std_dev_volume: 0.0635396380306
+min_volume: 0.0
+max_volume: 0.305121136197
+
+movie_title: The-Great-Gatsby
+mean_volume: 0.0648182781444
+std_dev_volume: 0.0393113361119
+min_volume: 0.0
+max_volume: 0.189150639291
+
+movie_title: The-Green-Inferno
+mean_volume: 0.0655261635868
+std_dev_volume: 0.0780839159368
+min_volume: 0.0
+max_volume: 0.379944471924
+
+movie_title: The-Guest
+mean_volume: 0.067327117633
+std_dev_volume: 0.063385200479
+min_volume: 0.0
+max_volume: 0.406109334733
+
+movie_title: The-Gunman
+mean_volume: 0.10059437619
+std_dev_volume: 0.0409214430155
+min_volume: 0.0
+max_volume: 0.206467543666
+
+movie_title: The-Hallow
+mean_volume: 0.169347998092
+std_dev_volume: 0.107411162206
+min_volume: 0.00717798766926
+max_volume: 0.564255658805
+
+movie_title: The-Hangover-Part-III
+mean_volume: 0.0744374267932
+std_dev_volume: 0.048262092979
+min_volume: 0.0
+max_volume: 0.18889632936
+
+movie_title: The-Happy-Poet
+mean_volume: 0.0208045698897
+std_dev_volume: 0.0116669221198
+min_volume: 0.0
+max_volume: 0.0748741776841
+
+movie_title: The-Harvest
+mean_volume: 0.0533065328206
+std_dev_volume: 0.0314409786789
+min_volume: 0.00205221069563
+max_volume: 0.208725773443
+
+movie_title: The-Hateful-Eight
+mean_volume: 0.120571650559
+std_dev_volume: 0.06796469651
+min_volume: 0.0
+max_volume: 0.295837694086
+
+movie_title: The-Heat
+mean_volume: 0.0865251324031
+std_dev_volume: 0.0399175492597
+min_volume: 0.0
+max_volume: 0.266437299386
+
+movie_title: The-Hobbit-The-Battle-of-Five-Armies
+mean_volume: 0.0622114693113
+std_dev_volume: 0.0473657255163
+min_volume: 0.0
+max_volume: 0.20942334913
+
+movie_title: The-Hobbit-The-Desolation-of-Smaug
+mean_volume: 0.120762752447
+std_dev_volume: 0.0522204603045
+min_volume: 0.0
+max_volume: 0.250098614897
+
+movie_title: The-Homesman
+mean_volume: 0.114818254784
+std_dev_volume: 0.0455470659032
+min_volume: 0.0
+max_volume: 0.313351743963
+
+movie_title: The-Humbling
+mean_volume: 0.102475326789
+std_dev_volume: 0.0422600394979
+min_volume: 0.0
+max_volume: 0.265198162049
+
+movie_title: The-Hundred-Foot-Journey
+mean_volume: 0.15940030266
+std_dev_volume: 0.070107096101
+min_volume: 0.0
+max_volume: 0.338458783256
+
+movie_title: The-Hunger-Games-Catching-Fire
+mean_volume: 0.0929194996109
+std_dev_volume: 0.0424436372421
+min_volume: 0.0
+max_volume: 0.226930215149
+
+movie_title: The-Hunger-Games-Mockingjay-Part-1
+mean_volume: 0.086555006349
+std_dev_volume: 0.051707439258
+min_volume: 0.0
+max_volume: 0.218739338718
+
+movie_title: The-Hunger-Games-Mockingjay-Part-2
+mean_volume: 0.103796000545
+std_dev_volume: 0.0510534619581
+min_volume: 0.0
+max_volume: 0.232826904257
+
+movie_title: The-Hunting-Ground
+mean_volume: 0.107972637508
+std_dev_volume: 0.047905642872
+min_volume: 0.0
+max_volume: 0.276112225562
+
+movie_title: The-Iceman
+mean_volume: 0.0976179838766
+std_dev_volume: 0.0399715033363
+min_volume: 0.0
+max_volume: 0.186865967644
+
+movie_title: The-Identical
+mean_volume: 0.0623148405994
+std_dev_volume: 0.0241590677389
+min_volume: 0.0
+max_volume: 0.121016192934
+
+movie_title: The-Imitation-Game
+mean_volume: 0.100781029339
+std_dev_volume: 0.0482850340852
+min_volume: 0.0
+max_volume: 0.211150826129
+
+movie_title: The-Immigrant
+mean_volume: 0.0661979831868
+std_dev_volume: 0.030839211156
+min_volume: 0.0
+max_volume: 0.138291204606
+
+movie_title: The-Inevitable-Defeat-of-Mister-and-Pete
+mean_volume: 0.0943088425778
+std_dev_volume: 0.0577782750451
+min_volume: 0.0
+max_volume: 0.268170624502
+
+movie_title: The-Intern
+mean_volume: 0.0584404392723
+std_dev_volume: 0.0234885138802
+min_volume: 0.0
+max_volume: 0.106719533224
+
+movie_title: The-Internets-Own-Boy-The-Story-of-Aaron-Swartz
+mean_volume: 0.0978550686464
+std_dev_volume: 0.0344160736015
+min_volume: 0.0
+max_volume: 0.185086751888
+
+movie_title: The-Internship
+mean_volume: 0.0562198793223
+std_dev_volume: 0.0258622010477
+min_volume: 0.0
+max_volume: 0.161120361431
+
+movie_title: The-Interview
+mean_volume: 0.117465689852
+std_dev_volume: 0.0704349248049
+min_volume: 0.0
+max_volume: 0.290213633694
+
+movie_title: The-Judge
+mean_volume: 0.0563602717401
+std_dev_volume: 0.020644554556
+min_volume: 0.0
+max_volume: 0.104878437567
+
+movie_title: The-Jungle-Book
+mean_volume: 0.146395817255
+std_dev_volume: 0.0987524822153
+min_volume: 0.0
+max_volume: 0.352048982073
+
+movie_title: The-Keeping-Room
+mean_volume: 0.0897156117708
+std_dev_volume: 0.0802171746008
+min_volume: 0.0
+max_volume: 0.375264087297
+
+movie_title: The-Lady-in-the-Van
+mean_volume: 0.0495021105599
+std_dev_volume: 0.0278497089729
+min_volume: 0.0
+max_volume: 0.152902564736
+
+movie_title: The-Last-Days-on-Mars
+mean_volume: 0.0789690662883
+std_dev_volume: 0.0424731167648
+min_volume: 0.0
+max_volume: 0.174644792131
+
+movie_title: The-Last-Five-Years
+mean_volume: 0.0798370908148
+std_dev_volume: 0.0489709152502
+min_volume: 0.0
+max_volume: 0.225458330304
+
+movie_title: The-Last-of-Robin-Hood
+mean_volume: 0.0588048417893
+std_dev_volume: 0.0258883312535
+min_volume: 0.0
+max_volume: 0.148853818899
+
+movie_title: The-Last-Sentence
+mean_volume: 0.116450768957
+std_dev_volume: 0.0564126293652
+min_volume: 0.0
+max_volume: 0.269097842706
+
+movie_title: The-Last-Witch-Hunter
+mean_volume: 0.110201425165
+std_dev_volume: 0.0380341362277
+min_volume: 0.018142268313
+max_volume: 0.21029917061
+
+movie_title: The-Lazarus-Effect
+mean_volume: 0.0543538728004
+std_dev_volume: 0.0264828599428
+min_volume: 0.0
+max_volume: 0.108916830194
+
+movie_title: The-Legend-of-Hercules
+mean_volume: 0.0780745490954
+std_dev_volume: 0.0467382040776
+min_volume: 0.00950613998671
+max_volume: 0.284241629128
+
+movie_title: The-LEGO-Movie
+mean_volume: 0.0587409185829
+std_dev_volume: 0.0315447962239
+min_volume: 0.0
+max_volume: 0.158178595832
+
+movie_title: The-Liberator
+mean_volume: 0.0958720696054
+std_dev_volume: 0.0517137803366
+min_volume: 0.0
+max_volume: 0.318461609236
+
+movie_title: The-Lifeguard
+mean_volume: 0.0854669858182
+std_dev_volume: 0.03562805679
+min_volume: 0.0
+max_volume: 0.141464836084
+
+movie_title: The-Little-Prince
+mean_volume: 0.113283274419
+std_dev_volume: 0.0462504364518
+min_volume: 0.0
+max_volume: 0.213556713297
+
+movie_title: The-Lone-Ranger
+mean_volume: 0.0968004838623
+std_dev_volume: 0.0614608060211
+min_volume: 0.0
+max_volume: 0.247094616494
+
+movie_title: The-Longest-Ride
+mean_volume: 0.069134471513
+std_dev_volume: 0.0478639776902
+min_volume: 0.0
+max_volume: 0.429502333868
+
+movie_title: The-Longest-Week
+mean_volume: 0.0774118606917
+std_dev_volume: 0.0410474496707
+min_volume: 0.0
+max_volume: 0.181646989203
+
+movie_title: The-Lookalike
+mean_volume: 0.139589749531
+std_dev_volume: 0.0535500377973
+min_volume: 0.0
+max_volume: 0.286167442986
+
+movie_title: The-Lords-of-Salem
+mean_volume: 0.0590119913118
+std_dev_volume: 0.0383571556823
+min_volume: 0.0
+max_volume: 0.152219729233
+
+movie_title: The-Love-Punch
+mean_volume: 0.121222541381
+std_dev_volume: 0.04643732824
+min_volume: 0.0
+max_volume: 0.230469689579
+
+movie_title: The-Lovers
+mean_volume: 0.0853077080192
+std_dev_volume: 0.0414431044526
+min_volume: 0.0
+max_volume: 0.206236256878
+
+movie_title: The-Man-from-UNCLE
+mean_volume: 0.0635248576572
+std_dev_volume: 0.026192790377
+min_volume: 0.0
+max_volume: 0.120675017849
+
+movie_title: The-Martian
+mean_volume: 0.126300574344
+std_dev_volume: 0.0801366488612
+min_volume: 0.0
+max_volume: 0.368598424199
+
+movie_title: The-Matrix-Reloaded
+mean_volume: 0.0617342571482
+std_dev_volume: 0.0328176866009
+min_volume: 0.0
+max_volume: 0.137841450863
+
+movie_title: The-Monuments-Men
+mean_volume: 0.146713313411
+std_dev_volume: 0.0752741039335
+min_volume: 0.0
+max_volume: 0.318850038477
+
+movie_title: The-Mortal-Instruments-City-of-Bones
+mean_volume: 0.0791134879373
+std_dev_volume: 0.0434159857236
+min_volume: 0.0
+max_volume: 0.215202858283
+
+movie_title: The-Nice-Guys
+mean_volume: 0.0741864148589
+std_dev_volume: 0.0371937612339
+min_volume: 0.0
+max_volume: 0.20332365434
+
+movie_title: The-Normal-Heart
+mean_volume: 0.0490726785031
+std_dev_volume: 0.0170471738987
+min_volume: 0.0151519673121
+max_volume: 0.126788499732
+
+movie_title: The-Numbers-Station
+mean_volume: 0.0671016184388
+std_dev_volume: 0.0442166506521
+min_volume: 0.0
+max_volume: 0.23583063676
+
+movie_title: The-Nut-Job
+mean_volume: 0.0867355671374
+std_dev_volume: 0.0627526457787
+min_volume: 0.0
+max_volume: 0.31932874331
+
+movie_title: The-One-I-Love
+mean_volume: 0.0953930710703
+std_dev_volume: 0.0563750457624
+min_volume: 0.0
+max_volume: 0.296233471056
+
+movie_title: The-Other-Side-of-the-Door
+mean_volume: 0.11743981796
+std_dev_volume: 0.0855756499716
+min_volume: 0.0
+max_volume: 0.439130321232
+
+movie_title: The-Other-Woman-2014
+mean_volume: 0.0994510867093
+std_dev_volume: 0.0436689490535
+min_volume: 0.0
+max_volume: 0.223118013841
+
+movie_title: The-Peanuts-Movie
+mean_volume: 0.107592278266
+std_dev_volume: 0.0533288946728
+min_volume: 0.0
+max_volume: 0.261743541922
+
+movie_title: The-Penguins-of-Madagascar
+mean_volume: 0.0485199604605
+std_dev_volume: 0.0242173508781
+min_volume: 0.0
+max_volume: 0.117911287829
+
+movie_title: The-Pirate-Fairy
+mean_volume: 0.179833697351
+std_dev_volume: 0.0875610522609
+min_volume: 0.0
+max_volume: 0.361962037083
+
+movie_title: The-Power-of-Few
+mean_volume: 0.0555639008132
+std_dev_volume: 0.0332822267373
+min_volume: 0.0
+max_volume: 0.145416523247
+
+movie_title: The-Prince
+mean_volume: 0.157088188875
+std_dev_volume: 0.0605855242866
+min_volume: 0.0
+max_volume: 0.265799524117
+
+movie_title: The-Protector-2
+mean_volume: 0.117459973304
+std_dev_volume: 0.0619044382213
+min_volume: 0.0
+max_volume: 0.267698293688
+
+movie_title: The-Purge
+mean_volume: 0.130007221316
+std_dev_volume: 0.080883578478
+min_volume: 0.0
+max_volume: 0.319818688684
+
+movie_title: The-Purge-Anarchy
+mean_volume: 0.166479978759
+std_dev_volume: 0.0694687270282
+min_volume: 0.0
+max_volume: 0.310123217529
+
+movie_title: The-Pyramid
+mean_volume: 0.123277982373
+std_dev_volume: 0.0745387393864
+min_volume: 0.0
+max_volume: 0.362744720906
+
+movie_title: The-Quiet-Ones
+mean_volume: 0.168605503708
+std_dev_volume: 0.0952141292407
+min_volume: 0.0
+max_volume: 0.379506340571
+
+movie_title: The-Raid-2
+mean_volume: 0.119744582871
+std_dev_volume: 0.0559905512218
+min_volume: 0.0
+max_volume: 0.216498827292
+
+movie_title: The-Railway-Man
+mean_volume: 0.0842964170864
+std_dev_volume: 0.0376386258696
+min_volume: 0.0
+max_volume: 0.175551040315
+
+movie_title: The-Reluctant-Fundamentalist
+mean_volume: 0.0825898058367
+std_dev_volume: 0.0477681996216
+min_volume: 0.0
+max_volume: 0.322051112902
+
+movie_title: The-Remaining
+mean_volume: 0.1015593712
+std_dev_volume: 0.0411577620738
+min_volume: 0.0
+max_volume: 0.208294347028
+
+movie_title: The-Revenant
+mean_volume: 0.105201690247
+std_dev_volume: 0.0792596501474
+min_volume: 0.0
+max_volume: 0.405246781058
+
+movie_title: The-Rewrite
+mean_volume: 0.118439740042
+std_dev_volume: 0.0297687536594
+min_volume: 0.0
+max_volume: 0.240761483081
+
+movie_title: The-Ridiculous-6
+mean_volume: 0.0330357184226
+std_dev_volume: 0.0164945070658
+min_volume: 0.0
+max_volume: 0.101205477419
+
+movie_title: The-Riot-Club
+mean_volume: 0.123023027587
+std_dev_volume: 0.0642400107306
+min_volume: 0.0
+max_volume: 0.345493679882
+
+movie_title: The-Rover
+mean_volume: 0.0713115509257
+std_dev_volume: 0.049451364432
+min_volume: 0.0
+max_volume: 0.211280763719
+
+movie_title: The-Runner
+mean_volume: 0.130173784064
+std_dev_volume: 0.0625502273615
+min_volume: 0.0
+max_volume: 0.403776644401
+
+movie_title: The-Sacrament
+mean_volume: 0.0857190232498
+std_dev_volume: 0.0442153792809
+min_volume: 0.0
+max_volume: 0.285661934055
+
+movie_title: The-Salvation
+mean_volume: 0.207835505242
+std_dev_volume: 0.0809274729087
+min_volume: 0.0529219965742
+max_volume: 0.414605636925
+
+movie_title: The-Sapphires
+mean_volume: 0.114435818757
+std_dev_volume: 0.0654014423916
+min_volume: 0.0
+max_volume: 0.44042566701
+
+movie_title: The-Scribbler
+mean_volume: 0.0934269356344
+std_dev_volume: 0.0468866913835
+min_volume: 0.0
+max_volume: 0.2018947025
+
+movie_title: The-Search-for-General-Tso
+mean_volume: 0.103426970057
+std_dev_volume: 0.052773571847
+min_volume: 0.0
+max_volume: 0.304172670487
+
+movie_title: The-Second-Best-Exotic-Marigold-Hotel
+mean_volume: 0.0584644359833
+std_dev_volume: 0.0277512036572
+min_volume: 0.0
+max_volume: 0.116198535967
+
+movie_title: The-Secret-in-Their-Eyes
+mean_volume: 0.113617961276
+std_dev_volume: 0.0462447486931
+min_volume: 0.00779955538639
+max_volume: 0.243406427712
+
+movie_title: The-Secret-Life-of-Pets
+mean_volume: 0.107752741556
+std_dev_volume: 0.0700653814876
+min_volume: 0.0
+max_volume: 0.314300037645
+
+movie_title: The-Secret-Life-of-Walter-Mitty
+mean_volume: 0.0845257777714
+std_dev_volume: 0.0560187836622
+min_volume: 0.0
+max_volume: 0.256460357917
+
+movie_title: The-Short-Game
+mean_volume: 0.126189889869
+std_dev_volume: 0.0555868876496
+min_volume: 0.0
+max_volume: 0.245075947194
+
+movie_title: The-Signal
+mean_volume: 0.101527866511
+std_dev_volume: 0.0473472577874
+min_volume: 0.0
+max_volume: 0.215385255819
+
+movie_title: The-Silence
+mean_volume: 0.052376674065
+std_dev_volume: 0.0439149380575
+min_volume: 0.0
+max_volume: 0.249080034491
+
+movie_title: The-Single-Moms-Club
+mean_volume: 0.119607155138
+std_dev_volume: 0.0455720298892
+min_volume: 0.0
+max_volume: 0.278444957166
+
+movie_title: The-Skeleton-Twins
+mean_volume: 0.078141625738
+std_dev_volume: 0.033608539482
+min_volume: 0.0
+max_volume: 0.161581706059
+
+movie_title: The-Sleepwalker
+mean_volume: 0.0848817237401
+std_dev_volume: 0.0439759831844
+min_volume: 0.0
+max_volume: 0.252703761844
+
+movie_title: The-Smurfs-2
+mean_volume: 0.0936213530834
+std_dev_volume: 0.0553198145381
+min_volume: 0.0
+max_volume: 0.222046556741
+
+movie_title: The-Song
+mean_volume: 0.0867610942685
+std_dev_volume: 0.0495367590107
+min_volume: 0.0
+max_volume: 0.175061007149
+
+movie_title: The-SpongeBob-Movie-Sponge-Out-of-Water
+mean_volume: 0.0767115657182
+std_dev_volume: 0.0323372266077
+min_volume: 0.0
+max_volume: 0.174644872299
+
+movie_title: The-Stanford-Prison-Experiment
+mean_volume: 0.0853501216611
+std_dev_volume: 0.0582526291024
+min_volume: 0.0
+max_volume: 0.276182533247
+
+movie_title: The-Stranger
+mean_volume: 0.125945884491
+std_dev_volume: 0.0731067032923
+min_volume: 0.0
+max_volume: 0.328685336833
+
+movie_title: The-Theory-of-Everything
+mean_volume: 0.0718940686685
+std_dev_volume: 0.0364327083656
+min_volume: 0.013954711182
+max_volume: 0.198195040297
+
+movie_title: The-To-Do-List
+mean_volume: 0.0979660490343
+std_dev_volume: 0.0609955234639
+min_volume: 0.0
+max_volume: 0.302668175835
+
+movie_title: The-Town-That-Dreaded-Sundown
+mean_volume: 0.140721171273
+std_dev_volume: 0.110582894667
+min_volume: 0.0
+max_volume: 0.463181447007
+
+movie_title: The-Transporter-Refueled
+mean_volume: 0.136155815514
+std_dev_volume: 0.07830441504
+min_volume: 0.0
+max_volume: 0.317201487059
+
+movie_title: The-Truth-About-Emanuel
+mean_volume: 0.0988638807309
+std_dev_volume: 0.039669071485
+min_volume: 0.0
+max_volume: 0.219838925262
+
+movie_title: The-Two-Faces-of-January
+mean_volume: 0.133502714062
+std_dev_volume: 0.0793047705786
+min_volume: 0.0
+max_volume: 0.365914236559
+
+movie_title: The-Unknown-Known
+mean_volume: 0.128137285729
+std_dev_volume: 0.079933543789
+min_volume: 0.0
+max_volume: 0.312997884297
+
+movie_title: The-Visit
+mean_volume: 0.103404893994
+std_dev_volume: 0.0869367153727
+min_volume: 0.0
+max_volume: 0.384644796105
+
+movie_title: The-Walk
+mean_volume: 0.0497531650026
+std_dev_volume: 0.0514583284853
+min_volume: 0.0
+max_volume: 0.257044280987
+
+movie_title: The-Wannabe
+mean_volume: 0.0973464932221
+std_dev_volume: 0.0572972374956
+min_volume: 0.0
+max_volume: 0.260758216367
+
+movie_title: The-Water-Diviner
+mean_volume: 0.0542313031582
+std_dev_volume: 0.0449654019421
+min_volume: 0.0
+max_volume: 0.242067998007
+
+movie_title: The-Wave
+mean_volume: 0.15194258483
+std_dev_volume: 0.0932383023526
+min_volume: 0.0
+max_volume: 0.37727295647
+
+movie_title: The-Way-Way-Back
+mean_volume: 0.139028773502
+std_dev_volume: 0.10035637745
+min_volume: 0.0
+max_volume: 0.458940009278
+
+movie_title: The-Wedding-Ringer
+mean_volume: 0.0763228539273
+std_dev_volume: 0.0414548567574
+min_volume: 0.0
+max_volume: 0.212594165173
+
+movie_title: The-Wind-Rises
+mean_volume: 0.0595830063341
+std_dev_volume: 0.0355344423312
+min_volume: 0.0
+max_volume: 0.273366634745
+
+movie_title: The-Witch
+mean_volume: 0.104635199674
+std_dev_volume: 0.0485910648145
+min_volume: 0.0107236236676
+max_volume: 0.229230583937
+
+movie_title: The-Wolf-of-Wall-Street
+mean_volume: 0.0864573258188
+std_dev_volume: 0.0528325601128
+min_volume: 0.0
+max_volume: 0.227621895211
+
+movie_title: The-Wolverine
+mean_volume: 0.136280033712
+std_dev_volume: 0.0669816692367
+min_volume: 0.0
+max_volume: 0.266706187397
+
+movie_title: The-Woman-in-Black-Angel-of-Death
+mean_volume: 0.0731570357373
+std_dev_volume: 0.0520522937954
+min_volume: 0.0
+max_volume: 0.304958771501
+
+movie_title: The-Worlds-End
+mean_volume: 0.0841083290567
+std_dev_volume: 0.0682014182596
+min_volume: 0.0
+max_volume: 0.32429792941
+
+movie_title: The-Wrestler
+mean_volume: 0.0412938463594
+std_dev_volume: 0.02471631075
+min_volume: 0.0
+max_volume: 0.106593423502
+
+movie_title: The-Young-and-Prodigious-TS-Spivet
+mean_volume: 0.0418831407476
+std_dev_volume: 0.0195240262639
+min_volume: 0.0
+max_volume: 0.0919677693075
+
+movie_title: The-Young-Messiah
+mean_volume: 0.114892406894
+std_dev_volume: 0.0781332348924
+min_volume: 0.0
+max_volume: 0.4029122453
+
+movie_title: There-Will-Be-Blood
+mean_volume: 0.0141083001383
+std_dev_volume: 0.00865611063866
+min_volume: 0.0
+max_volume: 0.0569448813771
+
+movie_title: They-Came-Together
+mean_volume: 0.0783735660424
+std_dev_volume: 0.0368320560071
+min_volume: 0.0
+max_volume: 0.179425090983
+
+movie_title: Third-Person
+mean_volume: 0.112079605182
+std_dev_volume: 0.055786163436
+min_volume: 0.0
+max_volume: 0.251539423288
+
+movie_title: This-is-the-End
+mean_volume: 0.0667295662418
+std_dev_volume: 0.0417504264032
+min_volume: 0.0
+max_volume: 0.224015847242
+
+movie_title: This-is-Where-I-Leave-You
+mean_volume: 0.101350659151
+std_dev_volume: 0.0529590126913
+min_volume: 0.0
+max_volume: 0.237625839135
+
+movie_title: Thor-The-Dark-World
+mean_volume: 0.147750996152
+std_dev_volume: 0.0698630638695
+min_volume: 0.0
+max_volume: 0.305024268998
+
+movie_title: To-the-Wonder
+mean_volume: 0.134438151142
+std_dev_volume: 0.0738383279056
+min_volume: 0.0
+max_volume: 0.270773037293
+
+movie_title: To-Write-Love-on-Her-Arms
+mean_volume: 0.0718862871944
+std_dev_volume: 0.03540305357
+min_volume: 0.0
+max_volume: 0.1923258545
+
+movie_title: Tomorrowland
+mean_volume: 0.0346705230975
+std_dev_volume: 0.044012519965
+min_volume: 0.0
+max_volume: 0.305987419256
+
+movie_title: Top-Five
+mean_volume: 0.0773020034821
+std_dev_volume: 0.0368874735457
+min_volume: 0.0
+max_volume: 0.253375695257
+
+movie_title: Touched-With-Fire
+mean_volume: 0.0636284610811
+std_dev_volume: 0.0327128167012
+min_volume: 0.0
+max_volume: 0.205601763965
+
+movie_title: Tracers
+mean_volume: 0.0930940231173
+std_dev_volume: 0.0602533021068
+min_volume: 0.0
+max_volume: 0.2593595978
+
+movie_title: Tracks
+mean_volume: 0.131118498896
+std_dev_volume: 0.0718870895894
+min_volume: 0.00199374432813
+max_volume: 0.305861415127
+
+movie_title: Trainwreck
+mean_volume: 0.157454798559
+std_dev_volume: 0.073010739014
+min_volume: 0.0
+max_volume: 0.375765419755
+
+movie_title: Transcendence
+mean_volume: 0.0646508176959
+std_dev_volume: 0.0305585305786
+min_volume: 0.0
+max_volume: 0.13232817864
+
+movie_title: Transformers-Age-of-Extinction
+mean_volume: 0.0983880920166
+std_dev_volume: 0.0367408113827
+min_volume: 0.00243228280974
+max_volume: 0.159574493106
+
+movie_title: Triple-9
+mean_volume: 0.206076525808
+std_dev_volume: 0.13523794608
+min_volume: 0.0
+max_volume: 0.454425306147
+
+movie_title: True-Story
+mean_volume: 0.126884937987
+std_dev_volume: 0.0676096832946
+min_volume: 0.0
+max_volume: 0.371437456824
+
+movie_title: Trumbo
+mean_volume: 0.0937957729893
+std_dev_volume: 0.0396225634375
+min_volume: 0.0
+max_volume: 0.215785851394
+
+movie_title: Trust-Me
+mean_volume: 0.0526585346064
+std_dev_volume: 0.0221648992731
+min_volume: 0.0
+max_volume: 0.133976131898
+
+movie_title: Tumbledown
+mean_volume: 0.0461110401564
+std_dev_volume: 0.0162382774819
+min_volume: 0.00270944999796
+max_volume: 0.109042045453
+
+movie_title: Turbo
+mean_volume: 0.0815872492493
+std_dev_volume: 0.0495956927006
+min_volume: 0.0
+max_volume: 0.182634391781
+
+movie_title: Tusk
+mean_volume: 0.134079654538
+std_dev_volume: 0.062958489461
+min_volume: 0.0
+max_volume: 0.340542491917
+
+movie_title: Twice-Born
+mean_volume: 0.108663626892
+std_dev_volume: 0.0642979871369
+min_volume: 0.0
+max_volume: 0.351941101464
+
+movie_title: Two-Bit-Waltz
+mean_volume: 0.0328050292356
+std_dev_volume: 0.0168208944208
+min_volume: 0.0
+max_volume: 0.109395183076
+
+movie_title: Two-Days-One-Night
+mean_volume: 0.0940580522601
+std_dev_volume: 0.0529815314175
+min_volume: 0.0
+max_volume: 0.210441385426
+
+movie_title: Two-Night-Stand
+mean_volume: 0.0767741203787
+std_dev_volume: 0.0315784042825
+min_volume: 0.0
+max_volume: 0.213491402844
+
+movie_title: Tyler-Perry-Presents-Peeples
+mean_volume: 0.0857462348101
+std_dev_volume: 0.0430866611594
+min_volume: 0.0
+max_volume: 0.21035471452
+
+movie_title: Tyler-Perrys-A-Madea-Christmas
+mean_volume: 0.109784607295
+std_dev_volume: 0.0416231956586
+min_volume: 0.0
+max_volume: 0.230061887425
+
+movie_title: U-Want-Me-2-Kill-Him
+mean_volume: 0.0993962490843
+std_dev_volume: 0.0711279261386
+min_volume: 0.0
+max_volume: 0.362610958993
+
+movie_title: Unbroken
+mean_volume: 0.111156539989
+std_dev_volume: 0.0630512990371
+min_volume: 0.0
+max_volume: 0.340011752656
+
+movie_title: Under-the-Skin
+mean_volume: 0.0813004455962
+std_dev_volume: 0.0239247182148
+min_volume: 0.0
+max_volume: 0.120080180566
+
+movie_title: Underdogs-aka-The-Unbeatables
+mean_volume: 0.225390505456
+std_dev_volume: 0.0858415970881
+min_volume: 0.00146822398492
+max_volume: 0.431564268884
+
+movie_title: Unexpected
+mean_volume: 0.0686170299306
+std_dev_volume: 0.0264334642643
+min_volume: 0.0
+max_volume: 0.127418473744
+
+movie_title: Unforgiven-2013
+mean_volume: 0.0561163429511
+std_dev_volume: 0.0340069471846
+min_volume: 0.0
+max_volume: 0.215270353709
+
+movie_title: Unfriended
+mean_volume: 0.129984507138
+std_dev_volume: 0.111892397477
+min_volume: 0.0
+max_volume: 0.613092105221
+
+movie_title: Upside-Down
+mean_volume: 0.19531628488
+std_dev_volume: 0.0930725345797
+min_volume: 0.0
+max_volume: 0.481156330438
+
+movie_title: Vacation
+mean_volume: 0.0862908370056
+std_dev_volume: 0.0377728669852
+min_volume: 0.0
+max_volume: 0.190748655582
+
+movie_title: Vampire-Academy
+mean_volume: 0.121560832213
+std_dev_volume: 0.0671554494839
+min_volume: 0.0
+max_volume: 0.258705012865
+
+movie_title: Venus-and-Serena
+mean_volume: 0.0926619138783
+std_dev_volume: 0.0440771054993
+min_volume: 0.0
+max_volume: 0.22929933239
+
+movie_title: Veronica-Mars
+mean_volume: 0.0382589037393
+std_dev_volume: 0.0164483443579
+min_volume: 0.0
+max_volume: 0.0792204966519
+
+movie_title: Very-Good-Girls
+mean_volume: 0.238133863743
+std_dev_volume: 0.0966513980518
+min_volume: 0.0
+max_volume: 0.501555448412
+
+movie_title: VHS-Viral
+mean_volume: 0.123659296474
+std_dev_volume: 0.0702121678067
+min_volume: 0.0
+max_volume: 0.29938751816
+
+movie_title: Vice-2015
+mean_volume: 0.108278119678
+std_dev_volume: 0.0428435389942
+min_volume: 0.0
+max_volume: 0.207672322044
+
+movie_title: Victor-Frankenstein
+mean_volume: 0.0645222166593
+std_dev_volume: 0.0526123814972
+min_volume: 0.0
+max_volume: 0.297896605376
+
+movie_title: Video-Games-The-Movie
+mean_volume: 0.128628171113
+std_dev_volume: 0.0345510990248
+min_volume: 0.0
+max_volume: 0.249293515004
+
+movie_title: Walk-of-Shame
+mean_volume: 0.0950752808066
+std_dev_volume: 0.0332824339316
+min_volume: 0.0
+max_volume: 0.201135748453
+
+movie_title: Watermark
+mean_volume: 0.143462971703
+std_dev_volume: 0.0670088554512
+min_volume: 0.0
+max_volume: 0.264914691444
+
+movie_title: We-Are-Your-Friends
+mean_volume: 0.0849763610777
+std_dev_volume: 0.0339110447217
+min_volume: 0.0
+max_volume: 0.16348029465
+
+movie_title: Welcome-to-Me
+mean_volume: 0.118404047485
+std_dev_volume: 0.0673569592784
+min_volume: 0.00500148256554
+max_volume: 0.296359920255
+
+movie_title: Welcome-to-the-Jungle
+mean_volume: 0.0999757473047
+std_dev_volume: 0.0520434274134
+min_volume: 0.00571930524447
+max_volume: 0.261424075879
+
+movie_title: Well-Never-Have-Paris
+mean_volume: 0.0854858094122
+std_dev_volume: 0.0486608171107
+min_volume: 0.0
+max_volume: 0.32902203265
+
+movie_title: Were-the-Millers
+mean_volume: 0.140560371908
+std_dev_volume: 0.0958908906698
+min_volume: 0.0
+max_volume: 0.489237005952
+
+movie_title: Wetlands
+mean_volume: 0.088553766926
+std_dev_volume: 0.0543374621995
+min_volume: 0.0
+max_volume: 0.247268631828
+
+movie_title: What-Maisie-Knew
+mean_volume: 0.14159285729
+std_dev_volume: 0.054212604458
+min_volume: 0.0
+max_volume: 0.259258692295
+
+movie_title: What-We-Do-in-the-Shadows
+mean_volume: 0.099771792867
+std_dev_volume: 0.0513736885368
+min_volume: 0.00182663328821
+max_volume: 0.313265806376
+
+movie_title: When-the-Game-Stands-Tall
+mean_volume: 0.114508461534
+std_dev_volume: 0.0394711169589
+min_volume: 0.0
+max_volume: 0.229440888285
+
+movie_title: While-Were-Young
+mean_volume: 0.0976040792153
+std_dev_volume: 0.035842689919
+min_volume: 0.0
+max_volume: 0.179864577912
+
+movie_title: Whiplash
+mean_volume: 0.101698586204
+std_dev_volume: 0.0773161190612
+min_volume: 0.0
+max_volume: 0.468190290961
+
+movie_title: Whiskey-Tango-Foxtrot
+mean_volume: 0.117277105246
+std_dev_volume: 0.0473502068994
+min_volume: 0.0
+max_volume: 0.224927676728
+
+movie_title: White-Bird-in-a-Blizzard
+mean_volume: 0.0716712135107
+std_dev_volume: 0.0461671044195
+min_volume: 0.0
+max_volume: 0.255476248069
+
+movie_title: White-Elephant
+mean_volume: 0.0897531114546
+std_dev_volume: 0.0427344785505
+min_volume: 0.0
+max_volume: 0.221486262937
+
+movie_title: White-House-Down
+mean_volume: 0.122371473932
+std_dev_volume: 0.0846415116121
+min_volume: 0.0
+max_volume: 0.299047546636
+
+movie_title: Whitewash
+mean_volume: 0.094291951767
+std_dev_volume: 0.0690451247283
+min_volume: 0.0
+max_volume: 0.378221060381
+
+movie_title: Wild
+mean_volume: 0.144742687417
+std_dev_volume: 0.0812664280836
+min_volume: 0.0
+max_volume: 0.389659154409
+
+movie_title: Wild-Card
+mean_volume: 0.112962788102
+std_dev_volume: 0.0579654581061
+min_volume: 0.0
+max_volume: 0.296136431838
+
+movie_title: Willow-Creek
+mean_volume: 0.0763340586718
+std_dev_volume: 0.0585393421221
+min_volume: 0.0
+max_volume: 0.278096060401
+
+movie_title: Winters-Tale
+mean_volume: 0.066745686498
+std_dev_volume: 0.0365547847641
+min_volume: 0.0
+max_volume: 0.153845319179
+
+movie_title: Wish-I-Was-Here
+mean_volume: 0.182738464086
+std_dev_volume: 0.0920598558056
+min_volume: 0.0
+max_volume: 0.308174801522
+
+movie_title: Wolf-Creek-2
+mean_volume: 0.105745435428
+std_dev_volume: 0.0520790547905
+min_volume: 0.0
+max_volume: 0.271715915252
+
+movie_title: WolfCop
+mean_volume: 0.0783505593494
+std_dev_volume: 0.0605336969887
+min_volume: 0.0
+max_volume: 0.29635526019
+
+movie_title: Wolves
+mean_volume: 0.14433970825
+std_dev_volume: 0.0719583210689
+min_volume: 0.0
+max_volume: 0.329944306369
+
+movie_title: Words-and-Pictures
+mean_volume: 0.0986187758054
+std_dev_volume: 0.0396465707585
+min_volume: 0.0
+max_volume: 0.238547635604
+
+movie_title: World-War-Z
+mean_volume: 0.131124997906
+std_dev_volume: 0.0909412427639
+min_volume: 0.0
+max_volume: 0.365556112337
+
+movie_title: Writers
+mean_volume: 0.122788124856
+std_dev_volume: 0.0449191994934
+min_volume: 0.0
+max_volume: 0.334752880457
+
+movie_title: Wyrmwood
+mean_volume: 0.02615759453
+std_dev_volume: 0.0121297128079
+min_volume: 0.0
+max_volume: 0.068505608069
+
+movie_title: X-Men-Days-of-Future-Past
+mean_volume: 0.13244644716
+std_dev_volume: 0.0801833633847
+min_volume: 0.0
+max_volume: 0.318707376697
+
+movie_title: Yes-Man
+mean_volume: 0.0365655688599
+std_dev_volume: 0.0211592137577
+min_volume: 0.0
+max_volume: 0.0925689609817
+
+movie_title: Youre-Next
+mean_volume: 0.103574651168
+std_dev_volume: 0.0732845594008
+min_volume: 0.0
+max_volume: 0.279977625133
+
+movie_title: Youre-Not-You
+mean_volume: 0.0976795536899
+std_dev_volume: 0.0395081709035
+min_volume: 0.0
+max_volume: 0.178722504712
+
+movie_title: Youth
+mean_volume: 0.125991520271
+std_dev_volume: 0.0677454651048
+min_volume: 0.0
+max_volume: 0.35087518538
+
+movie_title: Z-for-Zachariah
+mean_volume: 0.116960480395
+std_dev_volume: 0.0640577951325
+min_volume: 0.0
+max_volume: 0.293776590326
+
+movie_title: Zero-Charisma
+mean_volume: 0.0556412370021
+std_dev_volume: 0.0309718138832
+min_volume: 0.0
+max_volume: 0.183685908158
+
+movie_title: Zoolander-2
+mean_volume: 0.0944982654244
+std_dev_volume: 0.0441063940405
+min_volume: 0.0
+max_volume: 0.218756203428
+
+movie_title: Zootopia
+mean_volume: 0.059557754464
+std_dev_volume: 0.0376130900567
+min_volume: 0.0
+max_volume: 0.148973447233
