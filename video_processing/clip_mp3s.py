@@ -1,9 +1,10 @@
 import os
 import sys
 from pydub import AudioSegment
+AudioSegment.converter = r"C:\\ffmpeg\\bin\\ffmpeg.exe"
 
-mp3_dir = 'F:\\582 videos\\mp3s'
-clipped_mp3_dir = 'F:\\582 videos\\mp3s\\clipped'
+mp3_dir = 'C:\\Users\\Noel_K\\git_repository\\video-analysis-amath-582\\video_processing\\mp3s'
+clipped_mp3_dir = 'C:\\Users\\Noel_K\\git_repository\\video-analysis-amath-582\\video_processing\\clipped'
 
 clip_size_ms = 10000
 
