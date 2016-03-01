@@ -236,8 +236,8 @@ def analyze_video(filename):
     shot_lengths = [j-i for i, j in zip(shot_transitions[:-1], shot_transitions[1:])]
     mean_shot_length = float(np.mean(shot_lengths))
     std_dev_shot_length = float(np.std(shot_lengths))
-    max_dev_shot_length = float(np.max(shot_lengths))
-    min_dev_shot_length = float(np.min(shot_lengths))
+    max_shot_length = float(np.max(shot_lengths))
+    min_shot_length = float(np.min(shot_lengths))
     num_shots = len(shot_lengths)
 
     # Calculate data related to consecutive dark frames (pitch black transitions, a.k.a. dark scenes)
@@ -262,7 +262,7 @@ def analyze_video(filename):
     # print 'dark_scene_count:', dark_scene_count
     # print 'dark_scene_percentage:', dark_scene_percentage
 
-    return frameNo, current_time, avg_intensity, avg_color, mean_shot_length, std_dev_shot_length, max_dev_shot_length, min_dev_shot_length, num_shots, stddev_color_with_letterbox, detail_score_mean, detail_score_std_dev, detail_score_max, detail_score_min, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage
+    return frameNo, current_time, avg_intensity, avg_color, mean_shot_length, std_dev_shot_length, max_shot_length, min_shot_length, num_shots, stddev_color_with_letterbox, detail_score_mean, detail_score_std_dev, detail_score_max, detail_score_min, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage
 
 def main():
     # Create video analysis (or audio analysis) results file, in case it doesn't already exist
@@ -286,7 +286,7 @@ def main():
                         continue
                     else:
                         if video_analysis_mode:
-                            num_frames, total_time, avg_intensity, avg_color, mean_shot_length, std_dev_shot_length, max_dev_shot_length, min_dev_shot_length, num_shots, stddev_color_with_letterbox, detail_score_mean, detail_score_std_dev, detail_score_max, detail_score_min, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage = analyze_video(os.path.join(dirname, filename))
+                            num_frames, total_time, avg_intensity, avg_color, mean_shot_length, std_dev_shot_length, max_shot_length, min_shot_length, num_shots, stddev_color_with_letterbox, detail_score_mean, detail_score_std_dev, detail_score_max, detail_score_min, dark_scene_mean_length, dark_scene_length_std_dev, dark_scene_length_max, dark_scene_length_min, dark_scene_count, dark_scene_percentage = analyze_video(os.path.join(dirname, filename))
                         else:
                             mean_volume, std_dev_volume, min_volume, max_volume, sudden_rise_count_per_cut, sudden_fall_count_per_cut, volumes_strings = analyze_sound(os.path.join(dirname, filename))
 
@@ -299,8 +299,8 @@ def main():
                         print 'Average Pixel Color:', avg_color
                         print 'Average Shot Length (s):', mean_shot_length
                         print 'Shot Length Standard Deviation (s):', std_dev_shot_length
-                        print 'Shot Length Maximum (s):', max_dev_shot_length
-                        print 'Shot Length Minimum (s):', min_dev_shot_length
+                        print 'Shot Length Maximum (s):', max_shot_length
+                        print 'Shot Length Minimum (s):', min_shot_length
                         print 'Number of Shots:', num_shots
                         print 'Standard deviation of color (with letterbox):', stddev_color_with_letterbox
                         print 'Mean detail score:', detail_score_mean
@@ -335,8 +335,8 @@ def main():
                             outfile.write('avg_color: ' + str(avg_color) + '\n')
                             outfile.write('mean_shot_length: ' + str(mean_shot_length) + '\n')
                             outfile.write('std_dev_shot_length: ' + str(std_dev_shot_length) + '\n')
-                            outfile.write('max_dev_shot_length: ' + str(max_dev_shot_length) + '\n')
-                            outfile.write('min_dev_shot_length: ' + str(min_dev_shot_length) + '\n')
+                            outfile.write('max_shot_length: ' + str(max_shot_length) + '\n')
+                            outfile.write('min_shot_length: ' + str(min_shot_length) + '\n')
                             outfile.write('num_shots: ' + str(num_shots) + '\n')
                             outfile.write('stddev_color_with_letterbox: ' + str(stddev_color_with_letterbox) + '\n')
                             outfile.write('detail_score_mean: ' + str(detail_score_mean) + '\n')
