@@ -1,0 +1,95 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\IEEEoverridecommandlockouts                              % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+
+\title{\LARGE \bf
+Movie Genre Recognition From Movie Trailers\\
+}
+
+\author{Nathaniel Guy, John Fuini and Yong Han Noel Kim\\
+	University of Washington, Seattle WA% <-this % stops a space
+\thanks{Nathaniel Guy and Yong Han Noel Kim are Masters students in the University of Washington Department of Aeronautics and Astronautics Engineering, and can be reached at {\tt\small natguy@cs.washington.edu} and {\tt\small kimber.noel@outlook.com} repectively. John Fuini is PhD student in the University of Washington Department of Physics and can be reached at {\tt\small fuini@uw.edu}. }%
+}
+\date{ \today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{INTRODUCTION}
+Movie trailer is one of the most effective marketing methods for advertising movies. It delivers relevant informations such as background, cast, theme, plot and so forth in a limited amount of time. One could consider a movie trailer as a subset of the movie that contains principle components of the movie. With this consideration, we developed an algorithm which classifies movie trailers by their genre. It is a familiar process all movie-viewers. That is, based on myriads of cinematic features in a trailer, movie-viewers can judge if a certain movie is a comedy, an action, a documentary etc. within the first minute of watching its trailer. They developed this cognitive process by watching countless movies of various genre over time, and sub-consciously identifying certain cinematic features related to certain genres. Our algorithm uses a similar process but for computers. This report describes the process of identifying cinematic features from a large set of trailers of known genre, having a computer employ machine learning process to develop classification criteria for itself, and testing the classification criteria on a set of trailers. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{RELATED WORK}
+Zeeshan Rasheed et al. in their \textit{On the Use of Computable Features for Film Classification}\cite{Rasheed}, developed classification algorithm for film classification based on film previews. They limited themselves to visual features only, such as average shot length, color variance, motion content and lighting key, and four genres: comedy, action, drama and horror. We aimed to create a more robust algorithm that can classify 25 genres, using more features from both visual and audible features.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{COMPONENT ARCHITECTURE}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{RESULTS}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{FUTURE WORK}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{CONCLUSION}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{ACKNOWLEDGMENTS}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{thebibliography}{99}
+\bibitem{Rasheed}
+Rasheed Z., Sheikh Y., Shah M., {\it On the Use of Computable Features for Film Classification}, IEEE Transactions on Circuits and Systems for Video Technology, Vol.15 No.1, Jan. 2005
+\end{thebibliography}
+
+\end{document}
