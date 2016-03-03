@@ -71,7 +71,7 @@ startRow = 2;
 %	column60: double (%f)
 %   column61: double (%f)
 % For more information, see the TEXTSCAN documentation.
-formatSpec = '%*s%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%*s%*s%*s%*s%*s%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%[^\n\r]';
+formatSpec = '%*s%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%[^\n\r]';
 
 %% Open the text file.
 fileID = fopen(filename,'r');
@@ -122,7 +122,7 @@ min_volume = dataArray{:, 27};
 max_volume = dataArray{:, 28};
 sudden_rise_count_per_cut = dataArray{:, 29};
 sudden_fall_count_per_cut = dataArray{:, 30};
-octave1 = dataArray{:,31};
+octave1 = dataArray{:,31}; 
 octave2 = dataArray{:,32};
 octave3 = dataArray{:,33};
 octave4 = dataArray{:,34};
@@ -133,7 +133,7 @@ octave8 = dataArray{:,38};
 octave9 = dataArray{:,39};
 octave10 = dataArray{:,40};
 octave11 = dataArray{:,41};
-Drama = dataArray{:, 42};
+Drama = dataArray{:, 42}; %38 is drame
 Horror = dataArray{:, 43};
 Thriller = dataArray{:, 44};
 Action = dataArray{:, 45};
@@ -165,7 +165,7 @@ clearvars filename delimiter startRow formatSpec fileID dataArray ans;
 
 %% Data Analysis
 
-%each row is a trailer, and we have 41 features
+%each row is a trailer, and we have 42 features
 master_data = [total_time avg_intensity avg_color_r avg_color_g avg_color_b...
     mean_shot_length std_dev_shot_length max_shot_length min_shot_length...
     num_shots stddev_color_with_letterbox_r stddev_color_with_letterbox_g...
