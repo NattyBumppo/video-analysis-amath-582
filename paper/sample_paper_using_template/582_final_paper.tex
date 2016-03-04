@@ -50,18 +50,46 @@ Movie Genre Recognition From Movie Trailers\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
-Movie trailer is one of the most effective marketing methods for advertising movies. It delivers relevant informations such as background, cast, theme, plot and so forth in a limited amount of time. One could consider a movie trailer as a subset of the movie that contains principle components of the movie. With this consideration, we developed an algorithm which classifies movie trailers by their genre. It is a familiar process all movie-viewers. That is, based on myriads of cinematic features in a trailer, movie-viewers can judge if a certain movie is a comedy, an action, a documentary etc. within the first minute of watching its trailer. They developed this cognitive process by watching countless movies of various genre over time, and sub-consciously identifying certain cinematic features related to certain genres. Our algorithm uses a similar process but for computers. This report describes the process of identifying cinematic features from a large set of trailers of known genre, having a computer employ machine learning process to develop classification criteria for itself, and testing the classification criteria on a set of trailers. 
+Movie trailer is one of the most effective advertising tools for movie industry. It delivers relevant informations such as background, cast, theme, plot and so forth in a limited amount of time. As such, it can be considered as a subset of a movie that contains its principle components. With this consideration, we developed an algorithm which classifies movie trailers by their genre. It is a familiar process for all movie-viewers. movie viewers can judge if a certain movie is a comedy, an action, a documentary etc. within the first minute of watching a trailer based on myriads of cinematic features in it. They develop this cognitive process by watching countless movies of various genre over time, and sub-consciously identifying certain cinematic features related to certain genres. Our algorithm adapted such process to be used by computers via machine learning. This report describes the process of identifying cinematic features from a large set of trailers of known genre, having a computer employ machine learning process to develop classification criteria for itself, and testing the classification criteria on a set of trailers. 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RELATED WORK}
-Zeeshan Rasheed et al. in their \textit{On the Use of Computable Features for Film Classification}\cite{Rasheed}, developed classification algorithm for film classification based on film previews. They limited themselves to visual features only, such as average shot length, color variance, motion content and lighting key, and four genres: comedy, action, drama and horror. We aimed to create a more robust algorithm that can classify 25 genres, using more features from both visual and audible features.
+Zeeshan Rasheed et al. in their \textit{On the Use of Computable Features for Film Classification}\cite{Rasheed}, developed an algorithm for film classification based on film previews. They limited themselves to visual features only, such as average shot length, color variance, motion content and lighting key, and four genres: comedy, action, drama and horror. We aimed to create a more robust algorithm that can classify 25 genres, using more features from both visual and audible features.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{COMPONENT ARCHITECTURE}
+\subsection{Feature Generation via Video Processing}
+%keyword : regex, OpenCV2, 
+\subsubsection{Number of Frames}
+\subsubsection{Total Time}
+\subsubsection{Average Intensity}
+\subsubsection{Average R, G and B Component}
+\subsubsection{Shot Length}
+%mean, std dev,min and max
+\subsubsection{Number of Shots}
+\subsubsection{Standard Deviation of R, G and B Component with Letterbox}
+\subsubsection{Detail Score}
+%std dev, min and max
+\subsubsection{Dark Scene}
+%count, percentage, mean length, std dev, min and max
 
+\subsection{Feature Generation via Audio Processing}
+%kewword : FFT, 
+From the trailers saved in video file format, we extracted the audio component using sampling frequency of 44.1 kHz. A series of analysis was done on this audio component to extract features.
+\subsubsection{Volume}
+\textit{Mean} : Mean volume for each trailer was calculated by averaging the amplitudes of sound waves over the entire duration of a trailer. A motivation behind extracting this feature was that a trailer saturated with loud noises would have bigger value of mean volume than movies with relatively calm sound. And naturally, trailers with loud noises - explosion, jet noise, shouting, etc. are associated with genres such as action, thriller, adventure. On the other hand, trailers with calm audio, and even some quietness could be associated with genres such as drama, history, family. \\
+\textit{Standard Deviation}: While all trailers were sourced from a single source, there was no guarantee that they were equalized to the same degree. Thus, a higher mean volume could simply mean a sheer loudness of overall volume. In order to get a sense of how much variation of volume is in each trailer, we calculated standard deviation of the sound waves over the entire trailer as well.\\
+\textit{Minimum and Maximum}: Minimum and maximum volume for each trailer were calculated based on the waveform. Most trailers had minimum volume near zero, while some had marginally higher value such as 0.03. For a perspective, maximum volume ranged from values of 0.1 to 0.5, roughly.
+\subsubsection{Sudden Rise/Fall of Volume}
+The sudden rise and sudden fall of volume were defined as an increase and a decrease of volume with a magnitude bigger than the standard deviation of volumes, respectively. 
+\subsubsection{Percentage of Sound Corresponding to Different Octave Bands}
+For this feature, the waveform of each trailer was transformed to the frequency domain using Fast Fourier transform (FFT). Its frequencies were divided into eleven bands commonly defined as octave band (11Hz \sim 22720Hz). The magnitudes of frequency components in each band were summed together, and normalized so that the sum of magnitudes of all octave bands would be 1. The resulting magnitudes represented the composition of sounds of each trailer with respect to eleven octave bands. 
+
+\subsection{Use of Features in Machine Learning Algorithm}
+%keyword: binary decision tree
 
 
 
