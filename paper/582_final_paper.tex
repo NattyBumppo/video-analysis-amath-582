@@ -26,7 +26,7 @@
 %\usepackage{amssymb}  % assumes amsmath package installed
 
 \title{\LARGE \bf
-Movie Genre Recognition From Movie Trailers\\
+Movie Trailer Genre Identification via Multimedia Feature Generation and Decision Tree Classification\\
 }
 
 \author{Nathaniel Guy, John Fuini and Yong Han Noel Kim\\
@@ -90,7 +90,7 @@ For this feature, the waveform of each trailer was transformed to the frequency 
 
 \subsection{Use of Features in Machine Learning Algorithm}
 %keyword: binary decision tree
-
+All extracted features from each movies were compiled into a single *.CSV spreadsheet. The spreadsheet contained the genre labels of each movies as well. Movies were not limited to one genre. For instance, there were movie trailers with genres such as action-comedy, or mystery-horror-thriller. These data were passed on to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full list of trailers were used for building the tree. This tree was used to predict the entire range of trailers, and its success and failure rate were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, for the purpose of cross-validation. 
 
 
 
