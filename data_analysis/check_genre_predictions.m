@@ -1,7 +1,7 @@
 function A = check_genre_predictions(data, genre, fraction_to_train, num_trials)
 
-%tags for the genre in question
 failed_fractions = [];
+
 for j = 1:num_trials
     [num_movies, num_features] = size([data]); 
 
@@ -21,5 +21,6 @@ for j = 1:num_trials
     failed_fractions(j) = failed_fraction;
     
 end
+% view(tree)
 
 A = sum(failed_fractions)/length(failed_fractions);
