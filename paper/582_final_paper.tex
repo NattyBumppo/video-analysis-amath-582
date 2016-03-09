@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{subcaption}
 
 \IEEEoverridecommandlockouts                              % This command is only
                                                           % needed if you want to
@@ -108,8 +109,55 @@ All extracted features from each movies were compiled into a single *.CSV spread
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RESULTS}
+The rate of successive classification by our algorithm for top ten most popular genres are shown in fig. \ref{f:success_rate_table}. The Drama, with 65\% successful classification, had the lowest success rate of them, but the rest registered consistently over 80\% success rate.\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{success_rate.jpg}
+	\caption{Classifier success rate for ten most popular genres.}
+	\label{f:success_rate_table}
+\end{figure}
+In order to gain some insight to what features are important for the classification, we performed singular value decomposition on the set of movie trailers and their features. As can be seen in the plot of covariances of principal modes (fig. \ref{f:mode_covar}), only four modes capture roughly 90\% of the energy.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{mode_covar.jpg}
+	\caption{Covariances of modes}
+	\label{f:mode_covar}
+\end{figure}
+These four modes consist of features of differing degree. Figure \ref{f:mode_composition} display the weights of each feature in four prominent modes. One can observe that the leftmost ten features are driving factors for these modes. These features are: number of shots, dark scene max. length, total time, average blue color, average green color, average intensity, average red color, dark scene length standard deviation, dark scene mean length and dark scene count. This results suggest that machine learning algorithm relies mainly on chromatic and luminous qualities of trailers, as eight out of ten most important features describe color and brightness of scenes in trailers. In another words, from a machine's perspective, trailers of different genres sound similar, but some are more colorful than the other.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{mode_comp.jpg}
+	\caption{Compositions of features for each modes}
+	\label{f:mode_covar}
+\end{figure}
+We experimented with the concept of dimension reduction by trying the classification using one, two and four modes. The rate of success are plotted in fig. \ref{f:modal_redx}. Surprisingly, the difference of success rate between one-mode classification and all-mode classifications are only about 10\%.
+\onecolumn
+\begin{figure}
+	\centering
+	\begin{subfigure}[b]{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{one_mode_appx}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.475\textwidth}  
+		\centering 
+		\includegraphics[width=\textwidth]{two_mode_appx}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.475\textwidth}   
+		\centering 
+		\includegraphics[width=\textwidth]{four_mode_appx}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{0.475\textwidth}   
+		\centering 
+		\includegraphics[width=\textwidth]{orig_mode}
+	\end{subfigure}
+	\caption{Classifications made with one, two and four mode approximation compared to the original classification made with a complete set of modes} 
+	\label{f:modal_redx}
+\end{figure}
 
-
+\twocolumn
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{LESSONS LEARNT}
