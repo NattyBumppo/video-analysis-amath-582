@@ -220,7 +220,7 @@ end
 plot(success, 'ko', 'LineWidth',[2.0]), axis([1 10 0 1])
 title('Decision Tree Prediction Success for Most Populated Genres')
 xlabel('Drama, Comedy, Thriller, Action, Horror, Crime, Romance, Adventure, Biography, Documentary')
-   %% SVD for Dimensional Reduction
+%% SVD for Dimensional Reduction
 
 [m,n] = size(master_data);
 mn=mean(master_data,2);
@@ -229,31 +229,22 @@ master_data = master_data - repmat(mn,1,n);
 [u,s,v] = svd(master_data'/(sqrt(n-1)));
 lambda = diag(s).^2;
 
-%% plot
+%% plot singular values
 figure(2)
 subplot(1,2,1), plot(diag(s)/sum(diag(s)), 'ko', 'LineWidth',[1.5])
 title('Singular Values normalized'), xlabel('Principle Mode Number'), ylabel('')
 subplot(1,2,2), semilogy(lambda, 'ko', 'LineWidth',[1.5])
 title('Singular Values on logplot'), xlabel('Principle Mode Number'), ylabel('') 
 
-%%
+%% Building Reconstructions
 
 
-ff = u*s*v';
-ff1 = u(:,1)*s(1,1)*v(:,1)';
-ff2 = u(:,1:2)*s(1:2,1:2)*v(:,1:2)';
-ff4 = u(:,1:4)*s(1:4,1:4)*v(:,1:4)';
-% subplot(3,1,1), plot(ff, 'LineWidth', [1.5])
-% title('Case 1: Full Data'), xlabel('frames'), ylabel('dist/L'), legend('cam1(x)','cam1(y)','cam2(x)','cam2(y)','cam3(x)','cam3(y)')
-% subplot(3,1,2), plot(ff1, 'LineWidth', [1.5])
-% title('Case 1: One Mode Reconstruction'), xlabel('frames'), ylabel('dist/L'), legend('cam1(x)','cam1(y)','cam2(x)','cam2(y)','cam3(x)','cam3(y)')
-% subplot(3,1,3), plot(ff2, 'LineWidth', [1.5])
-% title('Case 1: Two Mode Reconstruction'), xlabel('frames'), ylabel('dist/L'), legend('cam1(x)','cam1(y)','cam2(x)','cam2(y)','cam3(x)','cam3(y)')
-% 
+ff = u*s*v'; %full data
+ff1 = u(:,1)*s(1,1)*v(:,1)'; %one mode
+ff2 = u(:,1:2)*s(1:2,1:2)*v(:,1:2)'; %two mode
+ff4 = u(:,1:4)*s(1:4,1:4)*v(:,1:4)'; %four mode
+
 figure(3)
-[u(:,1) u(:,2) u(:,3) u(:,4)];
-% [Max, ind] = max(u(:,1))
-% [Max, ind] = max(u(:,2))
 plot(1:length(u(:,1)), abs(u(:,1)), 'ko', ...
     1:length(u(:,2)), abs(u(:,2)), 'rx', ...
     1:length(u(:,3)), abs(u(:,3)), 'bv', ...
@@ -277,7 +268,7 @@ accuracyOne(8) = check_genre_predictions(data, Adventure, 0.8, num_trials);
 accuracyOne(9) = check_genre_predictions(data, Biography, 0.8, num_trials);
 accuracyOne(10) = check_genre_predictions(data, Documentary, 0.8, num_trials);
 
-%%
+%% Another Reconstruction test
 clearvars accuracyTwo
 accuracyTwo = [];
 data = ff4';
@@ -387,3 +378,23 @@ plot(successSVM, 'ko', 'LineWidth',[2.0]), axis([1 10 0 1])
 title('SVM Prediction Success for Most Populated Genres')
 xlabel('Drama, Comedy, Thriller, Action, Horror, Crime, Romance, Adventure, Biography, Documentary')
 
+%% SVM vs Tree
+figure(3)
+clearvars successSVM
+successSVM = [];
+for j = 1:length(accuracySVM)
+    successSVM(j) = 1 - accuracySVM(j);
+end
+
+clearvars success
+success = [];
+for j = 1:length(accuracy)
+    success(j) = 1 - accuracy(j);
+end
+
+
+
+plot(1:10, successSVM, 'ko', 1:10, success, 'go', 'LineWidth',[2.0]), axis([1 10 0.5 1])
+title('Prediction Success for Most Populated Genres')
+xlabel('Drama, Comedy, Thriller, Action, Horror, Crime, Romance, Adventure, Biography, Documentary')
+legend( 'Support Vector Machine','Classification Tree', 'Location', 'best')
