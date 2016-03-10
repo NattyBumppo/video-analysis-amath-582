@@ -1,0 +1,315 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  1 MAR 2016 18:31
+entering extended mode
+**F:/Dropbox/AMATH582/project/paper/sample_paper_using_template/sample.tex
+(F:/Dropbox/AMATH582/project/paper/sample_paper_using_template/sample.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(F:\Dropbox\AMATH582\project\paper\sample_paper_using_template\ieeeconf.cls
+
+LaTeX Warning: You have requested document class `ieeeconf',
+               but the document class provides `cssconf'.
+
+Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
+
+("F:\Apps\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\@IEEEnormalsizefontbaselineskip=\skip41
+
+-- This is a 10 point document.
+\normalsizebaselineskip=\skip42
+\normaljot=\skip43
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
+\IEEEilabelindentA=\dimen104
+\IEEEilabelindentB=\dimen105
+\IEEEilabelindent=\dimen106
+\IEEEelabelindent=\dimen107
+\IEEEdlabelindent=\dimen108
+\labelindent=\dimen109
+\IEEEiednormlabelsep=\dimen110
+\IEEEiedmathlabelsep=\dimen111
+\IEEEiedtopsep=\skip44
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen112
+\c@biography=\count90
+\@IEEEtranrubishbin=\box26
+) ("F:\Apps\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("F:\Apps\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("F:\Apps\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("F:\Apps\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("F:\Apps\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("F:\Apps\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("F:\Apps\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("F:\Apps\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\Users\Nat\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Nat\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\Users\Nat\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen115
+))
+(C:\Users\Nat\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+(C:\Users\Nat\AppData\Roaming\MiKTeX\2.9\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks17
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks18
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks19
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+** ATTENTION: Overriding command lockouts (line 13).
+** ATTENTION: Overriding IEEE standard margins (line 16).
+(F:\Dropbox\AMATH582\project\paper\sample_paper_using_template\sample.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 38.
+
+("F:\Apps\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+<monitor12.png, id=1, 409.53pt x 340.27126pt>
+File: monitor12.png Graphic file (type png)
+ <use monitor12.png>
+Package pdftex.def Info: monitor12.png used on input line 85.
+(pdftex.def)             Requested size: 147.43236pt x 122.50275pt.
+
+<monitor22.png, id=3, 410.53375pt x 340.27126pt>
+File: monitor22.png Graphic file (type png)
+ <use monitor22.png>
+Package pdftex.def Info: monitor22.png used on input line 92.
+(pdftex.def)             Requested size: 147.43236pt x 122.19641pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{C:/Users/Nat/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <F:/Dropbox/AMATH582/project/paper/sample_paper_using_template/monitor12.png>]
+
+<plots2.png, id=15, 407.5225pt x 345.29pt>
+File: plots2.png Graphic file (type png)
+ <use plots2.png>
+Package pdftex.def Info: plots2.png used on input line 103.
+(pdftex.def)             Requested size: 245.71811pt x 208.19244pt.
+
+<hierarchy2.png, id=16, 819.06pt x 407.5225pt>
+File: hierarchy2.png Graphic file (type png)
+ <use hierarchy2.png>
+Package pdftex.def Info: hierarchy2.png used on input line 114.
+(pdftex.def)             Requested size: 505.89pt x 251.70993pt.
+
+<gcm2.png, id=17, 409.53pt x 446.66875pt>
+File: gcm2.png Graphic file (type png)
+ <use gcm2.png>
+Package pdftex.def Info: gcm2.png used on input line 125.
+(pdftex.def)             Requested size: 245.71811pt x 268.00331pt.
+
+<cv2.png, id=18, 409.53pt x 235.88126pt>
+File: cv2.png Graphic file (type png)
+ <use cv2.png>
+Package pdftex.def Info: cv2.png used on input line 136.
+(pdftex.def)             Requested size: 245.71811pt x 141.52983pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <F:/Dropbox/AMATH582/project/paper/sample_paper_using_template/monitor22.png
+> <F:/Dropbox/AMATH582/project/paper/sample_paper_using_template/plots2.png> <F
+:/Dropbox/AMATH582/project/paper/sample_paper_using_template/gcm2.png>]
+[3 <F:/Dropbox/AMATH582/project/paper/sample_paper_using_template/hierarchy2.pn
+g> <F:/Dropbox/AMATH582/project/paper/sample_paper_using_template/cv2.png>]
+Underfull \hbox (badness 1635) in paragraph at lines 208--209
+[]\OT1/ptm/m/n/8 Yairi, T.; Kawa-hara, Y.; Fu-ji-maki, R.; Sato, Y.; Machida, K
+.,
+ []
+
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the US letter (8.5in X 11in) paper size.
+
+[4] (F:\Dropbox\AMATH582\project\paper\sample_paper_using_template\sample.aux) 
+) 
+Here is how much of TeX's memory you used:
+ 2080 strings out of 494045
+ 29631 string characters out of 3152019
+ 91330 words of memory out of 3000000
+ 5381 multiletter control sequences out of 15000+200000
+ 37001 words of font info for 76 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 27i,8n,20p,1603b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+{F:/Apps/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Apps/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/urw/courier/
+ucrr8a.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><F:/Apps/MiKTeX
+ 2.9/fonts/type1/urw/times/utmbi8a.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/urw/time
+s/utmr8a.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sample.pdf (4 pages, 436444 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
