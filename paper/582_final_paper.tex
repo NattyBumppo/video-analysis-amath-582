@@ -146,69 +146,46 @@ For this feature, the waveform of each trailer was transformed to the frequency 
 \subsection{Use of Features in Machine Learning Algorithm}
 %keyword: binary decision tree
 All extracted features from each trailer were compiled into a single comma-separated variable (CSV) spreadsheet. In addition to our generated features, the spreadsheet contained the genre labels for each trailer as well. Movies were not limited to one genre. For instance, there were movie trailers with multiple genre labels such as action-comedy, or mystery-horror-thriller. This spreadsheet was passed on to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full set of trailers were used for building the tree. This subset is known as a trainer set. The tree was then used to predict the entire range of trailers using Matlab's classification predict function (\text{predict}), and its success and failure rates were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, for the purpose of cross-validation.
+\subsubsection{Binary Decision Tree}
+\subsubsection{Support Vector Machine (SVM)}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RESULTS}
-
-The rate of success of classification by our algorithm for the top ten most common genres in our dataset is shown in Fig.~\ref{f:success_rate_table}. Drama, with a 65\% successful classification, had the lowest success rate of those tested, but the other 9 genres registered consistently over an 80\% success rate.\\
-
+The rate of successive classification by our algorithm for top ten most popular genres are shown in Fig. \ref{f:success_rate}. Success rates were calculated using both binary decision tree, and support vector machine sub-algorithms. For instance, the Drama genre had 58\% and 66\% successful classification for binary decision tree and SVM respectively. It had the lowest success rate of top-ten-genres, but the rest genres registered consistently over 70\% success rate. SVM had roughly 8\% higher success rate for a given genre than binary decision tree.\\
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{success_rate.jpg}
-	\caption{Classifier success rate for the ten most common genres.}
-	\label{f:success_rate_table}
+	\includegraphics[width=\columnwidth]{TreeVsSVM.png}
+	\caption{Classifier success rate for ten most popular genres.}
+	\label{f:success_rate}
 \end{figure}
-
-In order to gain some insight into what features are important for the classification, we performed a singular value decomposition on the set of movie trailers and their features. As can be seen in the plot of covariances of principal modes (Fig.~\ref{f:mode_covar}), only four modes capture roughly 90\% of the energy.
-
+In order to gain some insight to what features are important for the classification, we performed singular value decomposition on the set of movie trailers and their features. As can be seen in the plot of covariances of principal modes (fig. \ref{f:mode_covar}), one can see that there is no set of predominant modes that affect the decision, but its rather a complicated combination of all modes.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{mode_covar.jpg}
-	\caption{Covariances of each mode.}
+	\includegraphics[width=\columnwidth]{singValues.png}
+	\caption{Covariances of modes}
 	\label{f:mode_covar}
 \end{figure}
-
-These four modes consist of features of differing degree. Fig.~\ref{f:mode_composition} displays the weights of each feature in four prominent modes. One can observe that the leftmost ten features are driving factors for these modes. These features are: number of shots, dark scene max. length, total time, average blue color, average green color, average intensity, average red color, dark scene length standard deviation, dark scene mean length and dark scene count. These results suggest that our machine learning algorithm relies mainly on chromatic and luminous qualities of trailers, as eight of the ten most important features describe color and brightness of scenes in trailers. In other words, from the computer's perspective, trailers of different genres sound similar, but some are more colorful than others.
+The first four modes contain approximately 25\% of energy in all modes. These four modes consist of features of differing degree. Figure \ref{f:mode_composition} display the weights of each feature in four prominent modes. We could not identify any apparent patterns for any of these modes.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{principleModes.png}
+	\caption{Compositions of features for each modes}
+	\label{f:mode_covar}
+\end{figure}
+We experimented with the concept of dimension reduction by trying the classification using one, four and all of the modes. The rate of success are plotted in fig. \ref{f:modal_redx}. Surprisingly, the difference of success rate between one-mode classification and all-mode classifications was less than 10\%.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{mode_comp.jpg}
-	\caption{Compositions of features for each mode.}
-	\label{f:mode_composition}
-\end{figure}
-
-We experimented with the concept of dimensional reduction by trying classification using one, two and four modes. The ratees of success are plotted in Fig.~\ref{f:modal_redx}. Surprisingly, the difference in success rate between one-mode classification and all-mode classification is only about 10\%.
-\onecolumn
-
-\begin{figure}
-	\centering
-	\begin{subfigure}[b]{0.475\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{one_mode_appx}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}[b]{0.475\textwidth}  
-		\centering 
-		\includegraphics[width=\textwidth]{two_mode_appx}
-	\end{subfigure}
-	\vskip\baselineskip
-	\begin{subfigure}[b]{0.475\textwidth}   
-		\centering 
-		\includegraphics[width=\textwidth]{four_mode_appx}
-	\end{subfigure}
-	\quad
-	\begin{subfigure}[b]{0.475\textwidth}   
-		\centering 
-		\includegraphics[width=\textwidth]{orig_mode}
-	\end{subfigure}
-	\caption{Classifications made with one, two and four mode approximations compared to the original classification made with a complete set of modes.}
+	\includegraphics[width=\columnwidth]{reconstructionSuccess.png}
+	\caption{Classifications made with one, two and four mode approximation compared to the original classification made with a complete set of modes} 
 	\label{f:modal_redx}
 \end{figure}
 
-\twocolumn
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{LESSONS LEARNT}
+\subsection{Standardization of Features}
+One crucial mistake that was overlooked during the initial phase of our development was negligence to standardize features. The original features had different units, and different raw values, often differing by order of magnitudes. For example, features such as 'total run-time' or 'number of shots' had values in the range of hundreds, while features such as 'min. volume' or 'min. shot length' had values in the magnitude of one decimal points. Without standardization, variations of values present in features with large raw values seem much greater to Matlab's trainer than those present in features with small raw values. In addition, the mean value of many of the features were not zero. This resulted in erroneously result where those features with large values showed up as modes largely driving the decision tree. Once all the features were standardized, however, we achieved the results presented in the result section above. The principal modes and the composition of these modes became more complicated, but the algorithm treated features of different nature more fairly. The classification success rate was not affected much.
+\subsection{Unsuccessful Feature Extraction}
 One failed attempt to acquire features from the audio portion of movie trailers was to perform a Principal Component Analysis (PCA) using singular value decomposition. The goal of this process was to identify a series of principal modes and their components in each of the movie trailers. The hypothesized that the values of principal components could be used as features. We clipped 10-second portion of audio from each trailer to reduce the size of the data. Nonetheless, the matrix at which the singular value decomposition was to be performed had a size of 958-by-227150. This was computationally very expensive, with a runtime on the order of 10+ hours on modern personal computer. Furthermore, there was no guarantee that 10-second clipping would capture a signature sound of each trailer. (In a preliminary attempt, a 10-second clip was clipped at the timestamp of $t=\frac{total\, time}{2}$). Given these reasons, the attempt was deemed implausible in the sense of cost-benefit, and was abandoned.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
