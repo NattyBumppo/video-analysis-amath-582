@@ -90,7 +90,14 @@ Other statistical metrics, such as intensity standard deviation, min, and max, w
 R, G and B components denote the proportion of red, green and blue colors for a given pixel. We calculated the average intensities along each of these color channels, across pixels and across all frames. (In order to minimize runtime memory requirements and simplify code structure, we elected to include the letterbox regions in this calculation for some of the statistical measures, such as color channel standard deviations and minimum/maximum intensities.)
 
 \subsubsection{Number of Shots}
-We detected a shot transition by examining and comparing color histograms of adjacent frames. When the chi-squared distance between two histograms exceeds a predetermined shot transition threshold, we determine that there was a shot transition between the two frames. One disadvantage to this method is that algorithm cannot differentiate between fast camera movement and complete change of shots, since with fast camera movement, the distribution of colors within the frame can vary as much as with an actual change of shot, especially with large moving objects.
+We detected a shot transition by examining and comparing color histograms of adjacent frames. When the chi-squared distance between two histograms exceeds a predetermined shot transition threshold, we determine that there was a shot transition between the two frames. One disadvantage to this method is that algorithm cannot differentiate between fast camera movement and complete change of shots, since with fast camera movement, the distribution of colors within the frame can vary as much as with an actual change of shot, especially with large moving objects. See Fig.~\ref{f:histograms_combined} for an example of frames across a shot transition and their histograms.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{histograms_combined.png}
+	\caption{Three example video frames are shown on the left, with their color histograms on the right. The first two frames are similar, and are part of the same shot; note their similar histograms. The third frame, only a fraction of a second later, has a starkly different histogram, and would thus be detected as a new shot.}
+	\label{f:histograms_combined}
+\end{figure}
 
 \subsubsection{Shot Length}
 %mean, std dev,min and max
@@ -98,14 +105,21 @@ Once the time-stamps of shot transitions were recognized, we were also able to c
 
 \subsubsection{Detail Score}
 %std dev, min and max
-We defined a measure of the amount of complex detail in a trailer through the use of the Canny edge detection filter \cite{canny}. By applying the Canny algorithm to a given frame, we can calculate a binary mask wherein all of the ``edge pixels" in that frame have a value of 1. Then, by summing all of pixels in the frame, and summing all of the frames into the trailer, we can get a total ``detail score" for that trailer. That score can then be scaled by the number of frames to normalize and find the average detail per frame. We calculated detail score features (including mean value, standard deviation, and minimum/maximum values) in this way.
+We defined a measure of the amount of complex detail in a trailer through the use of the Canny edge detection filter \cite{canny}. By applying the Canny algorithm to a given frame, we can calculate a binary mask wherein all of the ``edge pixels" in that frame have a value of 1. Then, by summing all of pixels in the frame, and summing all of the frames into the trailer, we can get a total ``detail score" for that trailer. That score can then be scaled by the number of frames to normalize and find the average detail per frame. We calculated detail score features (including mean value, standard deviation, and minimum/maximum values) in this way. See Fig.~\ref{f:canny_combined} for an example of edge-detected images from which detail scores were calculated.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{canny_combined.png}
+	\caption{Two example video frames are shown on the left, with their Canny edge-detected versions on the right. By counting the white (edge) pixels in the images on the right, a ``detail score" can be calculated, as a rough metric of the detail complexity of the frame.}
+	\label{f:canny_combined}
+\end{figure}
 
 \subsubsection{Dark Scenes}
 %count, percentage, mean length, std dev, min and max
 We defined the notion of a ``dark scene" as a period of consecutive frames with very low average values (i.e., black transitions). Their lengths were recorded, from which mean length, standard deviation of length, and minimum/maximum lengths were calculated. The percentage of dark scene frames in each trailer was also calculated. 
 
 \subsection{Feature Generation via Audio Processing}
-%kewword : FFT, 
+%keyword : FFT, 
 From the trailer videos, we isolated the audio component using a sampling frequency of 44.1 kHz. A series of analyses was performed on this audio data in order to extract features.
 
 \subsubsection{Volume}
@@ -118,6 +132,14 @@ From the trailer videos, we isolated the audio component using a sampling freque
 \subsubsection{Sudden Rise/Fall of Volume}
 We defined the concept of a sudden rise and sudden fall of volume. Respectively, these represent an increase and a decrease of volume within a small time period, possessing a magnitude larger than the standard deviation of the volume across the whole trailer. Identifying the number of these events within a trailer's audio allowed us to study its audio dynamics, as we intuited that sudden increases of volume might be common during trailers that sought to startle viewers (such as those horror or action films).
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{audio_peaks.png}
+	\caption{An audio sample is shown, with a sudden rise and a sudden fall highlighted in orange and green, respectively. Note that the interior fall and rise are not captured as sudden changes, due to their more gradual change.}
+	\label{f:audio_peaks}
+\end{figure}
+
+
 \subsubsection{Percentage of Sound Corresponding to Different Octave Bands}
 For this feature, the waveform of each trailer was transformed to the frequency domain using the Fast Fourier transform (FFT). Its frequencies were divided into eleven bands in the audible range, commonly defined as octave bands (11Hz $\sim$ 22720Hz). The magnitudes of the frequency components in each band were summed together, and normalized so that the sum of magnitudes of all octave bands would be 1. The resulting binned magnitudes represented the composition of sounds of each trailer with respect to these eleven octave bands. 
 
@@ -127,29 +149,37 @@ All extracted features from each trailer were compiled into a single comma-separ
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RESULTS}
-The rate of successive classification by our algorithm for top ten most popular genres are shown in Fig. \ref{f:success_rate_table}. The Drama, with 65\% successful classification, had the lowest success rate of them, but the rest registered consistently over 80\% success rate.\\
+
+The rate of success of classification by our algorithm for the top ten most common genres in our dataset is shown in Fig.~\ref{f:success_rate_table}. Drama, with a 65\% successful classification, had the lowest success rate of those tested, but the other 9 genres registered consistently over an 80\% success rate.\\
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\columnwidth]{success_rate.jpg}
-	\caption{Classifier success rate for ten most popular genres.}
+	\caption{Classifier success rate for the ten most common genres.}
 	\label{f:success_rate_table}
 \end{figure}
-In order to gain some insight to what features are important for the classification, we performed singular value decomposition on the set of movie trailers and their features. As can be seen in the plot of covariances of principal modes (fig. \ref{f:mode_covar}), only four modes capture roughly 90\% of the energy.
+
+In order to gain some insight into what features are important for the classification, we performed a singular value decomposition on the set of movie trailers and their features. As can be seen in the plot of covariances of principal modes (Fig.~\ref{f:mode_covar}), only four modes capture roughly 90\% of the energy.
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\columnwidth]{mode_covar.jpg}
-	\caption{Covariances of modes}
+	\caption{Covariances of each mode.}
 	\label{f:mode_covar}
 \end{figure}
-These four modes consist of features of differing degree. Figure \ref{f:mode_composition} display the weights of each feature in four prominent modes. One can observe that the leftmost ten features are driving factors for these modes. These features are: number of shots, dark scene max. length, total time, average blue color, average green color, average intensity, average red color, dark scene length standard deviation, dark scene mean length and dark scene count. This results suggest that machine learning algorithm relies mainly on chromatic and luminous qualities of trailers, as eight out of ten most important features describe color and brightness of scenes in trailers. In another words, from a machine's perspective, trailers of different genres sound similar, but some are more colorful than the other.
+
+These four modes consist of features of differing degree. Fig.~\ref{f:mode_composition} displays the weights of each feature in four prominent modes. One can observe that the leftmost ten features are driving factors for these modes. These features are: number of shots, dark scene max. length, total time, average blue color, average green color, average intensity, average red color, dark scene length standard deviation, dark scene mean length and dark scene count. These results suggest that our machine learning algorithm relies mainly on chromatic and luminous qualities of trailers, as eight of the ten most important features describe color and brightness of scenes in trailers. In other words, from the computer's perspective, trailers of different genres sound similar, but some are more colorful than others.
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\columnwidth]{mode_comp.jpg}
-	\caption{Compositions of features for each modes}
-	\label{f:mode_covar}
+	\caption{Compositions of features for each mode.}
+	\label{f:mode_composition}
 \end{figure}
-We experimented with the concept of dimension reduction by trying the classification using one, two and four modes. The rate of success are plotted in fig. \ref{f:modal_redx}. Surprisingly, the difference of success rate between one-mode classification and all-mode classifications are only about 10\%.
+
+We experimented with the concept of dimensional reduction by trying classification using one, two and four modes. The ratees of success are plotted in Fig.~\ref{f:modal_redx}. Surprisingly, the difference in success rate between one-mode classification and all-mode classification is only about 10\%.
 \onecolumn
+
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{0.475\textwidth}
@@ -171,7 +201,7 @@ We experimented with the concept of dimension reduction by trying the classifica
 		\centering 
 		\includegraphics[width=\textwidth]{orig_mode}
 	\end{subfigure}
-	\caption{Classifications made with one, two and four mode approximation compared to the original classification made with a complete set of modes} 
+	\caption{Classifications made with one, two and four mode approximations compared to the original classification made with a complete set of modes.}
 	\label{f:modal_redx}
 \end{figure}
 
@@ -194,7 +224,7 @@ One failed attempt to acquire features from the audio portion of movie trailers 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{ACKNOWLEDGMENTS}
 
-
+We would like to thank Dr. Nathan Kutz for his advice and feedback on our techniques used in this project. We'd also like to thank Kam Chancellor, because Nathan would want us to.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
