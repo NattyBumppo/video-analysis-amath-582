@@ -143,9 +143,9 @@ For this feature, the waveform of each trailer was transformed to the frequency 
 
 \subsection{Use of Features in Machine Learning Algorithm}
 %keyword: binary decision tree
-All extracted features from each trailer were compiled into a single comma-separated variable (CSV) spreadsheet. In addition to our generated features, the spreadsheet contained the genre labels for each trailer as well. Movies were not limited to one genre. For instance, there were movie trailers with multiple genre labels such as action-comedy, or mystery-horror-thriller. This spreadsheet was passed on to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full set of trailers were used for building the tree. This subset is known as a trainer set. The tree was then used to predict the entire range of trailers using Matlab's classification predict function (\text{predict}), and its success and failure rates were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, for the purpose of cross-validation.
-\subsubsection{Binary Decision Tree}
-\subsubsection{Support Vector Machine (SVM)}
+All extracted features from each trailer were compiled into a single comma-separated variable (CSV) spreadsheet. In addition to our generated features, the spreadsheet contained the genre labels for each trailer as well. Movies were not limited to one genre. For instance, there were movie trailers with multiple genre labels such as action-comedy, or mystery-horror-thriller. This spreadsheet was passed on to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full set of trailers were used for building the tree. This subset is known as a trainer set. The tree was then used to predict the entire range of trailers using Matlab's classification predict function (\text{predict}), and its success and failure rates were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, for the purpose of cross-validation.\\
+We experimented with the support vector machine (SVM) model as well. The classifier was created using MATLAB's SVM fit function (\text{fitcsvm}), used for classification, the results were cross-validated (\text{crossval}), and their accuracies were noted (\text{kfoldLoss}). 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RESULTS}
@@ -188,11 +188,13 @@ One failed attempt to acquire features from the audio portion of movie trailers 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{FUTURE WORK}
-
+An interesting topic of future work is comparing our results with the performance of human subjects. Since the definition of a “genre” is rather loose, it is often the case that there are many right answers for the genre of a given trailer. Thus, it is likely that human subjects’ guesses could differ from the genre labels in our metadata. We hypothesize that it may even be possible for machine learning to outperform humans at this task.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{CONCLUSION}
+This work demonstrated the construction of a movie genre classifier using features acquired from video and audio portions of movie trailers. A series of video analyses using a computer vision library generated numerous video features, such as detail scores, dark scenes, color and intensity profiles, etc. Temporal and frequency analysis of audio identified sharp increases and decreases of volume and frequency spectra. MATLAB classifiers trained using these features classified movie genres with success rate ranging from 60\% to 95\%. Of two classifiers, the binary decision tree and support vector machine, the latter had approx. an 8\% higher likelihood of successful classification overall. \\
+It is worth noting that our machine learning algorithm’s pipeline has a minimum amount of required human interaction. The only step within that necessitates human input is providing a genre classification for the initial set of movie trailers used for training. The rest of the pipeline is almost entirely automated. While in this project we tested our algorithm using movie trailers, it can be adapted to any environment that requires computer vision-audio based machine learning. This can include surveillance, video tracking, and other applications.
 
 
 
