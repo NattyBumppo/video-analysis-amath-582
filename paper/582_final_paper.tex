@@ -45,9 +45,7 @@ Multimedia Feature Generation of Movie Trailers for Genre Prediction\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-
-
-
+This paper presents a collection of techniques for the generation of visual and audio features based on film trailer data, and then shows a viable machine learning solution for building a classifier using these features which can identify the genre of a previously unseen film trailer. Our approach sought to capture, using computer vision and audio analysis techniques, the essential data within the trailer which is more characteristically informative as to the film's genre. These features included average intensity and color, number and length of distinct shots, amount of detail, amount of darkness, average volume, sudden changes in sound, and frequency distribution of sound. Using these features, along with genre metadata for each trailer, we trained both a Binary Decision Tree and a Support Vector Machine model to identify the genres. We applied extensive cross-validation and demonstrated classification accuracy greater than 65\% for the top 10 most common genres, and greatrer than 90\% for the top 5 most common genres. We also performed frequency analysis to study the modes on the feature set, and showed that the difference of success rate between one-mode classification and all-mode classification was less than 10\%. We envision that our technique can be improved and applied to a variety of problems, and may be capable of competing with human accuracy on a similar problem.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,7 +73,7 @@ We implemented a number of computer vision techniques to calculate features from
 OpenCV allows the processing of video data on a per-frame basis. Individually frames were counted, in order to get a total run-time of any given trailer in terms of frame count.
 
 \subsubsection{Total Time}
-CV2 can provide the frames per second (FPS) for a given trailer as well, and this allowed us to calculate the run-time of trailers in seconds.
+OpenCV can provide the frames per second (FPS) for a given trailer as well, and this allowed us to calculate the run-time of trailers in seconds.
 
 \subsubsection{Average Intensity}
 Average grayscale intensity, across all pixels and all frames, was calculated using standard RGB weights for grayscale reduction:
@@ -90,7 +88,14 @@ Other statistical metrics, such as intensity standard deviation, min, and max, w
 R, G and B components denote the proportion of red, green and blue colors for a given pixel. We calculated the average intensities along each of these color channels, across pixels and across all frames. (In order to minimize runtime memory requirements and simplify code structure, we elected to include the letterbox regions in this calculation for some of the statistical measures, such as color channel standard deviations and minimum/maximum intensities.)
 
 \subsubsection{Number of Shots}
-We detected a shot transition by examining and comparing color histograms of adjacent frames. When the chi-squared distance between two histograms exceeds a predetermined shot transition threshold, we determine that there was a shot transition between the two frames. One disadvantage to this method is that algorithm cannot differentiate between fast camera movement and complete change of shots, since with fast camera movement, the distribution of colors within the frame can vary as much as with an actual change of shot, especially with large moving objects.
+We detected a shot transition by examining and comparing color histograms of adjacent frames. When the chi-squared distance between two histograms exceeds a predetermined shot transition threshold, we determine that there was a shot transition between the two frames. One disadvantage to this method is that algorithm cannot differentiate between fast camera movement and complete change of shots, since with fast camera movement, the distribution of colors within the frame can vary as much as with an actual change of shot, especially with large moving objects. See Fig.~\ref{f:histograms_combined} for an example of frames across a shot transition and their histograms.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{histograms_combined.png}
+	\caption{Three example video frames are shown on the left, with their color histograms on the right. The first two frames are similar, and are part of the same shot; note their similar histograms. The third frame, only a fraction of a second later, has a starkly different histogram, and would thus be detected as a new shot.}
+	\label{f:histograms_combined}
+\end{figure}
 
 \subsubsection{Shot Length}
 %mean, std dev,min and max
@@ -98,14 +103,21 @@ Once the time-stamps of shot transitions were recognized, we were also able to c
 
 \subsubsection{Detail Score}
 %std dev, min and max
-We defined a measure of the amount of complex detail in a trailer through the use of the Canny edge detection filter \cite{canny}. By applying the Canny algorithm to a given frame, we can calculate a binary mask wherein all of the ``edge pixels" in that frame have a value of 1. Then, by summing all of pixels in the frame, and summing all of the frames into the trailer, we can get a total ``detail score" for that trailer. That score can then be scaled by the number of frames to normalize and find the average detail per frame. We calculated detail score features (including mean value, standard deviation, and minimum/maximum values) in this way.
+We defined a measure of the amount of complex detail in a trailer through the use of the Canny edge detection filter \cite{canny}. By applying the Canny algorithm to a given frame, we can calculate a binary mask wherein all of the ``edge pixels" in that frame have a value of 1. Then, by summing all of pixels in the frame, and summing all of the frames into the trailer, we can get a total ``detail score" for that trailer. That score can then be scaled by the number of frames to normalize and find the average detail per frame. We calculated detail score features (including mean value, standard deviation, and minimum/maximum values) in this way. See Fig.~\ref{f:canny_combined} for an example of edge-detected images from which detail scores were calculated.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{canny_combined.png}
+	\caption{Two example video frames are shown on the left, with their Canny edge-detected versions on the right. By counting the white (edge) pixels in the images on the right, a ``detail score" can be calculated, as a rough metric of the detail complexity of the frame.}
+	\label{f:canny_combined}
+\end{figure}
 
 \subsubsection{Dark Scenes}
 %count, percentage, mean length, std dev, min and max
 We defined the notion of a ``dark scene" as a period of consecutive frames with very low average values (i.e., black transitions). Their lengths were recorded, from which mean length, standard deviation of length, and minimum/maximum lengths were calculated. The percentage of dark scene frames in each trailer was also calculated. 
 
 \subsection{Feature Generation via Audio Processing}
-%kewword : FFT, 
+%keyword : FFT, 
 From the trailer videos, we isolated the audio component using a sampling frequency of 44.1 kHz. A series of analyses was performed on this audio data in order to extract features.
 
 \subsubsection{Volume}
@@ -118,83 +130,78 @@ From the trailer videos, we isolated the audio component using a sampling freque
 \subsubsection{Sudden Rise/Fall of Volume}
 We defined the concept of a sudden rise and sudden fall of volume. Respectively, these represent an increase and a decrease of volume within a small time period, possessing a magnitude larger than the standard deviation of the volume across the whole trailer. Identifying the number of these events within a trailer's audio allowed us to study its audio dynamics, as we intuited that sudden increases of volume might be common during trailers that sought to startle viewers (such as those horror or action films).
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{audio_peaks.png}
+	\caption{An audio sample is shown, with a sudden rise and a sudden fall highlighted in orange and green, respectively. Note that the interior fall and rise are not captured as sudden changes, due to their more gradual change.}
+	\label{f:audio_peaks}
+\end{figure}
+
+
 \subsubsection{Percentage of Sound Corresponding to Different Octave Bands}
 For this feature, the waveform of each trailer was transformed to the frequency domain using the Fast Fourier transform (FFT). Its frequencies were divided into eleven bands in the audible range, commonly defined as octave bands (11Hz $\sim$ 22720Hz). The magnitudes of the frequency components in each band were summed together, and normalized so that the sum of magnitudes of all octave bands would be 1. The resulting binned magnitudes represented the composition of sounds of each trailer with respect to these eleven octave bands. 
 
 \subsection{Use of Features in Machine Learning Algorithm}
 %keyword: binary decision tree
-All extracted features from each trailer were compiled into a single comma-separated variable (CSV) spreadsheet. In addition to our generated features, the spreadsheet contained the genre labels for each trailer as well. Movies were not limited to one genre. For instance, there were movie trailers with multiple genre labels such as action-comedy, or mystery-horror-thriller. This spreadsheet was passed on to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full set of trailers were used for building the tree. This subset is known as a trainer set. The tree was then used to predict the entire range of trailers using Matlab's classification predict function (\text{predict}), and its success and failure rates were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, for the purpose of cross-validation.
+All extracted features from each trailer were compiled into a single comma-separated variable (CSV) spreadsheet. In addition to our generated features, the spreadsheet contained the genre labels for each trailer as well. Movies were not limited to one genre. For instance, there were movie trailers with multiple genre labels such as action-comedy, or mystery-horror-thriller. This spreadsheet was passed on to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full set of trailers were used for building the tree. This subset is known as a trainer set. The tree was then used to predict the entire range of trailers using Matlab's classification predict function (\text{predict}), and its success and failure rates were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, for the purpose of cross-validation.\\
+We experimented with the support vector machine (SVM) model as well. The classifier was created using MATLAB's SVM fit function (\text{fitcsvm}), used for classification, the results were cross-validated (\text{crossval}), and their accuracies were noted (\text{kfoldLoss}). 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RESULTS}
-The rate of successive classification by our algorithm for top ten most popular genres are shown in Fig. \ref{f:success_rate_table}. The Drama, with 65\% successful classification, had the lowest success rate of them, but the rest registered consistently over 80\% success rate.\\
+The rates of success of classification by our algorithm for top ten most popular genres are shown in Fig. \ref{f:success_rate}. Success rates were calculated using both binary decision tree, and support vector machine sub-algorithms. For instance, the Drama genre had 58\% and 66\% successful classification for binary decision tree and SVM respectively. It had the lowest success rate of top-ten-genres, but the rest genres registered consistently over 70\% success rate. SVM had roughly 8\% higher success rate for a given genre than binary decision tree.\\
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{success_rate.jpg}
+	\includegraphics[width=\columnwidth]{TreeVsSVM.png}
 	\caption{Classifier success rate for ten most popular genres.}
-	\label{f:success_rate_table}
+	\label{f:success_rate}
 \end{figure}
-In order to gain some insight to what features are important for the classification, we performed singular value decomposition on the set of movie trailers and their features. As can be seen in the plot of covariances of principal modes (fig. \ref{f:mode_covar}), only four modes capture roughly 90\% of the energy.
+In order to gain some insight to what features are important for the classification, we performed singular value decomposition on the set of movie trailers and their features. As can be seen in the plot of covariances of principal modes (fig. \ref{f:mode_covar}), one can see that there is no set of predominant modes that affect the decision, but its rather a complicated combination of all modes.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{mode_covar.jpg}
+	\includegraphics[width=\columnwidth]{singValues.png}
 	\caption{Covariances of modes}
 	\label{f:mode_covar}
 \end{figure}
-These four modes consist of features of differing degree. Figure \ref{f:mode_composition} display the weights of each feature in four prominent modes. One can observe that the leftmost ten features are driving factors for these modes. These features are: number of shots, dark scene max. length, total time, average blue color, average green color, average intensity, average red color, dark scene length standard deviation, dark scene mean length and dark scene count. This results suggest that machine learning algorithm relies mainly on chromatic and luminous qualities of trailers, as eight out of ten most important features describe color and brightness of scenes in trailers. In another words, from a machine's perspective, trailers of different genres sound similar, but some are more colorful than the other.
+The first four modes contain approximately 25\% of energy in all modes. These four modes consist of features of differing degree. Figure \ref{f:mode_composition} display the weights of each feature in four prominent modes. We could not identify any apparent patterns for any of these modes.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{mode_comp.jpg}
+	\includegraphics[width=\columnwidth]{principleModes.png}
 	\caption{Compositions of features for each modes}
 	\label{f:mode_covar}
 \end{figure}
-We experimented with the concept of dimension reduction by trying the classification using one, two and four modes. The rate of success are plotted in fig. \ref{f:modal_redx}. Surprisingly, the difference of success rate between one-mode classification and all-mode classifications are only about 10\%.
-\onecolumn
-\begin{figure}
+We experimented with the concept of dimension reduction by trying the classification using one, four and all of the modes. The rate of success are plotted in fig. \ref{f:modal_redx}. Surprisingly, the difference of success rate between one-mode classification and all-mode classifications was less than 10\%.
+
+\begin{figure}[h]
 	\centering
-	\begin{subfigure}[b]{0.475\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{one_mode_appx}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}[b]{0.475\textwidth}  
-		\centering 
-		\includegraphics[width=\textwidth]{two_mode_appx}
-	\end{subfigure}
-	\vskip\baselineskip
-	\begin{subfigure}[b]{0.475\textwidth}   
-		\centering 
-		\includegraphics[width=\textwidth]{four_mode_appx}
-	\end{subfigure}
-	\quad
-	\begin{subfigure}[b]{0.475\textwidth}   
-		\centering 
-		\includegraphics[width=\textwidth]{orig_mode}
-	\end{subfigure}
+	\includegraphics[width=\columnwidth]{reconstructionSuccess.png}
 	\caption{Classifications made with one, two and four mode approximation compared to the original classification made with a complete set of modes} 
 	\label{f:modal_redx}
 \end{figure}
 
-\twocolumn
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{LESSONS LEARNT}
+\subsection{Standardization of Features}
+One crucial mistake that was overlooked during the initial phase of our development was negligence to standardize features. The original features had different units, and different raw values, often differing by order of magnitudes. For example, features such as 'total run-time' or 'number of shots' had values in the range of hundreds, while features such as 'min. volume' or 'min. shot length' had values in the magnitude of one decimal points. Without standardization, variations of values present in features with large raw values seem much greater to Matlab's trainer than those present in features with small raw values. In addition, the mean value of many of the features were not zero. This resulted in erroneously result where those features with large values showed up as modes largely driving the decision tree. Once all the features were standardized, however, we achieved the results presented in the result section above. The principal modes and the composition of these modes became more complicated, but the algorithm treated features of different nature more fairly. The classification success rate was not affected much.
+\subsection{Unsuccessful Feature Extraction}
 One failed attempt to acquire features from the audio portion of movie trailers was to perform a Principal Component Analysis (PCA) using singular value decomposition. The goal of this process was to identify a series of principal modes and their components in each of the movie trailers. The hypothesized that the values of principal components could be used as features. We clipped 10-second portion of audio from each trailer to reduce the size of the data. Nonetheless, the matrix at which the singular value decomposition was to be performed had a size of 958-by-227150. This was computationally very expensive, with a runtime on the order of 10+ hours on modern personal computer. Furthermore, there was no guarantee that 10-second clipping would capture a signature sound of each trailer. (In a preliminary attempt, a 10-second clip was clipped at the timestamp of $t=\frac{total\, time}{2}$). Given these reasons, the attempt was deemed implausible in the sense of cost-benefit, and was abandoned.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{FUTURE WORK}
-
+An interesting topic of future work is comparing our results with the performance of human subjects. Since the definition of a “genre” is rather loose, it is often the case that there are many right answers for the genre of a given trailer. Thus, it is likely that human subjects’ guesses could differ from the genre labels in our metadata. We hypothesize that it may even be possible for machine learning to outperform humans at this task.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{CONCLUSION}
+This work demonstrated the construction of a movie genre classifier using features acquired from video and audio portions of movie trailers. A series of video analyses using a computer vision library generated numerous video features, such as detail scores, dark scenes, color and intensity profiles, etc. Temporal and frequency analysis of audio identified sharp increases and decreases of volume and frequency spectra. MATLAB classifiers trained using these features classified movie genres with success rate ranging from 60\% to 95\%. Of two classifiers, the binary decision tree and support vector machine, the latter had approx. an 8\% higher likelihood of successful classification overall. \\
+It is worth noting that our machine learning algorithm’s pipeline has a minimum amount of required human interaction. The only step within that necessitates human input is providing a genre classification for the initial set of movie trailers used for training. The rest of the pipeline is almost entirely automated. While in this project we tested our algorithm using movie trailers, it can be adapted to any environment that requires computer vision-audio based machine learning. This can include surveillance, video tracking, and other applications.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{ACKNOWLEDGMENTS}
 
-
+We would like to thank Dr. Nathan Kutz for his advice and feedback on our techniques used in this project. We'd also like to thank Kam Chancellor, because Nathan would want us to.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
