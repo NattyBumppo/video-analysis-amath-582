@@ -1,9 +1,16 @@
-This is LuaTeX, Version beta-0.76.0-2013062821 (rev 4627)  (format=lualatex 2016.3.9)  12 MAR 2016 14:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.1)  12 MAR 2016 16:20
+entering extended mode
 **582_final_paper.tex
-(./582_final_paper.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-(./ieeeconf.cls
+(C:\Users\johnf_000\GIT\paper\582_final_paper.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
+, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
+ kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
+ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+(C:\Users\johnf_000\GIT\paper\ieeeconf.cls
 
 LaTeX Warning: You have requested document class `ieeeconf',
                but the document class provides `cssconf'.
@@ -15,7 +22,7 @@ Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
-("C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ptm.fd"
+(C:\Miktex\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \@IEEEnormalsizefontbaselineskip=\skip41
@@ -86,78 +93,50 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen112
 \c@biography=\count90
 \@IEEEtranrubishbin=\box26
-) ("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+) (C:\Miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Miktex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
-
-("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty"
+(C:\Miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Miktex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/graphics.cfg"
+(C:\Miktex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:/Program Files/MiKTeX 2.9/tex/latex/pdftex-def/pdftex.def"
+ (C:\Miktex\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty"
+(C:\Miktex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty"
+) (C:\Miktex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty"
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
-
-
-("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
-)
-("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty"
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-
-("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/luatex-loader.sty"
-Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
-
-(C:/Program Files/MiKTeX 2.9/scripts/oberdiek/oberdiek.luatex.lua))
-\pdftexcmds@toks=\toks16
 )
 \Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty"
+(C:\Miktex\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty"
+(C:\Miktex\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
-
-("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty"
+ (C:\Miktex\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks17
+\@emptytoks=\toks16
 \ex@=\dimen115
 ))
-("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty"
+(C:\Miktex\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
-)
-("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty"
+) (C:\Miktex\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
@@ -180,30 +159,30 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip10
 \c@parentequation=\count99
 \dspbrk@lvl=\count100
-\tag@help=\toks18
+\tag@help=\toks17
 \row@=\count101
 \column@=\count102
 \maxfields@=\count103
-\andhelp@=\toks19
+\andhelp@=\toks18
 \eqnshift@=\dimen118
 \alignsep@=\dimen119
 \tagshift@=\dimen120
 \tagwidth@=\dimen121
 \totwidth@=\dimen122
 \lineht@=\dimen123
-\@envbody=\toks20
+\@envbody=\toks19
 \multlinegap=\skip48
 \multlinetaggap=\skip49
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:/Program Files/MiKTeX 2.9/tex/latex/caption/caption.sty"
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:/Program Files/MiKTeX 2.9/tex/latex/caption/caption3.sty"
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen124
 \captionmargin@=\dimen125
 \captionwidth=\dimen126
@@ -219,23 +198,20 @@ Package caption Warning: Unsupported document class (or package) detected,
 (caption)                usage of the caption package is not recommended.
 See the caption package documentation for explanation.
 
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtab
-lestring \begin {center}{\footnotesize #1}\\{\footnotesize \scshape #2}\end {cen
-ter}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempb
-oxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempbo
-xa \hbox {\footnotesize #1.~~ }\parbox [t]{\hsize }{\footnotesize \noindent \unh
-box \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize \hfil
- \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempboxa \hfi
-l }\fi \fi \fi .
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \begin {center}{\footnotesize #
+1}\\{\footnotesize \scshape #2}\end {center}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempb
+oxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\footnotesize #1.~~ }\parbox [
+t]{\hsize }{\footnotesize \noindent \unhbox \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize \hfil
+ \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
 \c@ContinuedFloat=\count104
-) ("C:/Program Files/MiKTeX 2.9/tex/latex/caption/subcaption.sty"
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+) (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count105
 \c@subtable=\count106
 )
 ** ATTENTION: Overriding command lockouts (line 15).
 ** ATTENTION: Overriding IEEE standard margins (line 18).
-(./582_final_paper.aux
+(C:\Users\johnf_000\GIT\paper\582_final_paper.aux
 
 LaTeX Warning: Label `f:mode_covar' multiply defined.
 
@@ -252,37 +228,36 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
- ("C:/Program Files/MiKTeX 2.9/tex/context/base/supp-pdf.mkii"
+ (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen131
 \scratchbox=\box29
 \nofMPsegments=\count108
 \nofMParguments=\count109
-\everyMPshowfont=\toks22
+\everyMPshowfont=\toks21
 \MPscratchCnt=\count110
 \MPscratchDim=\dimen132
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks23
+\everyMPtoPDFconversion=\toks22
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
- ("C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1pcr.fd"
+ (C:\Miktex\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+) [1{C:/Users/johnf_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 <histograms_combined.png, id=12, 1119.43219pt x 1048.66782pt>
 File: histograms_combined.png Graphic file (type png)
-
-<use histograms_combined.png>
+ <use histograms_combined.png>
 Package pdftex.def Info: histograms_combined.png used on input line 95.
 (pdftex.def)             Requested size: 245.71811pt x 230.17958pt.
 
-<canny_combined.png, id=13, 2119.92pt x 1192.455pt>
+<canny_combined.png, id=14, 2119.92pt x 1192.455pt>
 File: canny_combined.png Graphic file (type png)
  <use canny_combined.png>
 Package pdftex.def Info: canny_combined.png used on input line 110.
@@ -294,8 +269,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
 
 Underfull \hbox (badness 1565) in paragraph at lines 126--127
-\OT1/ptm/m/n/10 in gen-eral due to dif-fer-ent equal-iza-tion char-ac-ter-is-ti
-cs,
+\OT1/ptm/m/n/10 in gen-eral due to dif-fer-ent equal-iza-tion char-ac-ter-is-tics,
  []
 
 
@@ -303,33 +277,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-[2 <./histograms_combined.png> <./canny_combined.png>]
-<audio_peaks.png, id=19, 442.65375pt x 98.61844pt>
+[2 <C:/Users/johnf_000/GIT/paper/histograms_combined.png> <C:/Users/johnf_000/GIT/paper/canny_combined.png>]
+<audio_peaks.png, id=20, 442.65375pt x 98.61844pt>
 File: audio_peaks.png Graphic file (type png)
  <use audio_peaks.png>
 Package pdftex.def Info: audio_peaks.png used on input line 135.
 (pdftex.def)             Requested size: 245.71811pt x 54.7444pt.
 
-<TreeVsSVM.png, id=20, 545.78906pt x 353.82187pt>
+<TreeVsSVM.png, id=21, 545.78906pt x 353.82187pt>
 File: TreeVsSVM.png Graphic file (type png)
  <use TreeVsSVM.png>
 Package pdftex.def Info: TreeVsSVM.png used on input line 155.
 (pdftex.def)             Requested size: 245.71811pt x 159.29395pt.
 
-<singValues.png, id=21, 519.44063pt x 362.10281pt>
+<singValues.png, id=22, 519.44063pt x 362.10281pt>
 File: singValues.png Graphic file (type png)
  <use singValues.png>
 Package pdftex.def Info: singValues.png used on input line 162.
 (pdftex.def)             Requested size: 245.71811pt x 171.28786pt.
 
 
-LaTeX Warning: Reference `f:mode_composition' on page 3 undefined on input line 
-166.
+LaTeX Warning: Reference `f:mode_composition' on page 3 undefined on input line 166.
 
-<principleModes.png, id=22, 510.40688pt x 382.42876pt>
+<principleModes.png, id=23, 510.40688pt x 382.42876pt>
 File: principleModes.png Graphic file (type png)
-
-<use principleModes.png>
+ <use principleModes.png>
 Package pdftex.def Info: principleModes.png used on input line 169.
 (pdftex.def)             Requested size: 245.71811pt x 184.11223pt.
 
@@ -339,19 +311,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<reconstructionSuccess.png, id=23, 591.71063pt x 360.59718pt>
+<reconstructionSuccess.png, id=24, 591.71063pt x 360.59718pt>
 File: reconstructionSuccess.png Graphic file (type png)
-
-<use reconstructionSuccess.png>
+ <use reconstructionSuccess.png>
 Package pdftex.def Info: reconstructionSuccess.png used on input line 177.
 (pdftex.def)             Requested size: 245.71811pt x 149.74408pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./audio_peaks.png> <./TreeVsSVM.png (PNG copy)>] [4 <./singValues.png (PNG c
-opy)> <./principleModes.png (PNG copy)> <./reconstructionSuccess.png (PNG copy)>
-]
+[3 <C:/Users/johnf_000/GIT/paper/audio_peaks.png> <C:/Users/johnf_000/GIT/paper/TreeVsSVM.png (PNG copy)>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [4 <C:/Users/johnf_000/GIT/paper/singValues.png (PNG copy)> <C:/Users/johnf_000/GIT/paper/principleModes.png (PNG copy)
+> <C:/Users/johnf_000/GIT/paper/reconstructionSuccess.png (PNG copy)>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -365,37 +352,30 @@ Before submitting the final camera ready copy, remember to:
 
 [5
 
-] (./582_final_paper.aux)
+] (C:\Users\johnf_000\GIT\paper\582_final_paper.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
- )
-
-Here is how much of LuaTeX's memory you used:
- 3815 strings out of 494733
- 100000,128383 words of node,token memory allocated
- 352 words of node memory still in use:
-    nodes
-   avail lists: 2:21,3:140,4:1410,5:260,6:5783,7:340,9:198,10:543
- 7283 multiletter control sequences out of 65536+200000
- 141 fonts using 5546955 bytes
- 36i,8n,38p,1419b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on 582_final_paper.pdf (5 pages, 4456176 bytes).
-
-PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ ) 
+Here is how much of TeX's memory you used:
+ 3503 strings out of 493921
+ 53465 string characters out of 3154488
+ 123250 words of memory out of 3000000
+ 6791 multiletter control sequences out of 15000+200000
+ 39244 words of font info for 78 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,8n,39p,1421b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Miktex/fonts/enc/dvips/fontname/8r.enc}<C:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Miktex/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Miktex/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Miktex/fonts/type1/urw/courier/ucrr8a.pfb><C:/Mikt
+ex/fonts/type1/urw/times/utmb8a.pfb><C:/Miktex/fonts/type1/urw/times/utmbi8a.pfb><C:/Miktex/fonts/type1/urw/times/utmr8a
+.pfb><C:/Miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 582_final_paper.pdf (5 pages, 4462474 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
