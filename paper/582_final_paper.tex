@@ -68,12 +68,9 @@ Zeeshan Rasheed et al., in their \textit{On the Use of Computable Features for F
 
 We implemented a number of computer vision techniques to calculate features from video data. The majority of our video processing was utilized the OpenCV ``cv2" module in the Python programming language \cite{cv2}.
 
-\subsubsection{Number of Frames}
+\subsubsection{Total Time/Number of Frames}
 
-OpenCV allows the processing of video data on a per-frame basis. Individually frames were counted, in order to get a total run-time of any given trailer in terms of frame count.
-
-\subsubsection{Total Time}
-OpenCV can provide the frames per second (FPS) for a given trailer as well, and this allowed us to calculate the run-time of trailers in seconds.
+OpenCV allows the processing of video data on a per-frame basis. Individual frames were counted, in order to get a total run-time of any given trailer in terms of frame count. OpenCV can provide the frames per second (FPS) for a given trailer as well, and this allowed us to calculate the run-time of trailers in seconds.
 
 \subsubsection{Average Intensity}
 Average grayscale intensity, across all pixels and all frames, was calculated using standard RGB weights for grayscale reduction:
@@ -136,7 +133,6 @@ We defined the concept of a sudden rise and sudden fall of volume. Respectively,
 	\caption{An audio sample is shown, with a sudden rise and a sudden fall highlighted in orange and green, respectively. Note that the interior fall and rise are not captured as sudden changes, due to their more gradual change.}
 	\label{f:audio_peaks}
 \end{figure}
-
 
 \subsubsection{Percentage of Sound Corresponding to Different Octave Bands}
 For this feature, the waveform of each trailer was transformed to the frequency domain using the Fast Fourier transform (FFT). Its frequencies were divided into eleven bands in the audible range, commonly defined as octave bands (11Hz $\sim$ 22720Hz). The magnitudes of the frequency components in each band were summed together, and normalized so that the sum of magnitudes of all octave bands would be 1. The resulting binned magnitudes represented the composition of sounds of each trailer with respect to these eleven octave bands. 
