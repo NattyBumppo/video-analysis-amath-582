@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.1)  17 MAR 2016 12:34
 entering extended mode
 **582_final_paper.tex
@@ -11,6 +12,15 @@ ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, 
 ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
 elsh, loaded.
 (C:\Users\johnf_000\GIT\paper\ieeeconf.cls
+=======
+This is LuaTeX, Version beta-0.80.0 (MiKTeX 2.9) (rev 5238)  (format=lualatex 2016.2.25)  17 MAR 2016 10:38
+ restricted \write18 enabled.
+**582_final_paper.tex
+(./582_final_paper.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(./ieeeconf.cls
+>>>>>>> origin/master
 
 LaTeX Warning: You have requested document class `ieeeconf',
                but the document class provides `cssconf'.
@@ -22,7 +32,11 @@ Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
+<<<<<<< HEAD
 (C:\Miktex\tex\latex\psnfss\ot1ptm.fd
+=======
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/ot1ptm.fd"
+>>>>>>> origin/master
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \@IEEEnormalsizefontbaselineskip=\skip41
@@ -93,6 +107,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen112
 \c@biography=\count90
 \@IEEEtranrubishbin=\box26
+<<<<<<< HEAD
 ) (C:\Miktex\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Miktex\tex\latex\graphics\keyval.sty
@@ -114,6 +129,42 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 (C:\Miktex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ) (C:\Miktex\tex\generic\oberdiek\ltxcmds.sty
+=======
+)
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx
+.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics
+.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/graphics
+.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pdftex-def/pdftex
+.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwar
+err.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmd
+s.sty"
+>>>>>>> origin/master
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -121,22 +172,47 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
+<<<<<<< HEAD
 (C:\Miktex\tex\latex\amsmath\amsmath.sty
+=======
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.s
+ty"
+>>>>>>> origin/master
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
+<<<<<<< HEAD
 (C:\Miktex\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
  (C:\Miktex\tex\latex\amsmath\amsgen.sty
+=======
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.st
+y"
+>>>>>>> origin/master
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen115
 ))
+<<<<<<< HEAD
 (C:\Miktex\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
 ) (C:\Miktex\tex\latex\amsmath\amsopn.sty
+=======
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.st
+y"
+>>>>>>> origin/master
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
@@ -177,10 +253,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+<<<<<<< HEAD
 (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+=======
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/caption/caption.s
+ty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/caption/caption3.
+sty"
+>>>>>>> origin/master
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen124
@@ -198,6 +283,7 @@ Package caption Warning: Unsupported document class (or package) detected,
 (caption)                usage of the caption package is not recommended.
 See the caption package documentation for explanation.
 
+<<<<<<< HEAD
 Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \begin {center}{\footnotesize #
 1}\\{\footnotesize \scshape #2}\end {center}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempb
 oxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\footnotesize #1.~~ }\parbox [
@@ -205,10 +291,25 @@ t]{\hsize }{\footnotesize \noindent \unhbox \@tempboxa #2}\else \ifcenterfigcapt
  \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
 \c@ContinuedFloat=\count104
 ) (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+=======
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtab
+lestring \begin {center}{\footnotesize #1}\\{\footnotesize \scshape #2}\end {cen
+ter}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempb
+oxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempbo
+xa \hbox {\footnotesize #1.~~ }\parbox [t]{\hsize }{\footnotesize \noindent \unh
+box \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize \hfil
+ \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempboxa \hfi
+l }\fi \fi \fi .
+\c@ContinuedFloat=\count104
+)
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/caption/subcaptio
+n.sty"
+>>>>>>> origin/master
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count105
 \c@subtable=\count106
 )
+<<<<<<< HEAD
 (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count107
 \lst@gtempboxa=\box29
@@ -290,10 +391,16 @@ Package color Info: Driver file: pdftex.def on input line 130.
 ** ATTENTION: Overriding command lockouts (line 17).
 ** ATTENTION: Overriding IEEE standard margins (line 20).
 (C:\Users\johnf_000\GIT\paper\582_final_paper.aux
+=======
+** ATTENTION: Overriding command lockouts (line 15).
+** ATTENTION: Overriding IEEE standard margins (line 18).
+(./582_final_paper.aux
+>>>>>>> origin/master
 
 LaTeX Warning: Label `f:mode_covar' multiply defined.
 
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
@@ -307,6 +414,25 @@ LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
  (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+=======
+\openout1 = 582_final_paper.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
+("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.m
+kii"
+>>>>>>> origin/master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
 \scratchdimen=\dimen143
@@ -323,11 +449,19 @@ LaTeX Font Info:    ... okay on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+<<<<<<< HEAD
 \c@lstlisting=\count130
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 44.
  (C:\Miktex\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1{C:/Users/johnf_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+=======
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
+ ("C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/ot1pcr.fd
+"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [1{C:/Users/Noel_K/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+>>>>>>> origin/master
 
 
 ]
@@ -337,32 +471,74 @@ File: histograms_combined.png Graphic file (type png)
 Package pdftex.def Info: histograms_combined.png used on input line 94.
 (pdftex.def)             Requested size: 245.71811pt x 230.17958pt.
 
+<<<<<<< HEAD
 <canny_combined.png, id=14, 2119.92pt x 1192.455pt>
+=======
+<canny_combined.png, id=13, 2119.92pt x 1192.455pt>
+>>>>>>> origin/master
 File: canny_combined.png Graphic file (type png)
  <use canny_combined.png>
 Package pdftex.def Info: canny_combined.png used on input line 109.
 (pdftex.def)             Requested size: 245.71811pt x 138.21207pt.
+<<<<<<< HEAD
  [2 <C:/Users/johnf_000/GIT/paper/histograms_combined.png> <C:/Users/johnf_000/GIT/paper/canny_combined.png>] <audio_pea
 ks.png, id=20, 442.65375pt x 98.61844pt>
+=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 123--124
+\OT1/ptm/m/n/10 in gen-eral due to dif-fer-ent equal-iza-tion char-ac-ter-is-ti
+cs,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+[2<./histograms_combined.png><./canny_combined.png>]
+<audio_peaks.png, id=19, 442.65375pt x 98.61844pt>
+>>>>>>> origin/master
 File: audio_peaks.png Graphic file (type png)
 
 <use audio_peaks.png>
 Package pdftex.def Info: audio_peaks.png used on input line 132.
 (pdftex.def)             Requested size: 245.71811pt x 54.7444pt.
+<<<<<<< HEAD
  <TreeVsSVM.png, id=21, 545.78906pt x 353.82187pt>
+=======
+
+<TreeVsSVM.png, id=20, 545.78906pt x 353.82187pt>
+>>>>>>> origin/master
 File: TreeVsSVM.png Graphic file (type png)
  <use TreeVsSVM.png>
 Package pdftex.def Info: TreeVsSVM.png used on input line 152.
 (pdftex.def)             Requested size: 245.71811pt x 159.29395pt.
 
+<<<<<<< HEAD
 <singValues.png, id=22, 519.44063pt x 362.10281pt>
+=======
+<singValues.png, id=21, 519.44063pt x 362.10281pt>
+>>>>>>> origin/master
 File: singValues.png Graphic file (type png)
  <use singValues.png>
 Package pdftex.def Info: singValues.png used on input line 159.
 (pdftex.def)             Requested size: 245.71811pt x 171.28786pt.
 
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `f:mode_composition' on page 3 undefined on input line 163.
+=======
+LaTeX Warning: Reference `f:mode_composition' on page 3 undefined on input line 
+162.
+
+<principleModes.png, id=22, 510.40688pt x 382.42876pt>
+File: principleModes.png Graphic file (type png)
+>>>>>>> origin/master
 
 <principalModes.png, id=23, 510.40688pt x 382.42876pt>
 File: principalModes.png Graphic file (type png)
@@ -376,8 +552,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<<<<<<< HEAD
 [3 <C:/Users/johnf_000/GIT/paper/audio_peaks.png> <C:/Users/johnf_000/GIT/paper/TreeVsSVM.png (PNG copy)>]
 <reconstructionSuccess.png, id=29, 591.71063pt x 360.59718pt>
+=======
+<reconstructionSuccess.png, id=23, 591.71063pt x 360.59718pt>
+>>>>>>> origin/master
 File: reconstructionSuccess.png Graphic file (type png)
  <use reconstructionSuccess.png>
 Package pdftex.def Info: reconstructionSuccess.png used on input line 174.
@@ -386,6 +566,7 @@ Package pdftex.def Info: reconstructionSuccess.png used on input line 174.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<<<<<<< HEAD
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -629,6 +810,28 @@ Overfull \hbox (54.28494pt too wide) in paragraph at lines 450--451
 
 Overfull \hbox (306.2875pt too wide) in paragraph at lines 451--452
 [][][][][][][][][][][][][][][][][] 
+=======
+[3<./audio_peaks.png><./TreeVsSVM.png>] [4
+Missing character: There is no ‚Äú (U+201C) in font ptmr7t!
+Missing character: There is no ‚Äù (U+201D) in font ptmr7t!
+Missing character: There is no ‚Äô (U+2019) in font ptmr7t!
+<./singValues.png><./principleModes.png><./reconstructionSuccess.png>] [5
+Missing character: There is no ‚Äô (U+2019) in font ptmr7t!
+Missing character: There is no ‚Äì (U+2013) in font ptmr7t!
+
+]
+Overfull \hbox (40.11pt too wide) in paragraph at lines 288--288
+[][]\OT1/pcr/m/n/10 folder_dir = 'C:\Users\Noel\git_repository\video-analysis-a
+math-582\video_processing\mp3s';[] 
+ []
+
+[6
+
+]
+Overfull \hbox (40.11pt too wide) in paragraph at lines 288--288
+[][]\OT1/pcr/m/n/10 band_sum(jj,1) = sum(sound_avg_t_s_abs(1,ks_indices_for_cut
+(jj):ks_indices_for_cut(jj+1)));[] 
+>>>>>>> origin/master
  []
 
 
@@ -1944,15 +2147,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
+<<<<<<< HEAD
 [15
 
 ] (C:\Users\johnf_000\GIT\paper\582_final_paper.aux)
+=======
+[7] (./582_final_paper.aux)
+>>>>>>> origin/master
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
+<<<<<<< HEAD
  ) 
 Here is how much of TeX's memory you used:
  5734 strings out of 493921
@@ -1972,4 +2180,35 @@ PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+)
+
+Here is how much of LuaTeX's memory you used:
+ 3759 strings out of 494933
+ 100000,128383 words of node,token memory allocated
+ 348 words of node memory still in use:
+    nodes
+   avail lists: 2:21,3:267,4:1413,5:304,6:6290,7:340,9:198,10:589
+ 7190 multiletter control sequences out of 65536+200000
+ 143 fonts using 3999691 bytes
+ 36i,8n,39p,1419b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.e
+nc}<<C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><<C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><<C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><<C:/Users/Noel_K/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><<C:/Users/Noel_K/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><<C:/Users/
+Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><<C:
+/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb
+><<C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi
+8a.pfb><<C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><<C:/Users/Noel_K/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on 582_final_paper.pdf (7 pages, 4466171 bytes).
+
+PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> origin/master
 
