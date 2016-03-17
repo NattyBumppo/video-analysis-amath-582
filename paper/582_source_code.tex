@@ -12,7 +12,35 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{listings}
-\usepackage{color}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\lstset{language=Matlab,%
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+language=Python,
+basicstyle=\ttm,
+otherkeywords={self},             % Add keywords here
+keywordstyle=\ttb\color{deepblue},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\ttb\color{deepred},    % Custom highlighting style
+stringstyle=\color{deepgreen},
+frame=tb,                         % Any extra options here
+showstringspaces=false            % 
+}}
 
 
 \IEEEoverridecommandlockouts                              % This command is only
@@ -30,13 +58,11 @@
 
 In this Appendix we show our source code explicitly.
 
-\lstset{language=Pascal}
 \subsection{get\_urls.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 import urllib2
 import re
 import sys
-
 
 search_pattern = 'href="http://www.movie-list.com/trailers/(\S+)">/trailers/\S+</a>'
 
@@ -64,7 +90,7 @@ with open(filename, 'w') as file:
 
 \end{lstlisting}
 
-
+\clearpage
 \subsection{get\_metadata.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 import urllib2
@@ -171,7 +197,7 @@ with open(csv_filename, 'wb') as csv_file:
         writer.writerow(value_list)
 \end{lstlisting}
 
-
+\clearpage
 \subsection{download\_videos.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 import urllib
@@ -229,6 +255,7 @@ with open(csv_filename, 'rb') as csvfile:
     time.sleep(1)
 \end{lstlisting}
 
+\clearpage
 \subsection{add\_move\_data.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 import csv
@@ -423,6 +450,7 @@ with open(final_csv_filename, 'wb') as csv_file:
         writer.writerow(analysis_dict[key])
 \end{lstlisting}
 
+\clearpage
 \subsection{extract\_mp3s.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 import os
@@ -455,6 +483,7 @@ if __name__ == '__main__':
     main()
 \end{lstlisting}
 
+\clearpage
 \subsection{clip\_mp3s.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 import os
@@ -501,6 +530,7 @@ if __name__ == '__main__':
     main()
 \end{lstlisting}
 
+\clearpage
 \subsection{analyze\_videos.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 import cv2
@@ -869,6 +899,7 @@ if __name__ == '__main__':
     main()
 \end{lstlisting}
 
+\clearpage
 \subsection{expand\_genres.py}
 \begin{lstlisting}[language = Python, breaklines=true]
 # -*- coding: utf-8 -*-
@@ -877,7 +908,6 @@ Created on Thu Feb 25 14:30:50 2016
 
 @author: fuini
 """
-
 
 import csv
 import re
@@ -919,8 +949,6 @@ print "Each genre and number of times present in data: "
 print genre_count
 print "We should seriously consider removing genres that have only a few representatives, as we don't have the statistics to say anything meaningful."
 
-
-
 #Read in and save CSV into my_dict, while building new rows into my_dict
 with open(csv_filename, 'r') as csv_file:
     reader = csv.DictReader(csv_file)
@@ -954,6 +982,7 @@ with open(final_csv_filename, 'wb') as csv_file:
 
 \end{lstlisting}
 
+\clearpage
 \subsection{analyze\_main.m}
 \begin{lstlisting}[language = matlab, breaklines=true]
 %% Import data from text file.
@@ -971,73 +1000,6 @@ filename = 'C:\Users\johnf_000\Dropbox\MATLAB\Assignments\Final Project\Analysis
 delimiter = ',';
 startRow = 2;
 
-%% Format string for each line of text:
-%   column2: double (%f)
-%	column3: double (%f)
-%   column4: double (%f)
-%	column5: double (%f)
-%   column6: double (%f)
-%	column7: double (%f)
-%   column8: double (%f)
-%	column9: double (%f)
-%   column10: double (%f)
-%	column11: double (%f)
-%   column12: double (%f)
-%	column13: double (%f)
-%   column14: double (%f)
-%	column15: double (%f)
-%   column16: double (%f)
-%	column17: double (%f)
-%   column18: double (%f)
-%	column19: double (%f)
-%   column20: double (%f)
-%	column21: double (%f)
-%   column22: double (%f)
-%	column23: double (%f)
-%   column24: double (%f)
-%	column25: double (%f)
-%   column26: double (%f)
-%	column27: double (%f)
-%   column28: double (%f)
-%	column29: double (%f)
-%   column30: double (%f)
-%	column31: double (%f)
-%   column32: double (%f)
-%	column33: double (%f)
-%   column34: double (%f)
-%	column35: double (%f)
-%   column36: double (%f)
-%	column37: double (%f)
-%   column38: double (%f)
-%	column39: double (%f)
-%   column40: double (%f)
-%	column41: double (%f)
-%   column42: double (%f)
-%	column43: double (%f)
-%   column44: double (%f)
-%	column45: double (%f)
-%   column46: double (%f)
-%	column47: double (%f)
-%   column48: double (%f)
-%	column49: double (%f)
-%   column50: double (%f)
-%	column51: double (%f)
-%   column52: double (%f)
-%	column53: double (%f)
-%   column54: double (%f)
-%	column55: double (%f)
-%   column56: double (%f)
-%	column57: double (%f)
-%   column58: double (%f)
-%	column59: double (%f)
-%   column60: double (%f)
-%	column61: double (%f)
-%   column62: double (%f)
-%	column63: double (%f)
-%   column64: double (%f)
-%	column65: double (%f)
-%   column66: double (%f)
-%	column67: double (%f)
 % For more information, see the TEXTSCAN documentation.
 formatSpec = '%*s%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%[^\n\r]';
 
@@ -1145,12 +1107,7 @@ master_data = [total_time avg_intensity avg_color_r avg_color_g avg_color_b...
     sudden_fall_count_per_cut octave1 octave2 octave3 octave4 octave5 octave6...
     octave7 octave8 octave9 octave10 octave11];
 
-
-
-
-
 [num_movies, num_features] = size(master_data); 
-
 
 %% Testing module
 clearvars accuracy
@@ -1196,7 +1153,6 @@ title('Singular Values on logplot'), xlabel('Principle Mode Number'), ylabel('')
 
 %% Building Reconstructions
 
-
 ff = u*s*v'; %full data
 ff1 = u(:,1)*s(1,1)*v(:,1)'; %one mode
 ff2 = u(:,1:2)*s(1:2,1:2)*v(:,1:2)'; %two mode
@@ -1208,7 +1164,6 @@ plot(1:length(u(:,1)), abs(u(:,1)), 'ko', ...
     1:length(u(:,3)), abs(u(:,3)), 'bv', ...
     1:length(u(:,4)), abs(u(:,4)), 'g+', 'LineWidth', [2.0]); legend('Mode One', 'Mode Two', 'Mode Three', 'Mode Four', 'Location', 'best');
 title('Components of first four principle modes'); xlabel('Features')
-
 
 %% Testing reconstruction
 clearvars accuracyOne
@@ -1309,7 +1264,6 @@ SVMModel = fitcsvm(master_data, Romance, 'Standardize', true);
 CVSVMModel = crossval(SVMModel);
 accuracySVM(7) = kfoldLoss(CVSVMModel);
 
-
 SVMModel = fitcsvm(master_data, Adventure, 'Standardize', true);
 CVSVMModel = crossval(SVMModel);
 accuracySVM(8) = kfoldLoss(CVSVMModel);
@@ -1317,7 +1271,6 @@ accuracySVM(8) = kfoldLoss(CVSVMModel);
 SVMModel = fitcsvm(master_data, Biography, 'Standardize', true);
 CVSVMModel = crossval(SVMModel);
 accuracySVM(9) = kfoldLoss(CVSVMModel);
-
 
 SVMModel = fitcsvm(master_data, Documentary, 'Standardize', true);
 CVSVMModel = crossval(SVMModel);
@@ -1350,8 +1303,6 @@ for j = 1:length(accuracy)
     success(j) = 1 - accuracy(j);
 end
 
-
-
 plot(1:10, successSVM, 'ko', 1:10, success, 'go', 'LineWidth',[2.0]), axis([1 10 0.5 1])
 title('Prediction Success for Most Populated Genres')
 xlabel('Drama, Comedy, Thriller, Action, Horror, Crime, Romance, Adventure, Biography, Documentary')
@@ -1359,6 +1310,7 @@ legend( 'Support Vector Machine','Classification Tree', 'Location', 'best')
 
 \end{lstlisting}
 
+\clearpage
 \subsection{check\_genre\_predictions.m}
 \begin{lstlisting}[language = Matlab, breaklines=true]
 function A = check_genre_predictions(data, genre, fraction_to_train, num_trials)
@@ -1387,6 +1339,537 @@ end
 % view(tree)
 
 A = sum(failed_fractions)/length(failed_fractions);
+\end{lstlisting}
+
+\clearpage
+\subsection{audio\_fft\_bin.m}
+\begin{lstlisting}[language = Matlab, breaklines=true]
+%Feature extraction from audio portions of trailers.
+clear all; close all; clc;
+
+%Get list of files/ their names
+folder_dir = 'C:\\Users\\Noel\\git\\_repository\\video-analysis-amath-582\\video\\\_processing\\mp3s';
+[mp3_path mp3_dir mp3_file] = dirwalk(folder_dir);
+mp3_title{1} = regexprep(mp3_file{1}, '.\w*$', '');
+mp3_title= mp3_title{1};
+mp3_file= mp3_file{1};
+
+%How many mp3?
+total_n = length(mp3_title);
+
+%Setup time, freq domain for FFT
+sampling_freq=44100; %Sampling freq of 44100 fps, 10s.
+
+band_binned_norm = zeros(total_n, 11);
+%audible range of frequency is 20Hz to 20000Hz
+%Human ears perceive pitch non-linearly. Use octave band
+    %band1(octave1) = 11Hz ~22Hz
+    %band2(octave2) = 22Hz ~ 44Hz
+    %band3(octave3) = 44Hz ~ 88Hz
+    %band4(octave4) = 88Hz ~ 177Hz
+    %band5(octave5) = 177Hz ~ 355Hz
+    %band6(octave6) = 355Hz ~ 710Hz
+    %band7(octave7) = 710Hz ~ 1420Hz
+    %band8(octave8) = 1420Hz ~ 2840Hz
+    %band9(octave9) = 2840Hz ~ 5680Hz
+    %band10(octave10) = 5680Hz ~ 11360Hz
+    %band11(octave11) = 11360hz ~ 22720Hz
+band_intervals = [11 22 44 88 177 355 710 1420 2840 5680 11360 22720];
+ks_indices_for_cut = zeros(1,11);
+for j=1: total_n
+    %Import audio
+    path_file = fullfile(folder_dir, mp3_file(j,1));
+    sound = audioread(char(path_file));
+    [mp3_length mp3_channel] = size(sound);
+    
+    n= mp3_length;
+    L= mp3_length/sampling_freq;    %audio length in second
+    t2=linspace(0,L,n+1); t=t2(1:n);
+    k=(2*pi/L)*[0:n/2-1 -n/2:-1]; ks=fftshift(k);
+    
+    %averaging L and R channel for brevity. No need if its already mono
+    if mp3_channel == 2
+        sound_avg = (sound(:,1) + sound(:,2))/2; 
+        sound_avg = sound_avg(1:n,1)';
+    else
+        sound_avg = sound(1:n,1)';
+    end
+    
+    %fft
+    sound_avg_t = fft(sound_avg);
+    sound_avg_t_s= fftshift(sound_avg_t);
+    sound_avg_t_s_abs = abs(sound_avg_t_s);
+    
+    band_sum = zeros(11,1); %pre-populate
+    for jj=1:12
+    %find indices in ks corresponding to frequency bands (freq in Hz =
+    %ks(waveno. /2*pi
+    [idx idx] = min(abs(ks/(2*pi)-band_intervals(jj)));
+    ks_indices_for_cut(jj) = idx;
+    end
+    for jj=1:11
+    band_sum(jj,1) = sum(sound_avg_t_s_abs(1,ks_indices_for_cut(jj):ks_indices_for_cut(jj+1)));
+    end
+    band_total_sum = sum(band_sum);
+    band_sum_norm = band_sum./band_total_sum;
+    band_binned_norm(j,:) = band_sum_norm';
+end
+save('audio_freq_bin.mat', 'band_binned_norm','mp3_title','mp3_file','total_n')
+
+\end{lstlisting}
+
+\clearpage
+\subsection{audio\_fft\_bin\_parse.m}
+\begin{lstlisting}[language = Matlab, breaklines=true]
+clc; close all;
+%%
+%Import CSV
+load C:\\Users\\Noel\\git\_repository\\GitTest\\Noel\\audio\_freq\_bin.mat
+% Initialize variables.
+filename = 'C:\\Users\\Noel\\git\_repository\\video-analysis-amath-582\\video\_processing\\more\_trailer\_dataNOCOMMA.csv';
+delimiter = ',';
+
+% Read columns of data as strings:
+% For more information, see the TEXTSCAN documentation.
+formatSpec = '%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%*s%*s%*s%*s%*s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%[^\n\r]';
+
+% Open the text file.
+fileID = fopen(filename,'r');
+
+% Read columns of data according to format string.
+% This call is based on the structure of the file used to generate this
+% code. If an error occurs for a different file, try regenerating the code
+% from the Import Tool.
+dataArray_orig = textscan(fileID, formatSpec, 'Delimiter', delimiter,  'ReturnOnError', false);
+titleArray = dataArray_orig{1};
+dataArray= dataArray_orig(2:end);
+
+% Close the text file.
+fclose(fileID);
+%%
+%mp3 order and trailer list orders are different. Get proper indices
+mp3_in_trailer_idx = zeros(total_n,1);
+cellfind = @(string)(@(cell_contents)(strcmp(string,cell_contents)));
+for j=1:total_n
+    mp3_in_trailer_idx(j) = find(cellfun(cellfind(char(mp3_title(j))),titleArray));
+end
+%%
+%append to CSV
+headers = {'octave1', 'octave2', 'octave3', 'octave4', 'octave5', 'octave6','octave7', 'octave8', 'octave9', 'octave10', 'octave11'};
+%%
+[null, no_features] = size(dataArray_orig);
+[no_trailers, null ] = size(dataArray_orig{1});
+dataArray_new = cell(no_trailers, no_features+11);
+
+for j= 1: no_features
+    if (1<=j) && (j<=31)
+        dataArray_new(:,j) = dataArray_orig{j}(:); %these columns remain unchanged
+    elseif (32<=j) && (j<=42)
+        %setup headers
+        str= cellstr(headers{j-31});
+        dataArray_new(1,j) = str;
+        for jj=1:total_n
+            dataArray_new(mp3_in_trailer_idx(jj),j)=num2cell(band_binned_norm(jj,j-31));
+        end                     
+        dataArray_new(:,j+11) = dataArray_orig{j}(:);
+    else
+        dataArray_new(:,j+11) = dataArray_orig{j}(:); %these columns remain unchanged
+    end
+end
+
+%%
+%export
+cell2csv('more_trailer_dataNOCOMMA_w_octave.csv', dataArray_new, ',' ,2000,[])
+
+\end{lstlisting}
+
+\clearpage
+\subsection{dirwalk.m}
+\begin{lstlisting}[language = Matlab, breaklines=true]
+function varargout = dirwalk(topPath, visitor, varargin)
+%DIRWALK Generate the file names in a directory tree by walking the tree
+%
+% Description:
+%   Function DIRWALK generates the file names in a directory tree by walking the tree 
+%   top-down. For each directory in the tree rooted at directory topPath.
+%   For each directory of tree you can call "Visitor Function" for files processing.
+%
+%
+% Using:
+%   [pathNames, dirNames, fileNames] = dirwalk(topPath)
+%   dirwalk(topPath, visitor)
+%   dirwalk(topPath, visitor, varargin)
+%   varargout = dirwalk(topPath, visitor, varargin)
+%   [visitorOutput1, visitorOutput2, ..., visitorOutputN] = dirwalk(topPath, visitor)
+%   [...] = dirwalk(topPath, visitor, visitorInput1, visitorInput2, ..., visitorInputN)
+%   [...] = dirwalk(topPath, visitor, varargin)
+%
+%
+% Input:
+%   topPath -- (Required) Top path name (Root path name)
+%
+%   visitor -- (Optional) Function handle. The function will be called 
+%                         when visiting each directory of tree. 
+%
+%   Signatures of visitor function: 
+%   	visitor(pathName, DirListing)
+%       visitor(pathName, DirListing, in1, in2, ..., inN)
+%       visitor(pathName, DirListing, varargin)
+%       varargout = visitor(...)
+%      	[out1, out2, ..., outN] = visitor(...)
+%       
+%   Input arguments:
+%       pathName   -- (Required) Path to visited directory. String.
+%                                (passed within DIRWALK)
+%
+%       DirListing -- (Required) Visited directory listing. 
+%                                Array of structs output of function DIR. 
+%                                (passed within DIRWALK)
+%
+%       varargin   -- (Optional) Other input arguments. (Passed outside)
+%
+%
+% Output:
+%   dirPaths  -- (Default visitor output) Visited path names. Cell array of strings.
+%   dirNames  -- (Default visitor output) Directory names in visited paths (without '.' and '..'). Cell array of cell arrays.
+%   fileNames -- (Default visitor output) File names in visited paths. Cell array of cell arrays.
+%   visitorOutputs -- Visitor function outputs 
+%
+%
+% Examples:
+%   topPath = fullfile(matlabroot, 'toolbox', 'matlab', 'demos');
+%
+%   [pathNames, dirNames, fileNames] = dirwalk(topPath);
+%   
+%   dirwalk(topPath, @(y,x) disp(strcat(y, filesep, {x.name}')))
+%
+%
+% See Also DIR, LS
+%
+
+% -------------------------------------------------------------------------
+%   Version   : 1.1
+%   Author    : Evgeny Pr aka iroln <esp.home@gmail.com>
+%   Created   : 10.10.10
+%   Updated   : 03.07.11
+%
+%   Copyright : Evgeny Prilepin (c) 2010-2011
+% -------------------------------------------------------------------------
+
+error(nargchk(1, Inf, nargin));
+
+if (nargin < 2)
+    error(nargoutchk(0, 3, nargout));
+    
+    visitor = @default_visitor;
+    visitorNumOutputs = 3;
+    isUseDefaultVisitor = true;
+else
+    visitorNumOutputs = nargout;
+    isUseDefaultVisitor = false;
+end
+
+validateattributes(topPath, {'char'}, {'row'}, ...
+    mfilename('fullpath'), '"Top Path Name"', 1)
+
+if ~isempty(visitor)
+    validateattributes(visitor, {'function_handle'}, {'scalar'}, ...
+        mfilename('fullpath'), '"Visitor Function Handle"', 2)
+end
+
+varargout = dir_tree_helper(topPath, ...
+    visitor, visitorNumOutputs, isUseDefaultVisitor, varargin{:});
+%--------------------------------------------------------------------------
+
+%==========================================================================
+function visitorOutputs = dir_tree_helper(topPath, visitorHandle, ...
+    visitorNumOutputs, isUseDefaultVisitor, varargin)
+%DIR_TREE_HELPER Helper function for get directory tree
+
+% Allocate memory for tree listing
+preallocDirItems = 100000;
+outputs = cell(preallocDirItems, visitorNumOutputs);
+counter = 1;
+
+% Get tree listing
+[counter, outputs] = dir_tree_listing(topPath, counter, outputs, ...
+    visitorHandle, visitorNumOutputs, isUseDefaultVisitor, varargin{:});
+
+% Remove extra
+if (counter < preallocDirItems)
+    outputs(counter+1:end, :) = [];
+end
+
+% Construct visitor function outputs
+visitorOutputs = cell(1, visitorNumOutputs);
+for i = 1:visitorNumOutputs
+    visitorOutputs(i) = {outputs(:,i)};
+end
+%--------------------------------------------------------------------------
+
+%==========================================================================
+function [counter, outputs] = dir_tree_listing(topPath, counter, outputs, ...
+    visitorHandle, visitorNumOutputs, isUseDefaultVisitor, varargin)
+%DIR_TREE_LISTING Generate dir tree listing
+
+% Get listing of current directory
+Listing = dir(topPath);
+
+% Call Visitor function
+visitorOutputs = visitor_call_helper(topPath, Listing, ...
+    visitorHandle, visitorNumOutputs, varargin{:});
+
+if isUseDefaultVisitor
+    dirNames = visitorOutputs{2};
+else
+    dirNames = get_dir_file_names(Listing);
+end
+
+if (visitorNumOutputs > 0)
+    outputs(counter,:) = visitorOutputs;
+end
+
+% Recursive walking directories in current directory
+for i = 1:length(dirNames)
+    nextRootPath = fullfile(topPath, dirNames{i});
+    
+    [counter, outputs] = dir_tree_listing(nextRootPath, counter+1, outputs, ...
+        visitorHandle, visitorNumOutputs, isUseDefaultVisitor, varargin{:});
+end
+%--------------------------------------------------------------------------
+
+%==========================================================================
+function visitorOutputs = visitor_call_helper(topPath, Listing, ...
+    visitor, numOutputs, varargin)
+%VISITOR_CALL_HELPER Helper function for call visitor function
+
+if (numOutputs == 0)
+    % Visitor function without output arguments
+    visitorOutputs = {};
+    visitor(topPath, Listing, varargin{:});
+else
+    % Construct eval command for call visitor function with any number output arguments
+    outputNumbers = num2cell(1:numOutputs);
+    
+    %FIXME: It is not recommended, but otherwise doesn't work
+    outputArgs = deblank(sprintf('outputs{%d} ', outputNumbers{:}));
+    visitorCalling = sprintf('[%s] = visitor(topPath, Listing, varargin{:});', outputArgs);
+    eval(visitorCalling);
+    
+    visitorOutputs = outputs;
+end
+%--------------------------------------------------------------------------
+
+%==========================================================================
+function [pathName, dirNames, fileNames] = default_visitor(rootPath, Listing)
+%DEFAULT_VISITOR Default Visitor function
+%
+% Default visitor function return 3 output arguments:
+%   pathNames -- visited paths names
+%   dirNames  -- Directories names in visited directories
+%   fileNames -- Files names in visited directories
+%
+
+pathName = rootPath;
+[dirNames, fileNames] = get_dir_file_names(Listing);
+%--------------------------------------------------------------------------
+
+%==========================================================================
+function [dirNames, fileNames] = get_dir_file_names(Listing)
+%GET_DIR_FILE_NAMES 
+
+names = {Listing.name}';
+isDirs = [Listing.isdir];
+dirNames = names(isDirs);
+fileNames = names(~isDirs);
+
+% Exclude special directories '.' and '..'
+inds = ~strcmp(dirNames, '.') & ~strcmp(dirNames, '..');
+dirNames = dirNames(inds);
+%--------------------------------------------------------------------------
+\end{lstlisting}
+
+\clearpage
+\subsection{audio\_PCA.m}
+\begin{lstlisting}[language = Matlab, breaklines=true]
+%Feature extraction from audio portions of trailers.
+clear all; close all; clc;
+
+%Get list of files/ their names
+folder_dir = 'C:\\Users\\Noel\_K\\git\_repository\\video-analysis-amath-582\\video\_processing\\clipped';
+[mp3_path mp3_dir mp3_file] = dirwalk(folder_dir);
+mp3_title{1} = regexprep(mp3_file{1}, '720.\w*$', '');
+mp3_title= mp3_title{1};
+mp3_file= mp3_file{1};
+
+%How many mp3?
+total_n = length(mp3_title);
+
+%Setup time, freq domain for FFT
+L=10;
+n=44100*10; %Sampling freq of 44100 fps, 10s.
+t2=linspace(0,L,n+1); t=t2(1:n);
+k=(2*pi/L)*[0:n/2-1 -n/2:-1]; ks=fftshift(k);
+
+magic_number =2227151;
+specs = zeros(total_n, magic_number); % the column number determined a posteriori
+for j=1: total_n
+    %Import audio
+    path_file = fullfile(folder_dir, mp3_file(j,1));
+    sound = audioread(char(path_file));
+    [mp3_length, mp3_channel] = size(sound);
+    if mp3_channel ==2
+        sound_avg = (sound(:,1) + sound(:,2))/2; %averaging L and R channel
+    else
+        sound_avg = sound(:,1);
+    end
+    sound_avg = sound_avg(1:n,1)';
+    
+    %Windowed FFT
+    Sgt_spec=[];
+    tslide=0:0.1:L;
+        for jj=1:length(tslide)
+        g=exp(-20*(t-tslide(jj)).^2); % Gaussian
+        Sg=g.*sound_avg; Sgt=fft(Sg);
+        Sgt=Sgt(1,n/2:n);
+        Sgt_spec=[Sgt_spec; resample(abs(fftshift(Sgt)),1,10)];
+%         subplot(3,1,1), plot(t,sound_avg,'k',t,g,'r')
+%         subplot(3,1,2), plot(t,Sg,'k')
+%         subplot(3,1,3), plot(ks(1,n/2:n),abs(fftshift(Sgt))/max(abs(Sgt)))
+%         drawnow
+        end
+        
+    %SVD
+    [mm,nn] = size(Sgt_spec);
+    Sgt_spec_resized = reshape(Sgt_spec, [1,mm*nn]);
+    specs(j,:) =Sgt_spec_resized;
+end
+%%
+%clear temps
+clearvars Sg Sgt Sgt_spec Sgt_spec_resized sound sound_avg
+avg_spec = mean(specs,2);
+specs_avgd = specs-repmat(avg_spec,1, magic_number);
+[U, S, V] = svd(specs_avgd/sqrt(magic_number-1),'econ');
+Y_prince = U'*specs_avgd; %principal components projection
+covar=(1/(magic_number-1))*(Y_prince)*(Y_prince.');
+covar_diag = diag(covar);
+% t3 = 1:length(covar_diag);
+% scatter(t3, covar_diag);
+save('audioPCA.mat', 'covar_diag','mp3_title','specs_avgd','Y_prince','U','S','V')
+
+\end{lstlisting}
+
+\clearpage
+\subsection{cell2csv.m}
+\begin{lstlisting}[language = Matlab, breaklines=true]
+function cell2csv(fileName, cellArray, separator, excelYear, decimal)
+% Writes cell array content into a *.csv file.
+% 
+% CELL2CSV(fileName, cellArray, separator, excelYear, decimal)
+%
+% fileName     = Name of the file to save. [ i.e. 'text.csv' ]
+% cellArray    = Name of the Cell Array where the data is in
+% separator    = sign separating the values (default = ';')
+% excelYear    = depending on the Excel version, the cells are put into
+%                quotes before they are written to the file. The separator
+%                is set to semicolon (;)
+% decimal      = defines the decimal separator (default = '.')
+%
+%         by Sylvain Fiedler, KA, 2004
+% updated by Sylvain Fiedler, Metz, 06
+% fixed the logical-bug, Kaiserslautern, 06/2008, S.Fiedler
+% added the choice of decimal separator, 11/2010, S.Fiedler
+
+%% Checking fr optional Variables
+if ~exist('separator', 'var')
+    separator = ',';
+end
+
+if ~exist('excelYear', 'var')
+    excelYear = 1997;
+end
+
+if ~exist('decimal', 'var')
+    decimal = '.';
+end
+
+%% Setting separator for newer excelYears
+if excelYear > 2000
+    separator = ';';
+end
+
+%% Write file
+datei = fopen(fileName, 'w');
+
+for z=1:size(cellArray, 1)
+    for s=1:size(cellArray, 2)
+        
+        var = eval(['cellArray{z,s}']);
+        % If zero, then empty cell
+        if size(var, 1) == 0
+            var = '';
+        end
+        % If numeric -> String
+        if isnumeric(var)
+            var = num2str(var);
+            % Conversion of decimal separator (4 Europe & South America)
+            % http://commons.wikimedia.org/wiki/File:DecimalSeparator.svg
+            if decimal ~= '.'
+                var = strrep(var, '.', decimal);
+            end
+        end
+        % If logical -> 'true' or 'false'
+        if islogical(var)
+            if var == 1
+                var = 'TRUE';
+            else
+                var = 'FALSE';
+            end
+        end
+        % If newer version of Excel -> Quotes 4 Strings
+        if excelYear > 2000
+            var = ['"' var '"'];
+        end
+        
+        % OUTPUT value
+        fprintf(datei, '%s', var);
+        
+        % OUTPUT separator
+        if s ~= size(cellArray, 2)
+            fprintf(datei, separator);
+        end
+    end
+    if z ~= size(cellArray, 1) % prevent a empty line at EOF
+        % OUTPUT newline
+        fprintf(datei, '\n');
+    end
+end
+% Closing file
+fclose(datei);
+% END
+\end{lstlisting}
+
+\clearpage
+\subsection{getAllFiles.m}
+\begin{lstlisting}[language = Matlab, breaklines=true]
+function fileList = getAllFiles(dirName)
+
+  dirData = dir(dirName);      %# Get the data for the current directory
+  dirIndex = [dirData.isdir];  %# Find the index for directories
+  fileList = {dirData(~dirIndex).name}';  %'# Get a list of the files
+  if ~isempty(fileList)
+    fileList = cellfun(@(x) fullfile(dirName,x),...  %# Prepend path to files
+                       fileList,'UniformOutput',false);
+  end
+  subDirs = {dirData(dirIndex).name};  %# Get a list of the subdirectories
+  validIndex = ~ismember(subDirs,{'.','..'});  %# Find index of subdirectories
+                                               %#   that are not '.' or '..'
+  for iDir = find(validIndex)                  %# Loop over valid subdirectories
+    nextDir = fullfile(dirName,subDirs{iDir});    %# Get the subdirectory path
+    fileList = [fileList; getAllFiles(nextDir)];  %# Recursively call getAllFiles
+  end
+
+end
 \end{lstlisting}
 
 \end{document}

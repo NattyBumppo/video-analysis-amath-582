@@ -1,16 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.1)  17 MAR 2016 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.10)  17 MAR 2016 13:54
 entering extended mode
-**582_source_code.tex
-(C:\Users\johnf_000\GIT\paper\582_source_code.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
-, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
-ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
- kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
--x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
-ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
-elsh, loaded.
-(C:\Users\johnf_000\GIT\paper\ieeeconf.cls
+**./582_source_code.tex
+(582_source_code.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(ieeeconf.cls
 
 LaTeX Warning: You have requested document class `ieeeconf',
                but the document class provides `cssconf'.
@@ -22,7 +16,8 @@ Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
-(C:\Miktex\tex\latex\psnfss\ot1ptm.fd
+
+("F:\Apps\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ** ATTENTION: Single column mode is not normally used with IEEE publications.
@@ -34,42 +29,52 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 \IEEEilabelindentA=\dimen104
 \IEEEilabelindentB=\dimen105
 \IEEEilabelindent=\dimen106
@@ -93,27 +98,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen112
 \c@biography=\count90
 \@IEEEtranrubishbin=\box26
-) (C:\Miktex\tex\latex\graphics\graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Miktex\tex\latex\graphics\keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+) ("F:\Apps\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("F:\Apps\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(C:\Miktex\tex\latex\graphics\graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
- (C:\Miktex\tex\latex\graphics\trig.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("F:\Apps\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\Miktex\tex\latex\00miktex\graphics.cfg
+("F:\Apps\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
- (C:\Miktex\tex\latex\pdftex-def\pdftex.def
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("F:\Apps\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\Miktex\tex\generic\oberdiek\infwarerr.sty
+("F:\Apps\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-) (C:\Miktex\tex\generic\oberdiek\ltxcmds.sty
+)
+("F:\Apps\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -121,22 +130,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(C:\Miktex\tex\latex\amsmath\amsmath.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-(C:\Miktex\tex\latex\amsmath\amstext.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
- (C:\Miktex\tex\latex\amsmath\amsgen.sty
+
+("F:\Apps\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen115
 ))
-(C:\Miktex\tex\latex\amsmath\amsbsy.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
-) (C:\Miktex\tex\latex\amsmath\amsopn.sty
+)
+("F:\Apps\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
@@ -177,10 +188,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen124
@@ -198,18 +209,21 @@ Package caption Warning: Unsupported document class (or package) detected,
 (caption)                usage of the caption package is not recommended.
 See the caption package documentation for explanation.
 
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \begin {center}{\footnotesize #
-1}\\{\footnotesize \scshape #2}\end {center}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempb
-oxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\footnotesize #1.~~ }\parbox [
-t]{\hsize }{\footnotesize \noindent \unhbox \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize \hfil
- \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \begin {center}{\footnotesize #1}\\{\footnotesize \scshape #2}\end {c
+enter}\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@te
+mpboxa \hbox {\footnotesize #1.~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@te
+mpboxa \hbox {\footnotesize #1.~~ }\parbox [t]{\hsize }{\footnotesize \noindent
+ \unhbox \@tempboxa #2}\else \ifcenterfigcaptions \hbox to\hsize {\footnotesize
+ \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\footnotesize \box \@tempbo
+xa \hfil }\fi \fi \fi .
 \c@ContinuedFloat=\count104
-) (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+) ("F:\Apps\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count105
 \c@subtable=\count106
 )
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count107
 \lst@gtempboxa=\box29
 \lst@token=\toks21
@@ -223,40 +237,46 @@ Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \lst@lineno=\count112
 \lst@maxwidth=\dimen134
 
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+("F:\Apps\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count113
 \lst@skipnumbers=\count114
 \lst@framebox=\box30
 )
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+("F:\Apps\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (C:\Miktex\tex\latex\graphics\color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-(C:\Miktex\tex\latex\00miktex\color.cfg
+
+("F:\Apps\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+("F:\Apps\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 142.
 )
-** ATTENTION: Overriding command lockouts (line 18).
-** ATTENTION: Overriding IEEE standard margins (line 21).
-(C:\Users\johnf_000\GIT\paper\582_source_code.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+("F:\Apps\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+** ATTENTION: Overriding command lockouts (line 46).
+** ATTENTION: Overriding IEEE standard margins (line 49).
+(582_source_code.aux)
+\openout1 = `582_source_code.aux'.
 
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+ ("F:\Apps\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen135
@@ -274,51 +294,76 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count121
- (C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+ ("F:\Apps\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 41.
- (C:\Miktex\tex\latex\psnfss\omsptm.fd
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 67.
+
+("F:\Apps\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 41.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 67.
 
-(C:\Miktex\tex\latex\psnfss\omlptm.fd
+("F:\Apps\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 41.
- [1{C:/Users/johnf_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3]
-LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 228.
- [4] [5] [6] [7] [8] [9] [10]
-LaTeX Font Info:    Font shape `OML/ptm/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 648.
- [11] [12] [13] [14] [15] [16] [17]
-(C:\Users\johnf_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [18] [19] [20] [21] [22] [23] [24]
-[25] [26] (C:\Users\johnf_000\GIT\paper\582_source_code.aux) ) 
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 67.
+ [1{C:/Users/Nat/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+] [3] [4
+
+] [5
+
+] [6] [7] [8] [9
+
+] [10
+
+]
+[11
+
+] [12] [13] [14] [15] [16] [17] [18] [19
+
+] [20] [21
+
+] [22] [23] [24] [25]
+[26] [27
+
+] [28
+
+] [29] [30
+
+] [31] [32
+
+] [33] [34] [35] [36
+
+] [37] [38
+
+] [39] [40
+
+]
+(582_source_code.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5717 strings out of 493921
- 84288 string characters out of 3154488
- 351189 words of memory out of 3000000
- 8999 multiletter control sequences out of 15000+200000
- 31287 words of font info for 62 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 36i,7n,42p,608b,2031s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Miktex/fonts/enc/dvips/fontname/8r.enc}<C:/Miktex/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Miktex/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Miktex/fonts/type1/urw/times/utmr8a.pfb><C:/Miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 582_source_code.pdf (26 pages, 193702 bytes).
+ 6410 strings out of 493634
+ 93363 string characters out of 3147395
+ 365045 words of memory out of 3000000
+ 9787 multiletter control sequences out of 15000+200000
+ 30180 words of font info for 61 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 36i,7n,40p,610b,2025s stack positions out of 5000i,500n,10000p,200000b,50000s
+{F:/Apps/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<F:/Apps/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><F:/Ap
+ps/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 582_source_code.pdf (40 pages, 226265 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -30,8 +30,7 @@
 %\usepackage{amssymb}  % assumes amsmath package installed
 
 \title{\LARGE \bf
-Multimedia Feature Generation of Movie Trailers for Genre Prediction\\
-}
+Multimedia Feature Generation of Movie Trailers for Genre Prediction}
 
 \author{John Fuini, Nathaniel Guy, and Yong Han Noel Kim\\
 	University of Washington, Seattle WA% <-this % stops a space
@@ -120,9 +119,11 @@ We defined the notion of a ``dark scene" as a period of consecutive frames with 
 From the trailer videos, we isolated the audio component using a sampling frequency of 44.1 kHz. A series of analyses was performed on this audio data in order to extract features.
 
 \subsubsection{Volume}
-\textit{Mean}: Mean volume for each trailer was calculated by averaging the amplitudes of sound waves over the entire duration of the trailer. One motivation behind extracting this feature was that a trailer saturated with loud noises would have larger value of mean volume than trailers with relatively calm sounds. Also, typically trailers with loud noises--explosions, jet noise, shouting, etc.--are associated with genres such as action, thriller, and adventure. On the other hand, trailers with calm audio, and even some quietness, may be associated with genres such as drama, history, and family. \\
-\indent\textit{Standard Deviation}: all trailers were sourced from a single film site, but there was no guarantee that their audio was all equalized to the similar degree, especially because many were produced by different companies. Thus, a higher mean volume could simply indicate a trailer that's louder in general due to different equalization characteristics, rather than an abundance of loud sound events. In order to get a sense of the variation of volume in each trailer, we calculated standard deviation of the sound wave amplitude over the entire trailer as well.\\
-\indent\textit{Minimum and Maximum}: Minimum and maximum volume for each trailer were calculated based on the waveform data. On a scale from 0.0 to 1.0, most trailers had a minimum volume near 0.0, while some had marginally higher minimum values, such as 0.03. Maximum volume generally fell into the range of 0.1 to 0.5.
+\textit{Mean}: Mean volume for each trailer was calculated by averaging the amplitudes of sound waves over the entire duration of the trailer. One motivation behind extracting this feature was that a trailer saturated with loud noises would have larger value of mean volume than trailers with relatively calm sounds. Also, typically trailers with loud noises--explosions, jet noise, shouting, etc.--are associated with genres such as action, thriller, and adventure. On the other hand, trailers with calm audio, and even some quietness, may be associated with genres such as drama, history, and family.
+
+\textit{Standard Deviation}: all trailers were sourced from a single film site, but there was no guarantee that their audio was all equalized to the similar degree, especially because many were produced by different companies. Thus, a higher mean volume could simply indicate a trailer that's louder in general due to different equalization characteristics, rather than an abundance of loud sound events. In order to get a sense of the variation of volume in each trailer, we calculated standard deviation of the sound wave amplitude over the entire trailer as well.
+
+\textit{Minimum and Maximum}: Minimum and maximum volume for each trailer were calculated based on the waveform data. On a scale from 0.0 to 1.0, most trailers had a minimum volume near 0.0, while some had marginally higher minimum values, such as 0.03. Maximum volume generally fell into the range of 0.1 to 0.5.
 
 \subsubsection{Sudden Rise/Fall of Volume}
 We defined the concept of a sudden rise and sudden fall of volume. Respectively, these represent an increase and a decrease of volume within a small time period, possessing a magnitude larger than the standard deviation of the volume across the whole trailer. Identifying the number of these events within a trailer's audio allowed us to study its audio dynamics, as we intuited that sudden increases of volume might be common during trailers that sought to startle viewers (such as those horror or action films).
@@ -140,13 +141,16 @@ For this feature, the waveform of each trailer was transformed to the frequency 
 \subsection{Use of Features in Machine Learning Algorithm}
 %keyword: binary decision tree
 All extracted features from each trailer were compiled into a single comma-separated variable (CSV) spreadsheet. In addition to our generated features, the spreadsheet contained the genre labels for each trailer as well. Movies were not limited to one genre. For instance, there were movie trailers with multiple genre labels such as action-comedy, or mystery-horror-thriller. Because of this, we have a multi-class problem, and have opted the one-vs-all approach.  This means creating a classifier for one class, i.e. the drama genre, and simply identifying trailers as either drama (positive) or not drama (negative). 
-\indent For each genre, we passed our CSV spreadsheet to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full set of trailers were used for building the tree. This subset is known as a training set. The tree was then used to predict on the remaining 20\%  of trailers using Matlab's classification predict function (\text{predict}), and its success and failure rates were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, with the success rates averaged, for the purpose of cross-validation.\\
-\indent We experimented with the support vector machine (SVM) model as well. The classifier was created using MATLAB's SVM fit function (\text{fitcsvm}), used for classification, the results were cross-validated (\text{crossval}), and their accuracies were noted (\text{kfoldLoss}). 
+
+For each genre, we passed our CSV spreadsheet to Matlab's fit binary classification decision tree function (\textit{fitctree}) to build a decision tree. Only 80\% of the trailers randomly selected from the full set of trailers were used for building the tree. This subset is known as a training set. The tree was then used to predict on the remaining 20\%  of trailers using Matlab's classification predict function (\text{predict}), and its success and failure rates were recorded. This process was repeated 40 times, each time with a new set of random trainer sets, with the success rates averaged, for the purpose of cross-validation.
+
+We experimented with the support vector machine (SVM) model as well. The classifier was created using MATLAB's SVM fit function (\text{fitcsvm}), used for classification, the results were cross-validated (\text{crossval}), and their accuracies were noted (\text{kfoldLoss}). 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RESULTS}
-The rates of success of classification by our algorithm for top ten most popular genres are shown in Fig. \ref{f:success_rate}. Success rates were calculated using both binary decision tree, and support vector machine sub-algorithms. For instance, the Drama genre had 58\% and 66\% successful classification for binary decision tree and SVM respectively. It had the lowest success rate of top-ten-genres, but the rest genres registered consistently over 70\% success rate. SVM had roughly 8\% higher success rate for a given genre than binary decision tree.\\
+The rates of success of classification by our algorithm for top ten most popular genres are shown in Fig. \ref{f:success_rate}. Success rates were calculated using both binary decision tree, and support vector machine sub-algorithms. For instance, the Drama genre had 58\% and 66\% successful classification for binary decision tree and SVM respectively. It had the lowest success rate of top-ten-genres, but the rest genres registered consistently over 70\% success rate. SVM had roughly 8\% higher success rate for a given genre than binary decision tree.
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\columnwidth]{TreeVsSVM.png}
@@ -185,16 +189,13 @@ One failed attempt to acquire features from the audio portion of movie trailers 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{FUTURE WORK}
-An interesting topic of future work is comparing our results with the performance of human subjects. Since the definition of a “genre” is rather loose, it is often the case that there are many right answers for the genre of a given trailer. Thus, it is likely that human subjects’ guesses could differ from the genre labels in our metadata. We hypothesize that it may even be possible for machine learning to outperform humans at this task.
-
+An interesting topic of future work is comparing our results with the performance of human subjects. Since the definition of a ``genre" is rather loose, it is often the case that there are many right answers for the genre of a given trailer. Thus, it is likely that human subjects' guesses could differ from the genre labels in our metadata. We hypothesize that it may even be possible for machine learning to outperform humans at this task.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{CONCLUSION}
-This work demonstrated the construction of a movie genre classifier using features acquired from video and audio portions of movie trailers. A series of video analyses using a computer vision library generated numerous video features, such as detail scores, dark scenes, color and intensity profiles, etc. Temporal and frequency analysis of audio identified sharp increases and decreases of volume and frequency spectra. MATLAB classifiers trained using these features classified movie genres with success rate ranging from 60\% to 95\%. Of two classifiers, the binary decision tree and support vector machine, the latter had approx. an 8\% higher likelihood of successful classification overall. \\
-It is worth noting that our machine learning algorithm’s pipeline has a minimum amount of required human interaction. The only step within that necessitates human input is providing a genre classification for the initial set of movie trailers used for training. The rest of the pipeline is almost entirely automated. While in this project we tested our algorithm using movie trailers, it can be adapted to any environment that requires computer vision-audio based machine learning. This can include surveillance, video tracking, and other applications.
+This work demonstrated the construction of a movie genre classifier using features acquired from video and audio portions of movie trailers. A series of video analyses using a computer vision library generated numerous video features, such as detail scores, dark scenes, color and intensity profiles, etc. Temporal and frequency analysis of audio identified sharp increases and decreases of volume and frequency spectra. MATLAB classifiers trained using these features classified movie genres with success rate ranging from 60\% to 95\%. Of two classifiers, the binary decision tree and support vector machine, the latter had approx. an 8\% higher likelihood of successful classification overall.
 
-
-
+It is worth noting that our machine learning algorithm's pipeline has a minimum amount of required human interaction. The only step within that necessitates human input is providing a genre classification for the initial set of movie trailers used for training. The rest of the pipeline is almost entirely automated. While in this project we tested our algorithm using movie trailers, it can be adapted to any environment that requires computer vision-audio based machine learning. This can include surveillance, video tracking, and other applications.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{ACKNOWLEDGMENTS}
